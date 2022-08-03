@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'BlogDJ.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'BlogDJ',
+        'USER': 'root',
+        'PASSWORD': '1',
+        'HOST': '180.76.113.21',
+        'PORT': '3307',
     }
 }
 
@@ -118,3 +122,25 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://122.112.149.204:6380/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://122.112.149.204:6380/1",
+        "OPTIONS": {
+        "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# session使用的存储方式，是在缓存中
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# 指明使用哪一个库保存session数据 指定为session的库
+SESSION_CACHE_ALIAS = "session"
