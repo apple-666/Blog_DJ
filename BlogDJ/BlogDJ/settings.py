@@ -121,7 +121,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+# 静态文件别名，url的访问入口
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),  #主文件下静态文件
+)
 
 CACHES = {
     "default": {
@@ -144,3 +149,47 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 # 指明使用哪一个库保存session数据 指定为session的库
 SESSION_CACHE_ALIAS = "session"
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': { #日志格式
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'handlers': {
+        'console': {  # 向终端写info
+            'level': 'INFO',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'file': {  # 向文件传info
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR,'MyLogs/blog.log'),  #日志存放在 的目录
+            'maxBytes': 50*1024*1024,
+            'backupCount': 10,  # 最大文件数
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {
+        'django': {  #定义一个django名字的日志器
+            'handlers': ['console','file'],
+            'propagate': True,
+            'level':'INFO',
+        },
+    }
+}

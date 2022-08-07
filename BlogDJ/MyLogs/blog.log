@@ -1,0 +1,59 @@
+INFO 2022-08-07 23:40:43,737 autoreload 12004 14556 Watching for file changes with StatReloader
+INFO 2022-08-07 23:40:48,926 basehttp 12004 38688 "GET / HTTP/1.1" 200 4
+INFO 2022-08-07 23:40:49,064 basehttp 12004 38688 "GET / HTTP/1.1" 200 4
+INFO 2022-08-07 23:42:00,116 autoreload 12004 14556 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-07 23:42:01,569 autoreload 37772 41212 Watching for file changes with StatReloader
+INFO 2022-08-07 23:42:27,559 autoreload 37772 41212 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-07 23:42:29,552 autoreload 37828 43716 Watching for file changes with StatReloader
+INFO 2022-08-07 23:42:52,464 autoreload 32188 44104 Watching for file changes with StatReloader
+INFO 2022-08-07 23:42:56,591 urls 32188 32900 成功使用名为django的logger
+INFO 2022-08-07 23:42:56,611 basehttp 32188 32900 "GET / HTTP/1.1" 200 4
+INFO 2022-08-07 23:56:05,981 autoreload 44528 2284 Watching for file changes with StatReloader
+INFO 2022-08-07 23:56:08,650 urls 44528 8648 成功使用名为django的logger
+INFO 2022-08-07 23:56:08,659 basehttp 44528 8648 "GET / HTTP/1.1" 200 4
+WARNING 2022-08-07 23:56:15,711 log 44528 8648 Not Found: /static
+WARNING 2022-08-07 23:56:15,711 basehttp 44528 8648 "GET /static HTTP/1.1" 404 2057
+WARNING 2022-08-07 23:56:26,283 basehttp 44528 8648 "GET /static/index.html HTTP/1.1" 404 1654
+INFO 2022-08-07 23:57:29,234 basehttp 44528 42432 "GET /static/js/index.js HTTP/1.1" 200 590
+INFO 2022-08-08 00:14:37,153 autoreload 45520 45028 Watching for file changes with StatReloader
+INFO 2022-08-08 00:14:39,962 urls 45520 45068 成功使用名为django的logger
+INFO 2022-08-08 00:14:39,978 basehttp 45520 45068 "GET / HTTP/1.1" 200 4
+INFO 2022-08-08 00:14:50,197 basehttp 45520 45068 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2022-08-08 00:14:50,257 basehttp 45520 34136 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-08-08 00:14:50,259 basehttp 45520 45248 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-08-08 00:14:50,260 basehttp 45520 45916 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-08-08 00:14:50,260 basehttp 45520 45068 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-08-08 00:14:50,270 basehttp 45520 45248 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-08-08 00:14:50,273 basehttp 45520 34136 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-08-08 00:14:50,277 basehttp 45520 45068 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-08-08 00:14:50,308 basehttp 45520 34136 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-08-08 00:14:50,317 basehttp 45520 34136 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-08-08 00:14:50,328 basehttp 45520 34136 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2022-08-08 00:14:50,335 basehttp 45520 34136 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-08-08 00:14:50,346 basehttp 45520 34136 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2022-08-08 00:18:28,504 basehttp 45520 34136 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2022-08-08 00:18:30,309 basehttp 45520 34136 "GET /static/login.html HTTP/1.1" 200 3093
+INFO 2022-08-08 00:18:30,350 basehttp 45520 34136 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-08-08 00:19:30,734 basehttp 45520 34136 "GET /static/detail.html HTTP/1.1" 200 8816
+INFO 2022-08-08 00:19:30,781 basehttp 45520 34136 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2022-08-08 00:19:30,782 basehttp 45520 45068 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2022-08-08 00:19:30,794 basehttp 45520 45248 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2022-08-08 00:19:30,795 basehttp 45520 45068 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2022-08-08 00:19:30,818 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2022-08-08 00:19:31,021 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2022-08-08 00:19:31,044 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2022-08-08 00:19:31,073 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2022-08-08 00:19:31,088 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2022-08-08 00:19:31,101 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2022-08-08 00:19:31,103 basehttp 45520 45068 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2022-08-08 00:19:31,122 basehttp 45520 45068 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2022-08-08 00:19:31,122 basehttp 45520 45916 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2022-08-08 00:19:31,123 basehttp 45520 34136 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2022-08-08 00:19:31,125 basehttp 45520 45248 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2022-08-08 00:19:31,127 basehttp 45520 33460 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2022-08-08 00:19:31,144 basehttp 45520 33460 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2022-08-08 00:19:31,201 basehttp 45520 45248 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2022-08-08 00:19:31,202 basehttp 45520 33460 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2022-08-08 00:19:31,237 basehttp 45520 33460 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2022-08-08 00:19:31,239 basehttp 45520 45248 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2022-08-08 00:19:55,245 basehttp 45520 45248 "POST /static/login.html HTTP/1.1" 200 3093
