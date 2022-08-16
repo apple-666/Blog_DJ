@@ -57,3 +57,652 @@ INFO 2022-08-08 00:19:31,202 basehttp 45520 33460 "GET /static/ckeditor/ckeditor
 INFO 2022-08-08 00:19:31,237 basehttp 45520 33460 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
 INFO 2022-08-08 00:19:31,239 basehttp 45520 45248 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
 INFO 2022-08-08 00:19:55,245 basehttp 45520 45248 "POST /static/login.html HTTP/1.1" 200 3093
+INFO 2022-08-08 23:39:52,650 autoreload 17404 32152 Watching for file changes with StatReloader
+INFO 2022-08-08 23:39:54,881 urls 17404 29728 成功使用名为django的logger
+INFO 2022-08-08 23:39:54,895 basehttp 17404 29728 "GET / HTTP/1.1" 200 4
+INFO 2022-08-08 23:45:50,041 autoreload 17404 32152 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-08 23:45:51,491 autoreload 9812 8008 Watching for file changes with StatReloader
+INFO 2022-08-08 23:45:59,107 urls 9812 9824 成功使用名为django的logger
+INFO 2022-08-08 23:45:59,122 basehttp 9812 9824 "GET / HTTP/1.1" 200 4
+INFO 2022-08-08 23:47:30,278 autoreload 9812 8008 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-08 23:47:31,725 autoreload 41444 29988 Watching for file changes with StatReloader
+INFO 2022-08-14 21:53:49,604 autoreload 30876 29436 Watching for file changes with StatReloader
+INFO 2022-08-14 21:58:17,013 autoreload 21568 29356 Watching for file changes with StatReloader
+INFO 2022-08-14 22:01:48,183 autoreload 16196 29800 Watching for file changes with StatReloader
+INFO 2022-08-14 22:01:52,857 autoreload 11836 31160 Watching for file changes with StatReloader
+INFO 2022-08-14 22:02:31,726 autoreload 28740 9084 Watching for file changes with StatReloader
+WARNING 2022-08-14 22:02:57,163 log 28740 32112 Not Found: /
+WARNING 2022-08-14 22:02:57,164 basehttp 28740 32112 "GET / HTTP/1.1" 404 2094
+WARNING 2022-08-14 22:02:57,350 log 28740 32112 Not Found: /favicon.ico
+WARNING 2022-08-14 22:02:57,350 basehttp 28740 32112 "GET /favicon.ico HTTP/1.1" 404 2145
+INFO 2022-08-14 22:03:23,799 basehttp 28740 32112 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2022-08-14 22:03:23,835 basehttp 28740 28764 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-08-14 22:03:23,842 basehttp 28740 21892 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-08-14 22:03:23,843 basehttp 28740 28464 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-08-14 22:03:23,844 basehttp 28740 32112 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-08-14 22:03:23,865 basehttp 28740 32112 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-08-14 22:03:23,867 basehttp 28740 21892 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-08-14 22:03:23,870 basehttp 28740 28464 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-08-14 22:03:23,904 basehttp 28740 28464 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-08-14 22:03:23,913 basehttp 28740 28464 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-08-14 22:03:23,918 basehttp 28740 28464 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-08-14 22:03:23,924 basehttp 28740 28464 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-08-14 22:03:23,931 basehttp 28740 28464 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2022-08-14 22:03:33,386 basehttp 28740 28464 "GET /static/registe HTTP/1.1" 404 1645
+WARNING 2022-08-14 22:03:36,744 basehttp 28740 21892 "GET /static/register HTTP/1.1" 404 1648
+INFO 2022-08-14 22:04:16,390 basehttp 28740 32112 "GET /register HTTP/1.1" 301 0
+ERROR 2022-08-14 22:04:16,441 log 28740 32112 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2022-08-14 22:04:16,446 basehttp 28740 32112 "GET /register/ HTTP/1.1" 500 68551
+WARNING 2022-08-14 22:05:08,387 log 28740 32112 Not Found: /users/register/
+WARNING 2022-08-14 22:05:08,387 basehttp 28740 32112 "GET /users/register/ HTTP/1.1" 404 2157
+WARNING 2022-08-14 22:16:28,062 log 28740 1540 Not Found: /users/register/
+WARNING 2022-08-14 22:16:28,063 basehttp 28740 1540 "GET /users/register/ HTTP/1.1" 404 2157
+WARNING 2022-08-14 22:16:28,809 log 28740 1540 Not Found: /users/register/
+WARNING 2022-08-14 22:16:28,810 basehttp 28740 1540 "GET /users/register/ HTTP/1.1" 404 2157
+ERROR 2022-08-14 22:16:43,020 log 28740 1540 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2022-08-14 22:16:43,023 basehttp 28740 1540 "GET /register/ HTTP/1.1" 500 68551
+INFO 2022-08-15 22:31:38,499 autoreload 16320 8 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:36:04,049 log 16320 25420 Not Found: /
+WARNING 2022-08-15 22:36:04,050 basehttp 16320 25420 "GET / HTTP/1.1" 404 2094
+WARNING 2022-08-15 22:36:04,272 log 16320 25420 Not Found: /favicon.ico
+WARNING 2022-08-15 22:36:04,273 basehttp 16320 25420 "GET /favicon.ico HTTP/1.1" 404 2145
+WARNING 2022-08-15 22:36:18,986 log 16320 25420 Not Found: /users/register
+WARNING 2022-08-15 22:36:18,987 basehttp 16320 25420 "GET /users/register HTTP/1.1" 404 2154
+INFO 2022-08-15 22:36:24,854 basehttp 16320 25420 "GET /admin HTTP/1.1" 301 0
+INFO 2022-08-15 22:36:24,890 basehttp 16320 25420 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-08-15 22:36:24,963 basehttp 16320 25420 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2022-08-15 22:36:24,999 basehttp 16320 25420 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2022-08-15 22:36:25,001 basehttp 16320 23916 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2022-08-15 22:36:25,003 basehttp 16320 24836 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2022-08-15 22:36:25,038 basehttp 16320 24836 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-08-15 22:36:25,092 basehttp 16320 23916 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-08-15 22:36:25,092 basehttp 16320 24836 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+ERROR 2022-08-15 22:36:35,409 log 16320 23916 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'BlogDJ.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\admin\sites.py", line 399, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\views.py", line 61, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\edit.py", line 141, in post
+    if form.is_valid():
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\forms\forms.py", line 185, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\forms\forms.py", line 180, in errors
+    self.full_clean()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\forms\forms.py", line 382, in full_clean
+    self._clean_form()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\forms\forms.py", line 409, in _clean_form
+    cleaned_data = self.clean()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\forms.py", line 196, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\backends.py", line 20, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\base_user.py", line 44, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\sql\compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'BlogDJ.auth_user' doesn't exist")
+ERROR 2022-08-15 22:36:35,439 basehttp 16320 23916 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 294207
+INFO 2022-08-15 22:36:44,727 basehttp 16320 23916 "GET /register HTTP/1.1" 301 0
+ERROR 2022-08-15 22:36:44,774 log 16320 23916 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2022-08-15 22:36:44,778 basehttp 16320 23916 "GET /register/ HTTP/1.1" 500 69009
+WARNING 2022-08-15 22:41:19,296 log 16320 23916 Not Found: /users/register/
+WARNING 2022-08-15 22:41:19,297 basehttp 16320 23916 "GET /users/register/ HTTP/1.1" 404 2157
+INFO 2022-08-15 22:41:33,826 autoreload 16320 8 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-15 22:41:35,263 autoreload 8244 7492 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:41:35,887 log 8244 10704 Not Found: /users/register/
+WARNING 2022-08-15 22:41:35,888 basehttp 8244 10704 "GET /users/register/ HTTP/1.1" 404 2162
+WARNING 2022-08-15 22:41:54,455 log 8244 10704 Not Found: /register/
+WARNING 2022-08-15 22:41:54,456 basehttp 8244 10704 "GET /register/ HTTP/1.1" 404 2144
+INFO 2022-08-15 22:42:03,392 autoreload 8244 7492 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-15 22:42:04,646 autoreload 24096 25500 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:42:11,286 log 24096 23864 Not Found: /users//register/
+WARNING 2022-08-15 22:42:11,286 basehttp 24096 23864 "GET /users//register/ HTTP/1.1" 404 2166
+ERROR 2022-08-15 22:42:16,438 log 24096 23864 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2022-08-15 22:42:16,441 basehttp 24096 23864 "GET /users/register/ HTTP/1.1" 500 69081
+INFO 2022-08-15 22:44:51,605 autoreload 24096 25500 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-15 22:44:52,945 autoreload 23164 25076 Watching for file changes with StatReloader
+INFO 2022-08-15 22:45:05,319 autoreload 23164 25076 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-15 22:45:06,527 autoreload 20340 25240 Watching for file changes with StatReloader
+INFO 2022-08-15 22:45:23,042 autoreload 20340 25240 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 22:45:24,276 autoreload 18444 7492 Watching for file changes with StatReloader
+INFO 2022-08-15 22:45:30,865 autoreload 4624 23792 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:45:32,892 log 4624 22132 Not Found: /
+WARNING 2022-08-15 22:45:32,892 basehttp 4624 22132 "GET / HTTP/1.1" 404 2094
+WARNING 2022-08-15 22:45:40,849 log 4624 22132 Not Found: /users/register
+WARNING 2022-08-15 22:45:40,851 basehttp 4624 22132 "GET /users/register HTTP/1.1" 404 2154
+WARNING 2022-08-15 22:45:44,352 log 4624 22132 Not Found: /users/register/
+WARNING 2022-08-15 22:45:44,352 basehttp 4624 22132 "GET /users/register/ HTTP/1.1" 404 2157
+ERROR 2022-08-15 22:45:50,873 log 4624 22132 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 16, in get
+    return render(request, 'register.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static'. Did you forget to register or load this tag?
+ERROR 2022-08-15 22:45:50,883 basehttp 4624 22132 "GET /register/ HTTP/1.1" 500 150310
+WARNING 2022-08-15 22:46:57,494 log 4624 22132 Not Found: /
+WARNING 2022-08-15 22:46:57,495 basehttp 4624 22132 "GET / HTTP/1.1" 404 2094
+INFO 2022-08-15 22:47:04,632 basehttp 4624 22132 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-08-15 22:47:13,145 basehttp 4624 22132 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2022-08-15 22:47:13,183 basehttp 4624 17640 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-08-15 22:47:13,186 basehttp 4624 10916 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-08-15 22:47:13,187 basehttp 4624 19124 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-08-15 22:47:13,189 basehttp 4624 22132 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-08-15 22:47:13,199 basehttp 4624 19124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-08-15 22:47:13,203 basehttp 4624 10916 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-08-15 22:47:13,208 basehttp 4624 22132 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-08-15 22:47:13,231 basehttp 4624 22132 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-08-15 22:47:13,239 basehttp 4624 22132 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-08-15 22:47:13,249 basehttp 4624 22132 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-08-15 22:47:13,257 basehttp 4624 22132 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2022-08-15 22:47:16,677 basehttp 4624 22132 "GET /static/center.html HTTP/1.1" 200 4136
+INFO 2022-08-15 22:47:16,710 basehttp 4624 10916 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2022-08-15 22:47:16,716 basehttp 4624 22132 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2022-08-15 22:47:18,044 basehttp 4624 22132 "GET /static/login.html HTTP/1.1" 200 3093
+INFO 2022-08-15 22:47:18,081 basehttp 4624 22132 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-08-15 22:53:53,920 autoreload 20536 3452 Watching for file changes with StatReloader
+INFO 2022-08-15 22:54:28,558 autoreload 23692 14512 Watching for file changes with StatReloader
+INFO 2022-08-15 22:54:30,829 basehttp 23692 24720 "GET / HTTP/1.1" 200 16348
+INFO 2022-08-15 22:54:30,985 basehttp 23692 24720 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-08-15 22:56:41,350 autoreload 23692 14512 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 22:56:44,243 autoreload 25184 20468 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:56:45,935 log 25184 18720 Not Found: /
+WARNING 2022-08-15 22:56:45,936 basehttp 25184 18720 "GET / HTTP/1.1" 404 2094
+INFO 2022-08-15 22:57:33,259 autoreload 25184 20468 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-15 22:58:37,436 autoreload 18672 7492 Watching for file changes with StatReloader
+WARNING 2022-08-15 22:58:39,571 log 18672 20188 Not Found: /
+WARNING 2022-08-15 22:58:39,572 basehttp 18672 20188 "GET / HTTP/1.1" 404 77
+WARNING 2022-08-15 22:58:47,075 log 18672 20188 Not Found: /
+WARNING 2022-08-15 22:58:47,076 basehttp 18672 20188 "GET / HTTP/1.1" 404 77
+WARNING 2022-08-15 22:58:49,136 log 18672 20188 Not Found: /static/index.html
+WARNING 2022-08-15 22:58:49,137 basehttp 18672 20188 "GET /static/index.html HTTP/1.1" 404 77
+INFO 2022-08-15 22:59:28,668 autoreload 18672 7492 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-15 22:59:29,950 autoreload 25580 2816 Watching for file changes with StatReloader
+INFO 2022-08-15 22:59:40,887 autoreload 25580 2816 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 22:59:42,134 autoreload 20412 21268 Watching for file changes with StatReloader
+INFO 2022-08-15 23:00:01,167 autoreload 20412 21268 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:00:02,362 autoreload 14932 7300 Watching for file changes with StatReloader
+INFO 2022-08-15 23:00:26,794 autoreload 14932 7300 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:00:28,109 autoreload 23924 25184 Watching for file changes with StatReloader
+INFO 2022-08-15 23:00:31,203 autoreload 23924 25184 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:00:32,563 autoreload 20104 11472 Watching for file changes with StatReloader
+INFO 2022-08-15 23:00:37,395 autoreload 23704 22696 Watching for file changes with StatReloader
+INFO 2022-08-15 23:00:39,405 urls 23704 17188 成功使用名为django的logger
+INFO 2022-08-15 23:00:39,417 basehttp 23704 17188 "GET / HTTP/1.1" 200 4
+INFO 2022-08-15 23:00:54,333 autoreload 23704 22696 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:00:55,498 autoreload 20320 15928 Watching for file changes with StatReloader
+INFO 2022-08-15 23:01:03,823 autoreload 20320 15928 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:01:06,809 autoreload 22128 15020 Watching for file changes with StatReloader
+INFO 2022-08-15 23:01:07,527 urls 22128 12252 成功使用名为django的logger
+INFO 2022-08-15 23:01:07,536 basehttp 22128 12252 "GET / HTTP/1.1" 200 21
+INFO 2022-08-15 23:01:10,447 basehttp 22128 12252 "GET /static/index.html HTTP/1.1" 200 12002
+WARNING 2022-08-15 23:01:25,061 log 22128 12252 Not Found: /users/register
+WARNING 2022-08-15 23:01:25,063 basehttp 22128 12252 "GET /users/register HTTP/1.1" 404 2254
+WARNING 2022-08-15 23:01:41,172 log 22128 12252 Not Found: /users/register/
+WARNING 2022-08-15 23:01:41,173 basehttp 22128 12252 "GET /users/register/ HTTP/1.1" 404 2257
+ERROR 2022-08-15 23:01:51,605 log 22128 12252 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:01:51,612 basehttp 22128 12252 "GET /register/ HTTP/1.1" 500 80811
+INFO 2022-08-15 23:02:21,312 autoreload 22128 15020 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:02:22,793 autoreload 23740 8232 Watching for file changes with StatReloader
+WARNING 2022-08-15 23:02:23,348 log 23740 10188 Not Found: /users/register/
+WARNING 2022-08-15 23:02:23,349 basehttp 23740 10188 "GET /users/register/ HTTP/1.1" 404 2190
+INFO 2022-08-15 23:02:40,980 autoreload 23740 8232 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:02:42,433 autoreload 7728 25420 Watching for file changes with StatReloader
+WARNING 2022-08-15 23:02:43,194 log 7728 24220 Not Found: /users/register/
+WARNING 2022-08-15 23:02:43,194 basehttp 7728 24220 "GET /users/register/ HTTP/1.1" 404 2199
+WARNING 2022-08-15 23:02:46,468 log 7728 24220 Not Found: /users/register/
+WARNING 2022-08-15 23:02:46,468 basehttp 7728 24220 "GET /users/register/ HTTP/1.1" 404 2199
+INFO 2022-08-15 23:02:50,897 autoreload 7728 25420 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:02:52,378 autoreload 19124 20188 Watching for file changes with StatReloader
+WARNING 2022-08-15 23:02:52,986 log 19124 24912 Not Found: /users/register/
+WARNING 2022-08-15 23:02:52,987 basehttp 19124 24912 "GET /users/register/ HTTP/1.1" 404 2271
+INFO 2022-08-15 23:03:04,858 autoreload 19124 20188 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:03:06,222 autoreload 10740 23896 Watching for file changes with StatReloader
+ERROR 2022-08-15 23:03:06,929 log 10740 13208 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:03:06,932 basehttp 10740 13208 "GET /users/register/ HTTP/1.1" 500 80908
+ERROR 2022-08-15 23:03:11,353 log 10740 13208 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:03:11,355 basehttp 10740 13208 "GET /users/register/ HTTP/1.1" 500 80908
+ERROR 2022-08-15 23:05:07,075 log 10740 13208 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:05:07,079 basehttp 10740 13208 "GET /users/register/ HTTP/1.1" 500 80908
+INFO 2022-08-15 23:05:15,333 urls 10740 13208 成功使用名为django的logger
+INFO 2022-08-15 23:05:15,336 basehttp 10740 13208 "GET / HTTP/1.1" 200 21
+INFO 2022-08-15 23:05:20,391 basehttp 10740 13208 "GET /admin HTTP/1.1" 301 0
+INFO 2022-08-15 23:05:20,417 basehttp 10740 13208 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-08-15 23:05:20,475 basehttp 10740 13208 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2022-08-15 23:05:20,510 basehttp 10740 13208 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2022-08-15 23:05:20,514 basehttp 10740 23484 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2022-08-15 23:05:20,515 basehttp 10740 20076 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+WARNING 2022-08-15 23:05:27,635 log 10740 20076 Not Found: /register/
+WARNING 2022-08-15 23:05:27,636 basehttp 10740 20076 "GET /register/ HTTP/1.1" 404 2172
+INFO 2022-08-15 23:05:50,715 autoreload 10740 23896 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:05:52,163 autoreload 20888 13068 Watching for file changes with StatReloader
+INFO 2022-08-15 23:11:46,661 autoreload 20888 13068 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:11:48,173 autoreload 23460 2300 Watching for file changes with StatReloader
+INFO 2022-08-15 23:12:03,308 autoreload 23460 2300 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:12:04,609 autoreload 25688 24520 Watching for file changes with StatReloader
+INFO 2022-08-15 23:12:34,164 autoreload 24816 26304 Watching for file changes with StatReloader
+INFO 2022-08-15 23:13:42,249 autoreload 11284 26540 Watching for file changes with StatReloader
+INFO 2022-08-15 23:13:43,522 basehttp 11284 18612 "GET /static/login.html HTTP/1.1" 200 3093
+INFO 2022-08-15 23:13:43,672 basehttp 11284 18612 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-08-15 23:13:45,247 urls 11284 18612 成功使用名为django的logger
+INFO 2022-08-15 23:13:45,251 basehttp 11284 18612 "GET / HTTP/1.1" 200 21
+INFO 2022-08-15 23:13:49,891 basehttp 11284 18612 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-08-15 23:13:49,941 basehttp 11284 18612 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+WARNING 2022-08-15 23:13:52,488 log 11284 18612 Not Found: /adm
+WARNING 2022-08-15 23:13:52,488 basehttp 11284 18612 "GET /adm HTTP/1.1" 404 2154
+WARNING 2022-08-15 23:14:39,822 log 11284 18612 Not Found: /users/
+WARNING 2022-08-15 23:14:39,823 basehttp 11284 18612 "GET /users/ HTTP/1.1" 404 2236
+INFO 2022-08-15 23:14:45,166 basehttp 11284 18612 "GET /users/register HTTP/1.1" 301 0
+ERROR 2022-08-15 23:14:45,208 log 11284 18612 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:14:45,211 basehttp 11284 18612 "GET /users/register/ HTTP/1.1" 500 80713
+INFO 2022-08-15 23:15:03,509 autoreload 11284 26540 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-15 23:15:04,888 autoreload 7872 10344 Watching for file changes with StatReloader
+INFO 2022-08-15 23:15:17,511 autoreload 1144 7728 Watching for file changes with StatReloader
+INFO 2022-08-15 23:15:45,294 autoreload 1144 7728 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-15 23:15:46,593 autoreload 25788 13068 Watching for file changes with StatReloader
+ERROR 2022-08-15 23:15:48,207 log 25788 14420 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:15:48,212 basehttp 25788 14420 "GET /users/register/ HTTP/1.1" 500 80854
+INFO 2022-08-15 23:19:31,826 autoreload 25788 13068 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-08-15 23:19:33,176 autoreload 18616 26720 Watching for file changes with StatReloader
+INFO 2022-08-15 23:19:37,399 autoreload 25372 27412 Watching for file changes with StatReloader
+INFO 2022-08-15 23:19:40,421 urls 25372 25752 成功使用名为django的logger
+INFO 2022-08-15 23:19:40,428 basehttp 25372 25752 "GET / HTTP/1.1" 200 21
+ERROR 2022-08-15 23:19:45,310 log 25372 25752 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 14, in get
+    return render(request, 'register.html')
+NameError: name 'render' is not defined
+ERROR 2022-08-15 23:19:45,314 basehttp 25372 25752 "GET /register/ HTTP/1.1" 500 80683
+INFO 2022-08-15 23:20:34,576 autoreload 25372 27412 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-15 23:20:35,985 autoreload 20504 10320 Watching for file changes with StatReloader
+ERROR 2022-08-15 23:20:37,105 log 20504 4388 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 15, in get
+    return render(request, 'register.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static'. Did you forget to register or load this tag?
+ERROR 2022-08-15 23:20:37,111 basehttp 20504 4388 "GET /register/ HTTP/1.1" 500 150464
+INFO 2022-08-15 23:22:08,325 basehttp 20504 4388 "GET /static/login.html HTTP/1.1" 304 0
+ERROR 2022-08-15 23:22:11,438 log 20504 4388 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 15, in get
+    return render(request, 'register.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'static'. Did you forget to register or load this tag?
+ERROR 2022-08-15 23:22:11,445 basehttp 20504 4388 "GET /register/ HTTP/1.1" 500 150464
+INFO 2022-08-15 23:24:42,455 autoreload 17528 16432 Watching for file changes with StatReloader
+INFO 2022-08-15 23:24:50,418 basehttp 17528 24688 "GET /register/ HTTP/1.1" 200 5185
+WARNING 2022-08-15 23:24:50,529 log 17528 24688 Not Found: /register/img/image_code.png
+WARNING 2022-08-15 23:24:50,531 basehttp 17528 24688 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+INFO 2022-08-15 23:24:50,536 basehttp 17528 24304 "GET /static/js/register.js HTTP/1.1" 200 6407
+WARNING 2022-08-15 23:24:50,618 log 17528 24304 Not Found: /register/img/image_code.png
+WARNING 2022-08-15 23:24:50,619 basehttp 17528 24304 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+INFO 2022-08-16 22:34:17,847 autoreload 25928 33740 Watching for file changes with StatReloader
+INFO 2022-08-16 22:34:20,239 urls 25928 31856 成功使用名为django的logger
+INFO 2022-08-16 22:34:20,254 basehttp 25928 31856 "GET / HTTP/1.1" 200 21
+WARNING 2022-08-16 22:34:20,545 log 25928 31856 Not Found: /favicon.ico
+WARNING 2022-08-16 22:34:20,546 basehttp 25928 31856 "GET /favicon.ico HTTP/1.1" 404 2245
+INFO 2022-08-16 22:34:28,556 basehttp 25928 31856 "GET /register/ HTTP/1.1" 200 5186
+WARNING 2022-08-16 22:34:28,633 log 25928 31856 Not Found: /register/img/image_code.png
+WARNING 2022-08-16 22:34:28,634 basehttp 25928 31856 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-16 22:34:28,711 log 25928 31856 Not Found: /register/img/image_code.png
+WARNING 2022-08-16 22:34:28,712 basehttp 25928 31856 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-16 22:34:45,537 log 25928 31856 Not Found: /smscode/
+WARNING 2022-08-16 22:34:45,538 basehttp 25928 31856 "GET /smscode/?mobile=15180217469&image_code=df3&uuid=9afe6c3f-5b38-4898-9987-03b965f1e9e1 HTTP/1.1" 404 2320
+WARNING 2022-08-16 22:34:47,673 log 25928 31856 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-08-16 22:34:47,674 basehttp 25928 31856 "POST /register/ HTTP/1.1" 403 2513
+INFO 2022-08-16 22:46:41,120 autoreload 25928 33740 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:46:43,011 autoreload 13120 29520 Watching for file changes with StatReloader
+INFO 2022-08-16 22:50:19,452 autoreload 13120 29520 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:50:21,014 autoreload 36496 36916 Watching for file changes with StatReloader
+INFO 2022-08-16 22:52:06,325 autoreload 36496 36916 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:52:07,929 autoreload 33016 36732 Watching for file changes with StatReloader
+INFO 2022-08-16 22:52:40,001 autoreload 33016 36732 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:52:41,604 autoreload 21556 38184 Watching for file changes with StatReloader
+INFO 2022-08-16 22:57:02,016 autoreload 21556 38184 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:57:03,837 autoreload 38148 23444 Watching for file changes with StatReloader
+INFO 2022-08-16 22:58:09,940 autoreload 38148 23444 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:58:11,235 autoreload 20792 36696 Watching for file changes with StatReloader
+INFO 2022-08-16 22:59:26,407 autoreload 20792 36696 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-08-16 22:59:28,551 autoreload 11292 34384 Watching for file changes with StatReloader
+INFO 2022-08-16 23:00:15,348 autoreload 11292 34384 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-16 23:00:16,984 autoreload 24136 12420 Watching for file changes with StatReloader
+INFO 2022-08-16 23:07:14,721 autoreload 24136 12420 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-16 23:07:16,140 autoreload 15112 25436 Watching for file changes with StatReloader
+INFO 2022-08-16 23:17:19,072 autoreload 25216 37012 Watching for file changes with StatReloader
+INFO 2022-08-16 23:17:31,543 basehttp 25216 35444 "GET /register/ HTTP/1.1" 200 5186
+WARNING 2022-08-16 23:17:31,633 log 25216 35444 Not Found: /register/img/image_code.png
+WARNING 2022-08-16 23:17:31,635 basehttp 25216 35444 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-16 23:17:31,683 log 25216 35444 Not Found: /favicon.ico
+WARNING 2022-08-16 23:17:31,683 basehttp 25216 35444 "GET /favicon.ico HTTP/1.1" 404 2245

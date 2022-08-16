@@ -7,11 +7,14 @@
     <meta charset="utf-8">
     <!-- 网站标题 -->
     <title>注册</title>
+
+
+    {% load staticfiles %}
     <!-- 引入bootstrap的css文件 -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <!-- 引入vuejs -->
-    <script type="text/javascript" src="js/vue-2.5.16.js"></script>
-    <script type="text/javascript" src="js/axios-0.18.0.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/vue-2.5.16.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/axios-0.18.0.min.js' %}"></script>
 </head>
 <body>
 <div id="app">
@@ -102,8 +105,8 @@
 </footer>
 </div>
 <!-- 引入js -->
-<script type="text/javascript" src="js/host.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/register.js"></script>
+<script type="text/javascript" src="{% static 'js/host.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/register.js' %}"></script>
 </body>
 </html>
