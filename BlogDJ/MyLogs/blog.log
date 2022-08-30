@@ -706,3 +706,194 @@ WARNING 2022-08-16 23:17:31,633 log 25216 35444 Not Found: /register/img/image_c
 WARNING 2022-08-16 23:17:31,635 basehttp 25216 35444 "GET /register/img/image_code.png HTTP/1.1" 404 2293
 WARNING 2022-08-16 23:17:31,683 log 25216 35444 Not Found: /favicon.ico
 WARNING 2022-08-16 23:17:31,683 basehttp 25216 35444 "GET /favicon.ico HTTP/1.1" 404 2245
+INFO 2022-08-28 20:58:00,377 autoreload 25892 5844 Watching for file changes with StatReloader
+INFO 2022-08-28 20:58:04,728 urls 25892 24932 成功使用名为django的logger
+INFO 2022-08-28 20:58:04,744 basehttp 25892 24932 "GET / HTTP/1.1" 200 21
+WARNING 2022-08-28 20:58:05,083 log 25892 24932 Not Found: /favicon.ico
+WARNING 2022-08-28 20:58:05,085 basehttp 25892 24932 "GET /favicon.ico HTTP/1.1" 404 2245
+INFO 2022-08-28 20:58:16,715 urls 25892 24932 成功使用名为django的logger
+INFO 2022-08-28 20:58:16,722 basehttp 25892 24932 "GET / HTTP/1.1" 200 21
+INFO 2022-08-28 20:58:25,111 basehttp 25892 24932 "GET /register/ HTTP/1.1" 200 5186
+INFO 2022-08-28 20:58:25,147 basehttp 25892 24932 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-08-28 20:58:25,156 basehttp 25892 25976 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-08-28 20:58:25,168 basehttp 25892 24932 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-08-28 20:58:25,186 basehttp 25892 24932 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-08-28 20:58:25,192 basehttp 25892 24932 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-08-28 20:58:25,204 basehttp 25892 25976 "GET /static/js/register.js HTTP/1.1" 200 6407
+WARNING 2022-08-28 20:58:25,207 log 25892 24932 Not Found: /register/img/image_code.png
+WARNING 2022-08-28 20:58:25,208 basehttp 25892 24932 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-28 20:58:25,291 log 25892 24932 Not Found: /register/img/image_code.png
+WARNING 2022-08-28 20:58:25,292 basehttp 25892 24932 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+INFO 2022-08-28 21:16:50,708 basehttp 25892 9356 "GET /register/ HTTP/1.1" 200 5186
+WARNING 2022-08-28 21:16:50,751 log 25892 9356 Not Found: /register/img/image_code.png
+WARNING 2022-08-28 21:16:50,752 basehttp 25892 9356 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-28 21:19:32,330 basehttp 25892 9356 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 21:19:32,348 basehttp 25892 9352 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 21:19:35,146 basehttp 25892 9352 "GET /register/ HTTP/1.1" 200 5186
+WARNING 2022-08-28 21:19:35,190 log 25892 9352 Not Found: /register/img/image_code.png
+WARNING 2022-08-28 21:19:35,191 basehttp 25892 9352 "GET /register/img/image_code.png HTTP/1.1" 404 2293
+WARNING 2022-08-28 21:19:35,296 basehttp 25892 9352 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 21:19:35,340 basehttp 25892 25048 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 21:20:22,206 basehttp 25892 25048 "GET /register/ HTTP/1.1" 200 5196
+INFO 2022-08-28 21:20:22,232 basehttp 25892 25048 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+WARNING 2022-08-28 21:20:22,329 basehttp 25892 25048 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 21:20:22,375 basehttp 25892 24944 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 22:45:06,448 autoreload 25744 26612 Watching for file changes with StatReloader
+INFO 2022-08-28 22:45:09,393 basehttp 25744 20832 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 22:45:09,524 log 25744 20832 Not Found: /register/image_code_url
+WARNING 2022-08-28 22:45:09,525 basehttp 25744 20832 "GET /register/image_code_url HTTP/1.1" 404 2456
+INFO 2022-08-28 22:45:12,953 basehttp 25744 20832 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 22:45:12,976 log 25744 20832 Not Found: /register/image_code_url
+WARNING 2022-08-28 22:45:12,977 basehttp 25744 20832 "GET /register/image_code_url HTTP/1.1" 404 2456
+INFO 2022-08-28 22:45:13,553 basehttp 25744 20832 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 22:45:13,578 log 25744 20832 Not Found: /register/image_code_url
+WARNING 2022-08-28 22:45:13,579 basehttp 25744 20832 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 22:45:18,488 basehttp 25744 20832 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 22:45:18,506 basehttp 25744 23732 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 22:48:10,882 basehttp 25744 23732 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 22:48:10,910 log 25744 23732 Not Found: /register/image_code_url
+WARNING 2022-08-28 22:48:10,910 basehttp 25744 23732 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 22:48:10,996 basehttp 25744 23732 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 22:48:11,029 basehttp 25744 27924 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 22:49:24,999 autoreload 29088 19236 Watching for file changes with StatReloader
+WARNING 2022-08-28 22:49:39,059 log 29088 10000 Not Found: /register/image_code_url
+WARNING 2022-08-28 22:49:39,060 basehttp 29088 10000 "GET /register/image_code_url HTTP/1.1" 404 2456
+INFO 2022-08-28 22:49:55,603 basehttp 29088 10000 "GET /imagecode?uuid=1 HTTP/1.1" 301 0
+ERROR 2022-08-28 22:49:55,738 log 29088 10000 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 31, in get
+    redis_connection.setex('img:%s' % uuid, 1200, text)  # s
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1242, in execute_command
+    lambda error: self._disconnect_raise(conn, error),
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\retry.py", line 49, in call_with_retry
+    fail(error)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1242, in <lambda>
+    lambda error: self._disconnect_raise(conn, error),
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1228, in _disconnect_raise
+    raise error
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1240, in <lambda>
+    conn, command_name, *args, **options
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\connection.py", line 334, in read_response
+    raise error
+redis.exceptions.AuthenticationError: Authentication required.
+ERROR 2022-08-28 22:49:55,745 basehttp 29088 10000 "GET /imagecode/?uuid=1 HTTP/1.1" 500 134715
+INFO 2022-08-28 22:50:16,380 autoreload 25932 23632 Watching for file changes with StatReloader
+INFO 2022-08-28 22:54:18,061 autoreload 29268 7928 Watching for file changes with StatReloader
+INFO 2022-08-28 22:54:27,320 autoreload 8552 28036 Watching for file changes with StatReloader
+ERROR 2022-08-28 22:56:22,305 log 8552 26844 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 31, in get
+    redis_connection.setex('img:%s' % uuid, 1200, text)  # s
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\commands\core.py", line 2245, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1242, in execute_command
+    lambda error: self._disconnect_raise(conn, error),
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\retry.py", line 49, in call_with_retry
+    fail(error)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1242, in <lambda>
+    lambda error: self._disconnect_raise(conn, error),
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1228, in _disconnect_raise
+    raise error
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1240, in <lambda>
+    conn, command_name, *args, **options
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1215, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\redis\connection.py", line 334, in read_response
+    raise error
+redis.exceptions.AuthenticationError: Authentication required.
+ERROR 2022-08-28 22:56:22,357 basehttp 8552 26844 "GET /imagecode/?uuid=1 HTTP/1.1" 500 151756
+INFO 2022-08-28 23:00:38,217 autoreload 8552 28036 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-28 23:00:40,345 autoreload 24932 15212 Watching for file changes with StatReloader
+INFO 2022-08-28 23:00:43,948 autoreload 24932 15212 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-28 23:00:46,132 autoreload 28024 26844 Watching for file changes with StatReloader
+INFO 2022-08-28 23:01:38,044 autoreload 28024 26844 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-28 23:01:40,445 autoreload 29456 23200 Watching for file changes with StatReloader
+INFO 2022-08-28 23:01:48,412 autoreload 29456 23200 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-28 23:01:50,453 autoreload 29244 7300 Watching for file changes with StatReloader
+INFO 2022-08-28 23:01:52,792 autoreload 29244 7300 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-28 23:01:54,729 autoreload 21532 3408 Watching for file changes with StatReloader
+INFO 2022-08-28 23:04:01,670 autoreload 21532 3408 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-28 23:04:03,838 autoreload 7928 26364 Watching for file changes with StatReloader
+INFO 2022-08-28 23:04:12,035 autoreload 27488 23092 Watching for file changes with StatReloader
+INFO 2022-08-28 23:04:17,934 basehttp 27488 26976 "GET /imagecode/?uuid=222 HTTP/1.1" 200 2696
+INFO 2022-08-28 23:04:19,661 basehttp 27488 26976 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 23:04:19,691 log 27488 26976 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:04:19,692 basehttp 27488 26976 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 23:04:19,792 basehttp 27488 26976 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 23:04:19,839 basehttp 27488 11864 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 23:04:22,046 basehttp 27488 11864 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 23:04:22,084 log 27488 11864 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:04:22,085 basehttp 27488 11864 "GET /register/image_code_url HTTP/1.1" 404 2456
+INFO 2022-08-28 23:04:22,204 basehttp 27488 11864 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-28 23:04:22,229 log 27488 11864 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:04:22,230 basehttp 27488 28932 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-08-28 23:04:22,233 basehttp 27488 11864 "GET /register/image_code_url HTTP/1.1" 404 2456
+INFO 2022-08-28 23:04:26,335 basehttp 27488 11864 "GET /imagecode/?uuid=2233 HTTP/1.1" 200 3234
+INFO 2022-08-28 23:07:23,459 autoreload 27488 23092 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-28 23:07:28,118 autoreload 16040 24848 Watching for file changes with StatReloader
+INFO 2022-08-28 23:07:31,737 basehttp 16040 26800 "GET /imagecode/?uuid=2233 HTTP/1.1" 200 3071
+INFO 2022-08-28 23:07:35,371 basehttp 16040 26800 "GET /imagecode/?uuid=22322 HTTP/1.1" 200 2950
+WARNING 2022-08-28 23:07:37,567 log 16040 26800 Not Found: /register/
+WARNING 2022-08-28 23:07:37,568 basehttp 16040 26800 "GET /register/ HTTP/1.1" 404 2241
+WARNING 2022-08-28 23:07:38,699 log 16040 26800 Not Found: /register/
+WARNING 2022-08-28 23:07:38,700 basehttp 16040 26800 "GET /register/ HTTP/1.1" 404 2241
+INFO 2022-08-28 23:07:46,224 autoreload 16040 24848 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-28 23:07:47,573 autoreload 17304 19568 Watching for file changes with StatReloader
+INFO 2022-08-28 23:07:53,827 basehttp 17304 29112 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 23:07:53,988 log 17304 27296 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:07:53,993 basehttp 17304 27296 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 23:07:54,001 basehttp 17304 18232 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 23:07:54,020 basehttp 17304 29112 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 23:08:23,038 basehttp 17304 29112 "GET /imagecode/?uuid=22322 HTTP/1.1" 200 3216
+INFO 2022-08-28 23:09:44,136 autoreload 19792 27172 Watching for file changes with StatReloader
+INFO 2022-08-28 23:09:48,008 basehttp 19792 28608 "GET /imagecode/?uuid=22322 HTTP/1.1" 200 3288
+INFO 2022-08-28 23:10:27,625 basehttp 19792 28608 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 23:10:27,655 log 19792 28608 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:10:27,656 basehttp 19792 28608 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 23:10:27,741 basehttp 19792 28608 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 23:10:27,790 basehttp 19792 24780 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 23:10:28,474 basehttp 19792 24780 "GET /register/ HTTP/1.1" 200 5182
+WARNING 2022-08-28 23:10:28,500 log 19792 24780 Not Found: /register/image_code_url
+WARNING 2022-08-28 23:10:28,501 basehttp 19792 24780 "GET /register/image_code_url HTTP/1.1" 404 2456
+WARNING 2022-08-28 23:10:28,604 basehttp 19792 24780 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 23:10:28,703 basehttp 19792 25076 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-28 23:12:01,040 basehttp 19792 25076 "GET /register/ HTTP/1.1" 200 5183
+WARNING 2022-08-28 23:12:01,178 basehttp 19792 30432 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-28 23:12:01,183 basehttp 19792 25076 "GET /imagecode/?uuid=f7242a1d-a3e5-447c-88d3-62d1c84d2cf6 HTTP/1.1" 200 3300
+INFO 2022-08-28 23:12:01,228 basehttp 19792 30460 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427

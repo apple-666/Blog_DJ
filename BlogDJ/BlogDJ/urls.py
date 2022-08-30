@@ -27,7 +27,7 @@ def t(request):
 
 
 urlpatterns = [
-    path('',t),
+    path('', t),
     path('admin/', admin.site.urls),
     # include 参数1要设置为元组（urlconf_module, app_name）
     # namespace 设置命名空间

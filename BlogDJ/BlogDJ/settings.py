@@ -137,16 +137,18 @@ STATICFILES_DIRS = (
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://122.112.149.204:6380/0",
+        "LOCATION": "redis://:1@122.112.149.204:6380/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            # "PASSWORD": "1"
         }
     },
     "session": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://122.112.149.204:6380/1",
+        "LOCATION": "redis://:1@122.112.149.204:6380/1",
         "OPTIONS": {
         "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        # "PASSWORD": "1"
         }
     }
 }
