@@ -187,7 +187,7 @@ LOGGING = {
         'file': {  # 向文件传info
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(BASE_DIR,'MyLogs/blog.log'),  #日志存放在 的目录
+            'filename': os.path.join(BASE_DIR, 'MyLogs/blog.log'),  #日志存放在 的目录
             'maxBytes': 50*1024*1024,
             'backupCount': 10,  # 最大文件数
             'formatter': 'verbose'
@@ -195,9 +195,9 @@ LOGGING = {
     },
     'loggers': {
         'django': {  #定义一个django名字的日志器
-            'handlers': ['console','file'],
+            'handlers': ['console', 'file'],
             'propagate': True,
-            'level':'INFO',
+            'level': 'INFO',
         },
     }
 }

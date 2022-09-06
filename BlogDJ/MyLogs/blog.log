@@ -897,3 +897,577 @@ INFO 2022-08-28 23:12:01,040 basehttp 19792 25076 "GET /register/ HTTP/1.1" 200 
 WARNING 2022-08-28 23:12:01,178 basehttp 19792 30432 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
 INFO 2022-08-28 23:12:01,183 basehttp 19792 25076 "GET /imagecode/?uuid=f7242a1d-a3e5-447c-88d3-62d1c84d2cf6 HTTP/1.1" 200 3300
 INFO 2022-08-28 23:12:01,228 basehttp 19792 30460 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-30 22:41:58,283 autoreload 18508 26748 Watching for file changes with StatReloader
+INFO 2022-08-30 22:42:15,519 basehttp 18508 32208 "GET /imagecode/?uuid=fa4aa8f6-69a9-45c6-b470-19d8f9eb2fce HTTP/1.1" 200 3119
+INFO 2022-08-30 22:42:16,833 basehttp 18508 32208 "GET /imagecode/?uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 200 3142
+WARNING 2022-08-30 22:42:23,593 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:23,593 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=n6ux&uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:25,295 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:25,297 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=n6ux&uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:27,810 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:27,810 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=n6ux&uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:33,247 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:33,248 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=n6ux&uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:42,485 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:42,487 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=n6ux&uuid=bfdb6eb4-5db5-4660-960b-26050afd0c79 HTTP/1.1" 404 2496
+INFO 2022-08-30 22:42:46,863 basehttp 18508 32208 "GET /imagecode/?uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 200 3086
+WARNING 2022-08-30 22:42:57,225 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:57,226 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:58,217 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:58,217 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:58,536 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:58,537 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:58,812 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:58,813 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:42:59,545 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:42:59,545 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:43:08,182 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:43:08,183 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+INFO 2022-08-30 22:43:10,200 basehttp 18508 32208 "GET /register/ HTTP/1.1" 200 5183
+WARNING 2022-08-30 22:43:10,202 basehttp 18508 12008 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 22:43:10,259 basehttp 18508 32208 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 22:43:14,661 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:43:14,664 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+WARNING 2022-08-30 22:43:17,529 log 18508 32208 Not Found: /smscode/
+WARNING 2022-08-30 22:43:17,531 basehttp 18508 32208 "GET /smscode/?mobile=18019204893&image_code=s5ql&uuid=2f9742f6-5d44-49bd-b511-106ed3d80098 HTTP/1.1" 404 2496
+INFO 2022-08-30 22:44:22,147 autoreload 18508 26748 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-30 22:44:23,516 autoreload 31240 14688 Watching for file changes with StatReloader
+INFO 2022-08-30 22:44:39,898 autoreload 31240 14688 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-30 22:44:42,858 autoreload 24936 8104 Watching for file changes with StatReloader
+INFO 2022-08-30 22:45:22,194 autoreload 31968 17240 Watching for file changes with StatReloader
+INFO 2022-08-30 22:45:27,190 basehttp 31968 33612 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 22:45:27,368 basehttp 31968 33612 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 22:45:27,407 basehttp 31968 22284 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 22:45:27,475 basehttp 31968 33612 "GET /imagecode/?uuid=ba5d6e7a-7c9f-4b48-902e-49ce88cfe0e9 HTTP/1.1" 200 3078
+WARNING 2022-08-30 22:45:27,508 log 31968 33612 Not Found: /favicon.ico
+WARNING 2022-08-30 22:45:27,509 basehttp 31968 33612 "GET /favicon.ico HTTP/1.1" 404 2591
+INFO 2022-08-30 22:45:41,065 basehttp 31968 33612 "GET /imagecode/?uuid=8c8cdd1f-44af-47a6-b5b3-8cafb3147e23 HTTP/1.1" 200 3410
+INFO 2022-08-30 22:45:44,433 views 31968 33612 b'BNJV'
+ERROR 2022-08-30 22:45:44,497 log 31968 33612 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 62, in get
+    sms_code = '%06d' % randint(0, 999999)
+NameError: name 'randint' is not defined
+ERROR 2022-08-30 22:45:44,500 basehttp 31968 33612 "GET /smscode/?mobile=18019204893&image_code=bnjv&uuid=8c8cdd1f-44af-47a6-b5b3-8cafb3147e23 HTTP/1.1" 500 83939
+INFO 2022-08-30 22:45:46,919 basehttp 31968 33612 "GET /smscode/?mobile=18019204893&image_code=bnjv&uuid=8c8cdd1f-44af-47a6-b5b3-8cafb3147e23 HTTP/1.1" 200 72
+INFO 2022-08-30 22:45:46,942 basehttp 31968 33612 "GET /imagecode/?uuid=927826bc-e743-43b7-8224-e37cf7119e05 HTTP/1.1" 200 3045
+INFO 2022-08-30 22:45:49,061 basehttp 31968 33612 "GET /imagecode/?uuid=3c4edf5c-cbcd-46c2-8dd7-31fad48a08e3 HTTP/1.1" 200 2725
+INFO 2022-08-30 22:45:54,996 views 31968 33612 b'4VN5'
+ERROR 2022-08-30 22:45:55,049 log 31968 33612 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 62, in get
+    sms_code = '%06d' % randint(0, 999999)
+NameError: name 'randint' is not defined
+ERROR 2022-08-30 22:45:55,052 basehttp 31968 33612 "GET /smscode/?mobile=18019204893&image_code=4vn5&uuid=3c4edf5c-cbcd-46c2-8dd7-31fad48a08e3 HTTP/1.1" 500 83939
+INFO 2022-08-30 22:45:56,391 basehttp 31968 33612 "GET /smscode/?mobile=18019204893&image_code=4vn5&uuid=3c4edf5c-cbcd-46c2-8dd7-31fad48a08e3 HTTP/1.1" 200 72
+INFO 2022-08-30 22:45:56,416 basehttp 31968 33612 "GET /imagecode/?uuid=7de19f93-f588-4540-ad21-55f0194b8453 HTTP/1.1" 200 3544
+INFO 2022-08-30 22:46:05,001 views 31968 33612 b'BTWE'
+ERROR 2022-08-30 22:46:05,057 log 31968 33612 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 62, in get
+    sms_code = '%06d' % randint(0, 999999)
+NameError: name 'randint' is not defined
+ERROR 2022-08-30 22:46:05,061 basehttp 31968 33612 "GET /smscode/?mobile=18019204893&image_code=btwe&uuid=7de19f93-f588-4540-ad21-55f0194b8453 HTTP/1.1" 500 83939
+INFO 2022-08-30 22:46:52,885 autoreload 31968 17240 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 22:46:54,323 autoreload 27432 23368 Watching for file changes with StatReloader
+INFO 2022-08-30 22:47:20,697 autoreload 3440 28224 Watching for file changes with StatReloader
+INFO 2022-08-30 22:48:16,742 autoreload 31576 29804 Watching for file changes with StatReloader
+INFO 2022-08-30 22:48:20,489 basehttp 31576 3308 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 22:48:20,638 basehttp 31576 3308 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 22:48:20,686 basehttp 31576 6412 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 22:48:20,746 basehttp 31576 3308 "GET /imagecode/?uuid=d8e3886f-83db-4360-b703-5d959164214f HTTP/1.1" 200 3242
+INFO 2022-08-30 22:48:35,647 basehttp 31576 3308 "GET /imagecode/?uuid=b2023079-c868-416f-acf6-222c00125415 HTTP/1.1" 200 2921
+INFO 2022-08-30 22:48:36,756 basehttp 31576 3308 "GET /imagecode/?uuid=90e2d274-d2ac-4385-bb4e-ec5fddaaa51a HTTP/1.1" 200 3105
+INFO 2022-08-30 22:48:39,976 basehttp 31576 3308 "GET /imagecode/?uuid=f2c09fb5-65e7-4c09-9be9-592025b7efdd HTTP/1.1" 200 3136
+INFO 2022-08-30 22:48:41,660 basehttp 31576 3308 "GET /imagecode/?uuid=7de8d544-b7e7-4797-836d-cffebee78fe0 HTTP/1.1" 200 3154
+INFO 2022-08-30 22:48:59,715 views 31576 3308 b'GXLU'
+INFO 2022-08-30 22:48:59,715 views 31576 3308 012217
+INFO 2022-08-30 22:49:00,254 basehttp 31576 3308 "GET /smscode/?mobile=18019204893&image_code=gxlu&uuid=7de8d544-b7e7-4797-836d-cffebee78fe0 HTTP/1.1" 200 63
+INFO 2022-08-30 22:49:21,905 autoreload 31576 29804 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-08-30 22:49:23,383 autoreload 23368 31360 Watching for file changes with StatReloader
+INFO 2022-08-30 22:50:07,842 basehttp 23368 15144 "GET /smscode/?mobile=18019204893&image_code=gxlu&uuid=7de8d544-b7e7-4797-836d-cffebee78fe0 HTTP/1.1" 200 72
+INFO 2022-08-30 22:50:07,878 basehttp 23368 15144 "GET /imagecode/?uuid=725fa300-4216-4b3d-ad77-a864ad7fdf36 HTTP/1.1" 200 3314
+INFO 2022-08-30 22:50:12,569 views 23368 15144 b'OXNU'
+INFO 2022-08-30 22:50:12,569 basehttp 23368 15144 "GET /smscode/?mobile=18019204893&image_code=qxnu&uuid=725fa300-4216-4b3d-ad77-a864ad7fdf36 HTTP/1.1" 200 72
+INFO 2022-08-30 22:50:12,589 basehttp 23368 15144 "GET /imagecode/?uuid=0368cf6f-99b6-4038-92e3-7d819627aede HTTP/1.1" 200 3330
+INFO 2022-08-30 22:50:18,383 views 23368 15144 b'BR8C'
+INFO 2022-08-30 22:50:18,383 basehttp 23368 15144 "GET /smscode/?mobile=18019204893&image_code=br8e&uuid=0368cf6f-99b6-4038-92e3-7d819627aede HTTP/1.1" 200 72
+INFO 2022-08-30 22:50:18,409 basehttp 23368 15144 "GET /imagecode/?uuid=baf49ac3-359b-4bec-8a43-0c58f782d9fc HTTP/1.1" 200 2812
+INFO 2022-08-30 22:50:21,794 basehttp 23368 15144 "GET /imagecode/?uuid=25b3244d-fc71-4623-a74a-2a62a8103e90 HTTP/1.1" 200 3206
+INFO 2022-08-30 22:50:27,230 views 23368 15144 b'6FMR'
+INFO 2022-08-30 22:50:27,230 views 23368 15144 204778
+INFO 2022-08-30 22:50:41,668 basehttp 23368 15144 "GET /smscode/?mobile=18019204893&image_code=6fmr&uuid=25b3244d-fc71-4623-a74a-2a62a8103e90 HTTP/1.1" 200 63
+INFO 2022-08-30 22:52:28,200 basehttp 23368 15144 "GET /smscode/?mobile=18019204893&image_code=6fmr&uuid=25b3244d-fc71-4623-a74a-2a62a8103e90 HTTP/1.1" 200 72
+INFO 2022-08-30 22:52:28,218 basehttp 23368 15144 "GET /imagecode/?uuid=d0c8c01a-f4d1-4aaa-aa3e-0b07d793abca HTTP/1.1" 200 2917
+INFO 2022-08-30 23:32:55,462 autoreload 23368 31360 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:32:57,263 autoreload 28544 2608 Watching for file changes with StatReloader
+INFO 2022-08-30 23:40:07,205 autoreload 28544 2608 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:40:08,550 autoreload 14000 4004 Watching for file changes with StatReloader
+INFO 2022-08-30 23:45:38,264 autoreload 14000 4004 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:45:39,783 autoreload 35748 10832 Watching for file changes with StatReloader
+INFO 2022-08-30 23:46:42,516 autoreload 35748 10832 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:46:43,950 autoreload 11208 34844 Watching for file changes with StatReloader
+INFO 2022-08-30 23:47:32,376 autoreload 11208 34844 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:47:33,786 autoreload 32308 30840 Watching for file changes with StatReloader
+INFO 2022-08-30 23:48:03,199 autoreload 32308 30840 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:48:04,577 autoreload 33980 28340 Watching for file changes with StatReloader
+INFO 2022-08-30 23:48:21,672 autoreload 33980 28340 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:48:23,062 autoreload 20732 35716 Watching for file changes with StatReloader
+INFO 2022-08-30 23:48:28,998 autoreload 20732 35716 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:48:30,258 autoreload 12824 34232 Watching for file changes with StatReloader
+INFO 2022-08-30 23:48:45,311 autoreload 12824 34232 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:48:46,694 autoreload 4628 34532 Watching for file changes with StatReloader
+INFO 2022-08-30 23:50:05,404 autoreload 4628 34532 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:50:07,090 autoreload 4472 27928 Watching for file changes with StatReloader
+INFO 2022-08-30 23:50:12,987 autoreload 4472 27928 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:50:14,319 autoreload 6844 18804 Watching for file changes with StatReloader
+INFO 2022-08-30 23:50:23,041 autoreload 6844 18804 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:50:24,521 autoreload 16240 31352 Watching for file changes with StatReloader
+INFO 2022-08-30 23:51:01,159 autoreload 16240 31352 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-30 23:51:02,517 autoreload 25020 11932 Watching for file changes with StatReloader
+INFO 2022-08-30 23:51:41,821 autoreload 25020 11932 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-08-30 23:51:43,196 autoreload 35828 23788 Watching for file changes with StatReloader
+INFO 2022-08-30 23:52:03,918 autoreload 35828 23788 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:52:05,230 autoreload 34332 23012 Watching for file changes with StatReloader
+INFO 2022-08-30 23:52:34,583 autoreload 34332 23012 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:52:35,964 autoreload 24144 35184 Watching for file changes with StatReloader
+INFO 2022-08-30 23:52:47,123 basehttp 24144 17084 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 23:52:47,282 basehttp 24144 17084 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 23:52:47,328 basehttp 24144 13420 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 23:52:47,399 basehttp 24144 17084 "GET /imagecode/?uuid=3f22b8f0-948b-4d35-8984-f8c1706c1cdb HTTP/1.1" 200 3237
+WARNING 2022-08-30 23:52:47,442 log 24144 17084 Not Found: /favicon.ico
+WARNING 2022-08-30 23:52:47,443 basehttp 24144 17084 "GET /favicon.ico HTTP/1.1" 404 2591
+INFO 2022-08-30 23:53:02,302 views 24144 17084 b'3RPB'
+INFO 2022-08-30 23:53:02,302 views 24144 17084 713321
+INFO 2022-08-30 23:53:02,786 basehttp 24144 17084 "GET /smscode/?mobile=18019204893&image_code=3rpb&uuid=3f22b8f0-948b-4d35-8984-f8c1706c1cdb HTTP/1.1" 200 63
+INFO 2022-08-30 23:56:01,374 autoreload 24144 35184 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:56:02,693 autoreload 17024 15052 Watching for file changes with StatReloader
+INFO 2022-08-30 23:56:20,276 basehttp 17024 21676 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 23:56:20,428 basehttp 17024 21676 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 23:56:20,473 basehttp 17024 35180 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 23:56:20,527 basehttp 17024 21676 "GET /imagecode/?uuid=2f04a0e3-b3e9-4ce2-a3ad-f1237aa362f1 HTTP/1.1" 200 3347
+INFO 2022-08-30 23:57:10,503 basehttp 17024 21676 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 23:57:10,666 basehttp 17024 21676 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 23:57:10,718 basehttp 17024 36564 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 23:57:10,744 basehttp 17024 21676 "GET /imagecode/?uuid=4d19e4cf-966b-46b6-a3cd-33ae1e019e02 HTTP/1.1" 200 3348
+INFO 2022-08-30 23:57:18,237 basehttp 17024 21676 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 23:57:18,351 basehttp 17024 21676 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 23:57:18,382 basehttp 17024 12796 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 23:57:18,387 basehttp 17024 21676 "GET /imagecode/?uuid=dd18cf35-919e-4e89-b9f5-6883463597ad HTTP/1.1" 200 2853
+INFO 2022-08-30 23:58:17,581 autoreload 17024 15052 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-08-30 23:58:18,873 autoreload 24000 36356 Watching for file changes with StatReloader
+INFO 2022-08-30 23:58:22,383 basehttp 24000 34808 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-30 23:58:22,544 basehttp 24000 34808 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-30 23:58:22,577 basehttp 24000 35676 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-30 23:58:22,637 basehttp 24000 34808 "GET /imagecode/?uuid=b64943c2-f16e-4c9f-aeae-81dd62f01948 HTTP/1.1" 200 3083
+INFO 2022-08-31 00:03:46,494 autoreload 2392 12584 Watching for file changes with StatReloader
+INFO 2022-08-31 00:03:52,152 basehttp 2392 6636 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-31 00:03:52,289 basehttp 2392 6636 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:03:52,326 basehttp 2392 36236 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:03:52,389 basehttp 2392 6636 "GET /imagecode/?uuid=f51e9419-df36-4e75-94d1-4349b9cf8d46 HTTP/1.1" 200 3224
+INFO 2022-08-31 00:05:10,698 basehttp 2392 6636 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-31 00:05:10,826 basehttp 2392 6636 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:05:10,862 basehttp 2392 16872 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:05:10,866 basehttp 2392 6636 "GET /imagecode/?uuid=3cf83d2a-96ef-41c4-9738-b30d6479bead HTTP/1.1" 200 3453
+INFO 2022-08-31 00:06:53,765 basehttp 2392 6636 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-31 00:06:53,811 basehttp 2392 6636 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-08-31 00:06:53,822 basehttp 2392 25240 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-08-31 00:06:53,822 basehttp 2392 31016 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-08-31 00:06:53,825 basehttp 2392 36592 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-08-31 00:06:53,826 basehttp 2392 35040 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2022-08-31 00:06:53,828 basehttp 2392 36264 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-08-31 00:06:53,905 basehttp 2392 36264 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:06:53,945 basehttp 2392 35040 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:06:53,949 basehttp 2392 36264 "GET /imagecode/?uuid=bd8abccd-650c-4e53-acc6-259dbdfd26ad HTTP/1.1" 200 3136
+WARNING 2022-08-31 00:06:53,989 log 2392 36264 Not Found: /favicon.ico
+WARNING 2022-08-31 00:06:53,990 basehttp 2392 36264 "GET /favicon.ico HTTP/1.1" 404 2591
+INFO 2022-08-31 00:07:05,565 autoreload 20928 25888 Watching for file changes with StatReloader
+INFO 2022-08-31 00:07:07,044 basehttp 20928 36476 "GET /register/ HTTP/1.1" 200 5183
+INFO 2022-08-31 00:07:07,079 basehttp 20928 36476 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2022-08-31 00:07:07,181 basehttp 20928 36476 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:07:07,239 basehttp 20928 18784 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:07:07,302 basehttp 20928 36476 "GET /imagecode/?uuid=7bde3451-e988-4043-81a7-aed42f95db4f HTTP/1.1" 200 3361
+INFO 2022-08-31 00:07:36,508 views 20928 36476 b'VRCG'
+INFO 2022-08-31 00:07:36,509 views 20928 36476 149138
+INFO 2022-08-31 00:07:37,122 basehttp 20928 36476 "GET /smscode/?mobile=18019204893&image_code=vrcg&uuid=7bde3451-e988-4043-81a7-aed42f95db4f HTTP/1.1" 200 63
+WARNING 2022-08-31 00:07:51,639 log 20928 36476 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-08-31 00:07:51,640 basehttp 20928 36476 "POST /register/ HTTP/1.1" 403 2513
+INFO 2022-08-31 00:08:56,782 basehttp 20928 36476 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:08:56,813 basehttp 20928 33476 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:08:56,821 basehttp 20928 36476 "GET /imagecode/?uuid=4551be75-9922-498e-9b01-d1f400d2cfc4 HTTP/1.1" 200 3112
+INFO 2022-08-31 00:08:57,366 basehttp 20928 36476 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-08-31 00:08:57,391 basehttp 20928 36476 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2022-08-31 00:08:57,475 basehttp 20928 36476 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:08:57,506 basehttp 20928 18224 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-08-31 00:08:57,536 basehttp 20928 18224 "GET /imagecode/?uuid=828395d8-9486-40d1-bae6-34975ce8d296 HTTP/1.1" 200 3032
+INFO 2022-08-31 00:09:14,188 basehttp 20928 18224 "GET /imagecode/?uuid=a52cb972-e017-43f7-bd0e-588d9e8fde31 HTTP/1.1" 200 2790
+INFO 2022-08-31 00:09:16,852 basehttp 20928 18224 "GET /imagecode/?uuid=a773a7c6-90fe-4169-b101-66e27f11026e HTTP/1.1" 200 3170
+INFO 2022-08-31 00:09:19,595 views 20928 18224 b'VZTA'
+INFO 2022-08-31 00:09:19,595 views 20928 18224 898220
+INFO 2022-08-31 00:09:19,777 basehttp 20928 18224 "GET /smscode/?mobile=18019204893&image_code=vzta&uuid=a773a7c6-90fe-4169-b101-66e27f11026e HTTP/1.1" 200 63
+WARNING 2022-08-31 00:09:29,698 log 20928 18224 Bad Request: /register/
+WARNING 2022-08-31 00:09:29,699 basehttp 20928 18224 "POST /register/ HTTP/1.1" 400 18
+INFO 2022-08-31 00:09:33,004 basehttp 20928 18224 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 00:09:33,041 basehttp 20928 18224 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 00:09:33,045 basehttp 20928 33808 "GET /imagecode/?uuid=bcf81620-f442-4fd4-af0f-555cc952d5c3 HTTP/1.1" 200 2844
+INFO 2022-08-31 00:09:49,022 views 20928 33808 b'MWQ5'
+INFO 2022-08-31 00:09:49,022 views 20928 33808 658521
+INFO 2022-08-31 00:09:49,196 basehttp 20928 33808 "GET /smscode/?mobile=18019204893&image_code=mwq5&uuid=bcf81620-f442-4fd4-af0f-555cc952d5c3 HTTP/1.1" 200 63
+WARNING 2022-08-31 00:10:16,373 log 20928 33808 Bad Request: /register/
+WARNING 2022-08-31 00:10:16,374 basehttp 20928 33808 "POST /register/ HTTP/1.1" 400 18
+INFO 2022-08-31 21:08:00,138 autoreload 40736 41604 Watching for file changes with StatReloader
+WARNING 2022-08-31 21:08:36,571 log 40736 41064 Bad Request: /register/
+WARNING 2022-08-31 21:08:36,572 basehttp 40736 41064 "POST /register/ HTTP/1.1" 400 18
+INFO 2022-08-31 21:08:38,265 basehttp 40736 41064 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-08-31 21:08:38,304 basehttp 40736 29360 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 21:08:38,383 basehttp 40736 41064 "GET /imagecode/?uuid=d4c71a34-b2c9-41be-92a3-4a0861d4ff7e HTTP/1.1" 200 3312
+INFO 2022-08-31 21:08:51,127 basehttp 40736 41064 "GET /imagecode/?uuid=e6657700-3481-4310-9a7e-6b8d6fb6acde HTTP/1.1" 200 3050
+INFO 2022-08-31 21:08:59,314 views 40736 41064 b'ZZPT'
+INFO 2022-08-31 21:08:59,314 views 40736 41064 051372
+INFO 2022-08-31 21:08:59,951 basehttp 40736 41064 "GET /smscode/?mobile=18019204893&image_code=zzpt&uuid=e6657700-3481-4310-9a7e-6b8d6fb6acde HTTP/1.1" 200 63
+WARNING 2022-08-31 21:09:30,883 log 40736 41064 Bad Request: /register/
+WARNING 2022-08-31 21:09:30,884 basehttp 40736 41064 "POST /register/ HTTP/1.1" 400 18
+INFO 2022-08-31 21:10:52,003 autoreload 32324 39148 Watching for file changes with StatReloader
+INFO 2022-08-31 21:10:58,649 basehttp 32324 41860 "GET /imagecode/?uuid=764c0c86-de84-44e1-b9ab-173954c0e7cf HTTP/1.1" 200 3215
+INFO 2022-08-31 21:11:06,904 basehttp 32324 41860 "GET /imagecode/?uuid=2b22ca98-baac-4bdb-abb1-53fb30c0de18 HTTP/1.1" 200 2704
+INFO 2022-08-31 21:11:12,301 views 32324 41860 b'UQ5J'
+INFO 2022-08-31 21:11:12,302 views 32324 41860 363326
+INFO 2022-08-31 21:11:13,205 basehttp 32324 41860 "GET /smscode/?mobile=18019204893&image_code=uq5j&uuid=2b22ca98-baac-4bdb-abb1-53fb30c0de18 HTTP/1.1" 200 63
+WARNING 2022-08-31 21:13:28,295 basehttp 32324 16908 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-08-31 21:13:28,303 basehttp 32324 4588 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-05 20:07:45,284 autoreload 20296 6852 Watching for file changes with StatReloader
+WARNING 2022-09-05 20:07:56,258 log 20296 20868 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-09-05 20:07:56,263 basehttp 20296 20868 "POST /register/ HTTP/1.1" 403 2513
+WARNING 2022-09-05 20:07:56,488 log 20296 20868 Not Found: /favicon.ico
+WARNING 2022-09-05 20:07:56,489 basehttp 20296 20868 "GET /favicon.ico HTTP/1.1" 404 2591
+INFO 2022-09-05 20:08:03,037 urls 20296 20868 成功使用名为django的logger
+INFO 2022-09-05 20:08:03,043 basehttp 20296 20868 "GET / HTTP/1.1" 200 21
+INFO 2022-09-05 20:08:06,045 basehttp 20296 20868 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-05 20:08:06,087 basehttp 20296 20868 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-09-05 20:08:06,244 basehttp 20296 20868 "GET /imagecode/?uuid=c95b20b6-bea6-4863-a15b-175df26ba722 HTTP/1.1" 200 3228
+INFO 2022-09-05 20:08:22,779 views 20296 20868 b'TSVQ'
+INFO 2022-09-05 20:08:22,779 views 20296 20868 779122
+INFO 2022-09-05 20:08:32,399 basehttp 20296 20868 "GET /smscode/?mobile=18019204893&image_code=tsvq&uuid=c95b20b6-bea6-4863-a15b-175df26ba722 HTTP/1.1" 200 63
+ERROR 2022-09-05 20:08:47,442 log 20296 20868 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 35, in post
+    print("mobile:" + mobile)
+TypeError: must be str, not NoneType
+ERROR 2022-09-05 20:08:47,446 basehttp 20296 20868 "POST /register/ HTTP/1.1" 500 84453
+INFO 2022-09-05 20:17:04,771 autoreload 20296 6852 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:17:06,322 autoreload 12520 11248 Watching for file changes with StatReloader
+INFO 2022-09-05 20:17:17,725 autoreload 19960 5972 Watching for file changes with StatReloader
+INFO 2022-09-05 20:17:22,769 basehttp 19960 26112 "GET /imagecode/?uuid=d99e68ec-6e4b-467e-aa24-164585808204 HTTP/1.1" 200 3319
+INFO 2022-09-05 20:17:27,937 basehttp 19960 26112 "GET /imagecode/?uuid=1ec90f46-21a4-4199-ac3c-2a5de9bf50d7 HTTP/1.1" 200 3009
+INFO 2022-09-05 20:17:31,946 views 19960 26112 b'DNIX'
+INFO 2022-09-05 20:17:31,947 views 19960 26112 426145
+INFO 2022-09-05 20:17:41,812 basehttp 19960 26112 "GET /smscode/?mobile=18019204893&image_code=dnix&uuid=1ec90f46-21a4-4199-ac3c-2a5de9bf50d7 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:18:18,671 log 19960 26112 Bad Request: /register/
+WARNING 2022-09-05 20:18:18,671 basehttp 19960 26112 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:18:23,467 basehttp 19960 26112 "GET /imagecode/?uuid=fd326f35-23fb-4b52-a88c-e945eecf0e07 HTTP/1.1" 200 2976
+INFO 2022-09-05 20:18:41,383 views 19960 26112 b'RIQS'
+INFO 2022-09-05 20:18:41,383 views 19960 26112 628983
+INFO 2022-09-05 20:18:50,717 basehttp 19960 26112 "GET /smscode/?mobile=18019204893&image_code=riqs&uuid=fd326f35-23fb-4b52-a88c-e945eecf0e07 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:20:12,684 log 19960 26112 Bad Request: /register/
+WARNING 2022-09-05 20:20:12,685 basehttp 19960 26112 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:20:14,673 basehttp 19960 26112 "GET /imagecode/?uuid=fe39d177-1790-4999-a035-5e089e6146a2 HTTP/1.1" 200 3206
+INFO 2022-09-05 20:20:38,359 autoreload 19960 5972 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:20:40,063 autoreload 26312 17012 Watching for file changes with StatReloader
+INFO 2022-09-05 20:20:46,390 basehttp 26312 8832 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-05 20:20:46,546 basehttp 26312 8832 "GET /imagecode/?uuid=bd015dbb-3530-471b-a7b3-6fe5e3a285df HTTP/1.1" 200 3487
+INFO 2022-09-05 20:21:09,575 basehttp 26312 8832 "GET /imagecode/?uuid=2e067475-9f5d-424a-8c9d-960d924bd5f3 HTTP/1.1" 200 3207
+INFO 2022-09-05 20:21:13,918 views 26312 8832 b'WKXP'
+INFO 2022-09-05 20:21:13,918 views 26312 8832 510096
+INFO 2022-09-05 20:21:23,488 basehttp 26312 8832 "GET /smscode/?mobile=18019204893&image_code=wkxp&uuid=2e067475-9f5d-424a-8c9d-960d924bd5f3 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:21:40,634 log 26312 8832 Bad Request: /register/
+WARNING 2022-09-05 20:21:40,635 basehttp 26312 8832 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:27:48,197 autoreload 26312 17012 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:27:49,640 autoreload 11620 19600 Watching for file changes with StatReloader
+INFO 2022-09-05 20:27:55,964 autoreload 11620 19600 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:27:57,247 autoreload 22456 16024 Watching for file changes with StatReloader
+WARNING 2022-09-05 20:29:26,587 log 22456 5320 Bad Request: /register/
+WARNING 2022-09-05 20:29:26,587 basehttp 22456 5320 "POST /register/ HTTP/1.1" 400 21
+WARNING 2022-09-05 20:29:29,200 log 22456 5320 Bad Request: /register/
+WARNING 2022-09-05 20:29:29,201 basehttp 22456 5320 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:29:30,432 basehttp 22456 5320 "GET /imagecode/?uuid=c4275c1f-50c4-4cf4-8976-83a4df170f12 HTTP/1.1" 200 2975
+INFO 2022-09-05 20:29:44,533 views 22456 5320 b'CYH8'
+INFO 2022-09-05 20:29:44,533 views 22456 5320 982796
+INFO 2022-09-05 20:29:54,120 basehttp 22456 5320 "GET /smscode/?mobile=18019204893&image_code=cyh8&uuid=c4275c1f-50c4-4cf4-8976-83a4df170f12 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:30:22,034 log 22456 5320 Bad Request: /register/
+WARNING 2022-09-05 20:30:22,034 basehttp 22456 5320 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:31:23,032 autoreload 22456 16024 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:31:24,350 autoreload 12916 15896 Watching for file changes with StatReloader
+WARNING 2022-09-05 20:31:46,407 log 12916 4748 Bad Request: /register/
+WARNING 2022-09-05 20:31:46,409 basehttp 12916 4748 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:31:47,243 basehttp 12916 4748 "GET /imagecode/?uuid=6527c1c8-0ae1-4fde-b3ad-9f6cee8b7caf HTTP/1.1" 200 3107
+INFO 2022-09-05 20:34:29,618 autoreload 12916 15896 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:34:30,929 autoreload 16436 16716 Watching for file changes with StatReloader
+INFO 2022-09-05 20:34:56,920 autoreload 16436 16716 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:34:58,281 autoreload 21868 24340 Watching for file changes with StatReloader
+INFO 2022-09-05 20:35:23,316 autoreload 21868 24340 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:35:24,675 autoreload 13536 18008 Watching for file changes with StatReloader
+INFO 2022-09-05 20:35:29,139 basehttp 13536 13484 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-05 20:35:29,316 basehttp 13536 13484 "GET /imagecode/?uuid=3cb4f691-25aa-4efb-afd9-8196f7593c07 HTTP/1.1" 200 3361
+INFO 2022-09-05 20:35:39,046 views 13536 13484 b'JUH7'
+INFO 2022-09-05 20:35:39,046 views 13536 13484 050696
+INFO 2022-09-05 20:35:48,613 basehttp 13536 13484 "GET /smscode/?mobile=18019204893&image_code=juh7&uuid=3cb4f691-25aa-4efb-afd9-8196f7593c07 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:36:18,001 log 13536 13484 Bad Request: /register/
+WARNING 2022-09-05 20:36:18,002 basehttp 13536 13484 "POST /register/ HTTP/1.1" 400 21
+INFO 2022-09-05 20:37:05,188 autoreload 13536 18008 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:37:06,728 autoreload 11916 13272 Watching for file changes with StatReloader
+INFO 2022-09-05 20:39:23,819 autoreload 11916 13272 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:39:25,402 autoreload 17668 20848 Watching for file changes with StatReloader
+INFO 2022-09-05 20:39:31,330 autoreload 17668 20848 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:39:33,351 autoreload 1936 13336 Watching for file changes with StatReloader
+INFO 2022-09-05 20:39:38,275 autoreload 1936 13336 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:39:39,722 autoreload 1652 25468 Watching for file changes with StatReloader
+INFO 2022-09-05 20:39:41,883 autoreload 1652 25468 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:39:43,254 autoreload 10668 19760 Watching for file changes with StatReloader
+INFO 2022-09-05 20:40:28,253 autoreload 10668 19760 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:40:29,755 autoreload 11280 26216 Watching for file changes with StatReloader
+INFO 2022-09-05 20:40:37,996 basehttp 11280 12492 "GET /imagecode/?uuid=283c61f1-b83a-44d5-9be5-ead0538944d7 HTTP/1.1" 200 2864
+INFO 2022-09-05 20:40:43,636 basehttp 11280 12492 "GET /imagecode/?uuid=da36eea8-bd7a-4faa-ab68-df1ee1a3edc1 HTTP/1.1" 200 3276
+INFO 2022-09-05 20:40:47,053 views 11280 12492 b'ZGMV'
+INFO 2022-09-05 20:40:47,054 views 11280 12492 580690
+INFO 2022-09-05 20:40:56,559 basehttp 11280 12492 "GET /smscode/?mobile=18019204893&image_code=zgmv&uuid=da36eea8-bd7a-4faa-ab68-df1ee1a3edc1 HTTP/1.1" 200 63
+ERROR 2022-09-05 20:41:27,423 log 11280 12492 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 49, in post
+    sms_code_redis = bytes(sms_code_redis, encoding='utf8').decode()  # code在网络中是bytes形式，要解码成str
+TypeError: encoding without a string argument
+ERROR 2022-09-05 20:41:27,428 basehttp 11280 12492 "POST /register/ HTTP/1.1" 500 85181
+INFO 2022-09-05 20:43:46,828 autoreload 11280 26216 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:43:51,038 autoreload 10688 5880 Watching for file changes with StatReloader
+INFO 2022-09-05 20:43:54,339 basehttp 10688 1464 "POST /register/ HTTP/1.1" 200 12
+INFO 2022-09-05 20:43:55,926 basehttp 10688 1464 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-05 20:43:56,065 basehttp 10688 1464 "GET /imagecode/?uuid=66a3ff00-0a57-4f3b-96ea-05848f31e9a0 HTTP/1.1" 200 3750
+WARNING 2022-09-05 20:43:59,401 log 10688 1464 Not Found: /register/login.html
+WARNING 2022-09-05 20:43:59,402 basehttp 10688 1464 "GET /register/login.html HTTP/1.1" 404 2615
+INFO 2022-09-05 20:44:11,598 views 10688 1464 b'FNEJ'
+INFO 2022-09-05 20:44:11,598 views 10688 1464 528532
+INFO 2022-09-05 20:44:21,245 basehttp 10688 1464 "GET /smscode/?mobile=18019204893&image_code=fnej&uuid=66a3ff00-0a57-4f3b-96ea-05848f31e9a0 HTTP/1.1" 200 63
+WARNING 2022-09-05 20:45:00,848 log 10688 1464 Bad Request: /register/
+WARNING 2022-09-05 20:45:00,849 basehttp 10688 1464 "POST /register/ HTTP/1.1" 400 12
+INFO 2022-09-05 20:45:10,982 autoreload 10688 5880 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-05 20:45:12,555 autoreload 25248 23940 Watching for file changes with StatReloader
+INFO 2022-09-06 23:44:49,115 autoreload 10044 34172 Watching for file changes with StatReloader
+WARNING 2022-09-06 23:44:54,586 log 10044 36100 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2022-09-06 23:44:54,588 basehttp 10044 36100 "POST /register/ HTTP/1.1" 403 2513
+WARNING 2022-09-06 23:44:54,824 log 10044 36100 Not Found: /favicon.ico
+WARNING 2022-09-06 23:44:54,825 basehttp 10044 36100 "GET /favicon.ico HTTP/1.1" 404 2591
+INFO 2022-09-06 23:44:57,879 urls 10044 36100 成功使用名为django的logger
+INFO 2022-09-06 23:44:57,886 basehttp 10044 36100 "GET / HTTP/1.1" 200 21
+INFO 2022-09-06 23:56:14,836 autoreload 10044 34172 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-06 23:56:16,146 autoreload 27384 33500 Watching for file changes with StatReloader
+INFO 2022-09-06 23:56:26,004 urls 27384 9676 成功使用名为django的logger
+INFO 2022-09-06 23:56:26,009 basehttp 27384 9676 "GET / HTTP/1.1" 200 21
+INFO 2022-09-06 23:57:12,783 autoreload 27384 33500 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:14,090 autoreload 35040 8068 Watching for file changes with StatReloader
+INFO 2022-09-06 23:57:18,981 autoreload 35040 8068 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:21,082 autoreload 35580 33332 Watching for file changes with StatReloader
+INFO 2022-09-06 23:57:23,208 autoreload 35580 33332 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:25,348 autoreload 35488 32392 Watching for file changes with StatReloader
+INFO 2022-09-06 23:57:31,657 autoreload 35488 32392 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:33,057 autoreload 34880 33956 Watching for file changes with StatReloader
+INFO 2022-09-06 23:57:50,439 autoreload 34880 33956 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:51,922 autoreload 23944 35448 Watching for file changes with StatReloader
+INFO 2022-09-06 23:57:57,112 autoreload 23944 35448 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:57:58,943 autoreload 35440 22376 Watching for file changes with StatReloader
+INFO 2022-09-06 23:58:08,235 autoreload 35440 22376 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-06 23:58:09,552 autoreload 1940 31248 Watching for file changes with StatReloader
+INFO 2022-09-07 00:02:25,652 urls 1940 17732 成功使用名为django的logger
+INFO 2022-09-07 00:02:25,661 basehttp 1940 17732 "GET / HTTP/1.1" 200 21
+INFO 2022-09-07 00:02:29,091 basehttp 1940 17732 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-07 00:02:29,138 basehttp 1940 17732 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-09-07 00:02:29,277 basehttp 1940 17732 "GET /imagecode/?uuid=c52bd6cd-0c16-4a75-b5a9-53424b7f664d HTTP/1.1" 200 3224
+INFO 2022-09-07 00:02:37,893 views 1940 17732 b'MYT7'
+INFO 2022-09-07 00:02:37,893 views 1940 17732 094875
+INFO 2022-09-07 00:02:38,647 basehttp 1940 17732 "GET /smscode/?mobile=15180217469&image_code=myt7&uuid=c52bd6cd-0c16-4a75-b5a9-53424b7f664d HTTP/1.1" 200 63
+INFO 2022-09-07 00:03:02,671 basehttp 1940 17732 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-09-07 00:03:02,676 urls 1940 17732 成功使用名为django的logger
+INFO 2022-09-07 00:03:02,679 basehttp 1940 17732 "GET / HTTP/1.1" 200 21
+INFO 2022-09-07 00:04:46,743 autoreload 1940 31248 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 00:04:48,643 autoreload 33864 35872 Watching for file changes with StatReloader
+INFO 2022-09-07 00:04:59,664 autoreload 33864 35872 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 00:05:01,614 autoreload 13516 2696 Watching for file changes with StatReloader
+INFO 2022-09-07 00:05:12,175 autoreload 13516 2696 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 00:05:13,945 autoreload 37364 33044 Watching for file changes with StatReloader
+INFO 2022-09-07 00:09:39,765 autoreload 37364 33044 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 00:09:41,705 autoreload 26900 37012 Watching for file changes with StatReloader
+INFO 2022-09-07 00:10:25,374 autoreload 26900 37012 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 00:10:27,740 autoreload 21464 27968 Watching for file changes with StatReloader
+INFO 2022-09-07 00:11:01,282 urls 21464 35492 成功使用名为django的logger
+INFO 2022-09-07 00:11:01,288 basehttp 21464 35492 "GET / HTTP/1.1" 200 21
+INFO 2022-09-07 00:11:21,308 autoreload 21464 27968 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:11:22,919 autoreload 31748 22360 Watching for file changes with StatReloader
+ERROR 2022-09-07 00:11:28,712 log 31748 30560 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-09-07 00:11:28,717 basehttp 31748 30560 "GET / HTTP/1.1" 500 95788
+WARNING 2022-09-07 00:11:36,326 log 31748 30560 Not Found: /index
+WARNING 2022-09-07 00:11:36,327 basehttp 31748 30560 "GET /index HTTP/1.1" 404 2634
+WARNING 2022-09-07 00:11:49,432 basehttp 31748 30560 "GET /static/index HTTP/1.1" 404 1639
+INFO 2022-09-07 00:12:03,299 basehttp 31748 36312 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2022-09-07 00:12:03,325 basehttp 31748 36312 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-09-07 00:12:03,328 basehttp 31748 37700 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-09-07 00:12:03,329 basehttp 31748 37800 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-09-07 00:12:03,343 basehttp 31748 37700 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-07 00:12:03,382 basehttp 31748 37700 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-07 00:12:03,388 basehttp 31748 37700 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-07 00:12:03,398 basehttp 31748 37700 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2022-09-07 00:12:59,016 autoreload 31748 22360 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:13:00,866 autoreload 34440 37264 Watching for file changes with StatReloader
+INFO 2022-09-07 00:17:50,507 autoreload 37688 34836 Watching for file changes with StatReloader
+ERROR 2022-09-07 00:17:53,513 log 37688 16796 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-09-07 00:17:53,517 basehttp 37688 16796 "GET / HTTP/1.1" 500 95595
+INFO 2022-09-07 00:18:59,896 autoreload 37688 34836 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:19:01,900 autoreload 29472 37408 Watching for file changes with StatReloader
+INFO 2022-09-07 00:19:12,085 autoreload 29472 37408 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:19:13,402 autoreload 28412 37532 Watching for file changes with StatReloader
+ERROR 2022-09-07 00:19:15,798 log 28412 36160 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get() missing 1 required positional argument: 'request'
+ERROR 2022-09-07 00:19:15,802 basehttp 28412 36160 "GET / HTTP/1.1" 500 69126
+ERROR 2022-09-07 00:19:54,649 log 28412 36160 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get() missing 1 required positional argument: 'request'
+ERROR 2022-09-07 00:19:54,653 basehttp 28412 36160 "GET / HTTP/1.1" 500 69126
+INFO 2022-09-07 00:22:57,826 autoreload 28412 37532 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:22:59,324 autoreload 34472 36248 Watching for file changes with StatReloader
+INFO 2022-09-07 00:23:01,595 basehttp 34472 11056 "GET / HTTP/1.1" 200 18
+INFO 2022-09-07 00:24:47,878 autoreload 34472 36248 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:24:49,989 autoreload 28168 17584 Watching for file changes with StatReloader
+INFO 2022-09-07 00:24:53,547 autoreload 28168 17584 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 00:24:55,028 autoreload 24544 3340 Watching for file changes with StatReloader
+INFO 2022-09-07 00:24:58,917 basehttp 24544 5468 "GET / HTTP/1.1" 302 0
+INFO 2022-09-07 00:25:15,255 basehttp 24544 5468 "GET /static/center.html HTTP/1.1" 200 4136
+INFO 2022-09-07 00:25:15,293 basehttp 24544 5468 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2022-09-07 00:25:15,300 basehttp 24544 5468 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2022-09-07 00:25:19,514 basehttp 24544 5468 "GET /static/login.html HTTP/1.1" 200 3093
+INFO 2022-09-07 00:25:19,554 basehttp 24544 5468 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-09-07 00:25:23,089 basehttp 24544 5468 "POST /static/login.html HTTP/1.1" 200 3093
+INFO 2022-09-07 00:25:26,357 basehttp 24544 5468 "POST /static/login.html HTTP/1.1" 200 3093
+INFO 2022-09-07 00:25:30,174 basehttp 24544 5468 "POST /static/login.html HTTP/1.1" 200 3093
+INFO 2022-09-07 00:29:37,583 autoreload 37308 33336 Watching for file changes with StatReloader
+ERROR 2022-09-07 00:29:39,906 log 37308 19452 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-09-07 00:29:39,913 basehttp 37308 19452 "GET / HTTP/1.1" 500 95653

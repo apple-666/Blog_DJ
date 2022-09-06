@@ -63,7 +63,7 @@ var vm = new Vue({
         },
         //检查密码
         check_password:function () {
-            var re = /^[0-9A-Za-z]{8,20}$/;
+            var re = /^[0-9A-Za-z]{1,20}$/;
             if (re.test(this.password)) {
                 this.password_error = false;
             } else {
