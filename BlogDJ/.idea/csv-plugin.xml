@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\templates\index.html">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\templates\register.html">
           <value>
             <Attribute>

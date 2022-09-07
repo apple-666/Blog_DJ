@@ -1471,3 +1471,545 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: index.html
 ERROR 2022-09-07 00:29:39,913 basehttp 37308 19452 "GET / HTTP/1.1" 500 95653
+INFO 2022-09-07 00:34:10,908 basehttp 37308 19452 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:34:10,950 log 37308 19452 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:34:10,952 log 37308 37744 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:34:10,954 log 37308 17492 Not Found: /common/common.css
+WARNING 2022-09-07 00:34:10,955 basehttp 37308 19452 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:34:10,955 basehttp 37308 37744 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:34:10,955 basehttp 37308 17492 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:34:10,958 log 37308 32200 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:34:10,959 basehttp 37308 32200 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:34:10,984 log 37308 32200 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:34:10,985 log 37308 17492 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:34:10,988 log 37308 37744 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:34:10,988 basehttp 37308 32200 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:34:10,989 basehttp 37308 17492 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:34:10,989 basehttp 37308 37744 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:34:11,006 log 37308 37744 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:34:11,019 basehttp 37308 37744 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:34:11,024 log 37308 32200 Not Found: /js/common.js
+WARNING 2022-09-07 00:34:11,025 basehttp 37308 32200 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:34:11,031 log 37308 19452 Not Found: /js/index.js
+WARNING 2022-09-07 00:34:11,033 log 37308 17492 Not Found: /js/host.js
+WARNING 2022-09-07 00:34:11,036 log 37308 34728 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:34:11,038 basehttp 37308 19452 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:34:11,039 basehttp 37308 17492 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:34:11,039 basehttp 37308 34728 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+INFO 2022-09-07 00:34:14,134 basehttp 37308 17492 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:34:14,188 log 37308 17492 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:34:14,190 log 37308 19452 Not Found: /common/common.css
+WARNING 2022-09-07 00:34:14,193 log 37308 37744 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:34:14,194 basehttp 37308 17492 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:34:14,202 log 37308 32200 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:34:14,204 log 37308 34728 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:34:14,205 basehttp 37308 19452 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:34:14,208 basehttp 37308 37744 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:34:14,214 log 37308 37492 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:34:14,215 basehttp 37308 32200 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:34:14,216 basehttp 37308 34728 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:34:14,217 basehttp 37308 37492 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:34:14,224 log 37308 17492 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:34:14,225 basehttp 37308 17492 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:34:14,250 log 37308 37492 Not Found: /js/host.js
+WARNING 2022-09-07 00:34:14,252 basehttp 37308 37492 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:34:14,255 log 37308 17492 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:34:14,256 basehttp 37308 17492 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:34:14,257 log 37308 32200 Not Found: /js/index.js
+WARNING 2022-09-07 00:34:14,259 log 37308 34728 Not Found: /js/common.js
+WARNING 2022-09-07 00:34:14,263 log 37308 37744 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:34:14,264 basehttp 37308 32200 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:34:14,264 basehttp 37308 34728 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:34:14,265 basehttp 37308 37744 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+INFO 2022-09-07 00:34:14,777 basehttp 37308 37744 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:34:14,823 log 37308 37744 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:34:14,824 log 37308 32200 Not Found: /common/common.css
+WARNING 2022-09-07 00:34:14,825 log 37308 34728 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:34:14,827 log 37308 17492 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:34:14,830 basehttp 37308 37744 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:34:14,832 basehttp 37308 32200 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:34:14,833 basehttp 37308 17492 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:34:14,835 basehttp 37308 34728 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:34:14,840 log 37308 37492 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:34:14,840 basehttp 37308 37492 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:34:14,843 log 37308 19452 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:34:14,846 basehttp 37308 19452 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:34:14,852 log 37308 37744 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:34:14,853 basehttp 37308 37744 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:34:14,882 log 37308 19452 Not Found: /js/common.js
+WARNING 2022-09-07 00:34:14,884 basehttp 37308 19452 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:34:14,885 log 37308 17492 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:34:14,886 log 37308 37744 Not Found: /js/host.js
+WARNING 2022-09-07 00:34:14,888 log 37308 34728 Not Found: /js/index.js
+WARNING 2022-09-07 00:34:14,890 log 37308 37492 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:34:14,891 basehttp 37308 17492 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2022-09-07 00:34:14,891 basehttp 37308 37744 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:34:14,891 basehttp 37308 34728 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:34:14,893 basehttp 37308 37492 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:34:25,038 basehttp 37308 37492 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:34:25,085 log 37308 34728 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:34:25,088 log 37308 37744 Not Found: /common/common.css
+WARNING 2022-09-07 00:34:25,088 basehttp 37308 34728 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:34:25,090 log 37308 17492 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:34:25,091 log 37308 37492 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:34:25,097 basehttp 37308 17492 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:34:25,098 basehttp 37308 37744 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:34:25,101 basehttp 37308 37492 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:34:25,104 log 37308 19452 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:34:25,108 log 37308 32200 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:34:25,109 basehttp 37308 19452 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:34:25,110 basehttp 37308 32200 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:34:25,114 log 37308 34728 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:34:25,117 basehttp 37308 34728 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:34:25,132 log 37308 32200 Not Found: /js/host.js
+WARNING 2022-09-07 00:34:25,134 basehttp 37308 32200 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:34:25,141 log 37308 34728 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:34:25,141 basehttp 37308 34728 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:34:25,144 log 37308 17492 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:34:25,146 log 37308 19452 Not Found: /js/common.js
+WARNING 2022-09-07 00:34:25,148 log 37308 37492 Not Found: /js/index.js
+WARNING 2022-09-07 00:34:25,150 basehttp 37308 17492 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2022-09-07 00:34:25,150 basehttp 37308 19452 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:34:25,151 basehttp 37308 37492 "GET /js/index.js HTTP/1.1" 404 2652
+INFO 2022-09-07 00:35:34,031 basehttp 37308 37492 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:35:34,071 log 37308 37492 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:35:34,074 log 37308 17492 Not Found: /common/common.css
+WARNING 2022-09-07 00:35:34,074 basehttp 37308 37492 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:35:34,075 log 37308 19452 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:35:34,077 log 37308 34728 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:35:34,084 basehttp 37308 17492 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:35:34,085 basehttp 37308 19452 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:35:34,085 basehttp 37308 34728 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:35:34,089 log 37308 32200 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:35:34,090 basehttp 37308 32200 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:35:34,091 log 37308 37744 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:35:34,094 basehttp 37308 37744 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:35:34,101 log 37308 37492 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:35:34,103 basehttp 37308 37492 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:35:34,126 log 37308 37744 Not Found: /js/host.js
+WARNING 2022-09-07 00:35:34,129 log 37308 34728 Not Found: /js/index.js
+WARNING 2022-09-07 00:35:34,132 log 37308 32200 Not Found: /js/common.js
+WARNING 2022-09-07 00:35:34,133 log 37308 37492 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:35:34,134 basehttp 37308 37744 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:35:34,135 basehttp 37308 34728 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:35:34,137 log 37308 19452 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:35:34,137 basehttp 37308 32200 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:35:34,138 basehttp 37308 37492 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:35:34,139 basehttp 37308 19452 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+INFO 2022-09-07 00:35:34,734 basehttp 37308 19452 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:35:34,777 log 37308 19452 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:35:34,782 log 37308 34728 Not Found: /common/common.css
+WARNING 2022-09-07 00:35:34,782 basehttp 37308 19452 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:35:34,784 log 37308 37492 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:35:34,786 log 37308 37744 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:35:34,793 basehttp 37308 34728 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:35:34,796 basehttp 37308 37492 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:35:34,798 log 37308 17492 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:35:34,800 basehttp 37308 37744 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:35:34,805 log 37308 28284 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:35:34,805 basehttp 37308 17492 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:35:34,806 basehttp 37308 28284 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:35:34,810 log 37308 19452 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:35:34,813 basehttp 37308 19452 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:35:34,838 log 37308 28284 Not Found: /js/host.js
+WARNING 2022-09-07 00:35:34,840 basehttp 37308 28284 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:35:34,841 log 37308 37492 Not Found: /js/index.js
+WARNING 2022-09-07 00:35:34,844 log 37308 34728 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:35:34,848 log 37308 19452 Not Found: /js/common.js
+WARNING 2022-09-07 00:35:34,848 basehttp 37308 37492 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:35:34,849 basehttp 37308 34728 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2022-09-07 00:35:34,849 basehttp 37308 19452 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:35:34,851 log 37308 37744 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:35:34,852 basehttp 37308 37744 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:35:35,057 basehttp 37308 37744 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:35:35,101 log 37308 37744 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:35:35,103 log 37308 28284 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:35:35,104 basehttp 37308 37744 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:35:35,106 log 37308 34728 Not Found: /common/common.css
+WARNING 2022-09-07 00:35:35,107 log 37308 19452 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:35:35,108 basehttp 37308 28284 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:35:35,113 basehttp 37308 34728 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:35:35,116 basehttp 37308 19452 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:35:35,122 log 37308 34388 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:35:35,124 log 37308 32772 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:35:35,125 basehttp 37308 34388 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:35:35,126 basehttp 37308 32772 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:35:35,133 log 37308 37744 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:35:35,133 basehttp 37308 37744 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:35:35,157 log 37308 32772 Not Found: /js/host.js
+WARNING 2022-09-07 00:35:35,158 basehttp 37308 32772 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:35:35,160 log 37308 19452 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:35:35,162 log 37308 34728 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:35:35,165 log 37308 37744 Not Found: /js/index.js
+WARNING 2022-09-07 00:35:35,166 basehttp 37308 19452 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:35:35,166 basehttp 37308 34728 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2022-09-07 00:35:35,169 log 37308 34388 Not Found: /js/common.js
+WARNING 2022-09-07 00:35:35,170 basehttp 37308 37744 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:35:35,171 basehttp 37308 34388 "GET /js/common.js HTTP/1.1" 404 2655
+INFO 2022-09-07 00:35:35,240 basehttp 37308 34388 "GET / HTTP/1.1" 200 11726
+WARNING 2022-09-07 00:35:35,310 log 37308 34388 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2022-09-07 00:35:35,313 log 37308 34728 Not Found: /common/common.css
+WARNING 2022-09-07 00:35:35,314 basehttp 37308 34728 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2022-09-07 00:35:35,315 basehttp 37308 34388 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2022-09-07 00:35:35,319 log 37308 37744 Not Found: /md_css/monokai.css
+WARNING 2022-09-07 00:35:35,321 log 37308 32772 Not Found: /js/vue-2.5.16.js
+WARNING 2022-09-07 00:35:35,323 log 37308 28284 Not Found: /js/axios-0.18.0.min.js
+WARNING 2022-09-07 00:35:35,325 log 37308 19452 Not Found: /common/jquery.pagination.css
+WARNING 2022-09-07 00:35:35,330 basehttp 37308 37744 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2022-09-07 00:35:35,331 basehttp 37308 32772 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2022-09-07 00:35:35,331 basehttp 37308 28284 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2022-09-07 00:35:35,332 basehttp 37308 19452 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2022-09-07 00:35:35,338 log 37308 34728 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2022-09-07 00:35:35,340 basehttp 37308 34728 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2022-09-07 00:35:35,372 log 37308 34728 Not Found: /js/host.js
+WARNING 2022-09-07 00:35:35,376 basehttp 37308 34728 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2022-09-07 00:35:35,385 log 37308 28284 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:35:35,386 log 37308 37744 Not Found: /js/jquery.pagination.min.js
+WARNING 2022-09-07 00:35:35,389 log 37308 19452 Not Found: /js/common.js
+WARNING 2022-09-07 00:35:35,392 log 37308 32772 Not Found: /js/index.js
+WARNING 2022-09-07 00:35:35,393 basehttp 37308 28284 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:35:35,394 basehttp 37308 19452 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2022-09-07 00:35:35,394 basehttp 37308 37744 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2022-09-07 00:35:35,396 basehttp 37308 32772 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2022-09-07 00:42:02,795 basehttp 37308 31328 "GET /static/index.html HTTP/1.1" 404 1654
+WARNING 2022-09-07 00:42:03,692 basehttp 37308 36528 "GET /static/index.html HTTP/1.1" 404 1654
+INFO 2022-09-07 00:42:05,653 basehttp 37308 17364 "GET / HTTP/1.1" 200 11819
+WARNING 2022-09-07 00:42:05,736 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:42:05,736 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:42:05,763 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:42:05,764 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:43:53,623 basehttp 37308 17364 "GET / HTTP/1.1" 200 11827
+WARNING 2022-09-07 00:43:53,708 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:43:53,709 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:43:53,733 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:43:53,735 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:43:58,235 basehttp 37308 17364 "GET / HTTP/1.1" 200 11827
+WARNING 2022-09-07 00:43:58,304 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:43:58,304 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:43:58,325 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:43:58,327 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:44:17,424 basehttp 37308 17364 "GET / HTTP/1.1" 200 11827
+WARNING 2022-09-07 00:44:17,494 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:44:17,496 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2022-09-07 00:44:17,526 log 37308 17364 Not Found: /img/1.jpg
+WARNING 2022-09-07 00:44:17,527 basehttp 37308 17364 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2022-09-07 00:45:06,600 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:08,243 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:13,273 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:13,892 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:14,221 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:14,376 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 00:45:14,524 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+WARNING 2022-09-07 00:45:16,798 log 37308 17364 Not Found: /write_blog.html
+WARNING 2022-09-07 00:45:16,799 basehttp 37308 17364 "GET /write_blog.html HTTP/1.1" 404 2664
+INFO 2022-09-07 00:45:32,630 basehttp 37308 17364 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-07 00:45:33,505 basehttp 37308 17364 "GET /imagecode/?uuid=260cd557-246e-4080-a89f-32d2d3d1e7cb HTTP/1.1" 200 3153
+INFO 2022-09-07 00:46:05,367 views 37308 17364 b'YVTB'
+INFO 2022-09-07 00:46:05,367 views 37308 17364 381470
+INFO 2022-09-07 00:46:05,969 basehttp 37308 17364 "GET /smscode/?mobile=15180217469&image_code=yvtb&uuid=260cd557-246e-4080-a89f-32d2d3d1e7cb HTTP/1.1" 200 63
+INFO 2022-09-07 00:46:20,647 basehttp 37308 17364 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-09-07 00:46:20,664 basehttp 37308 17364 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 22:27:19,153 autoreload 1152 5884 Watching for file changes with StatReloader
+INFO 2022-09-07 22:27:27,151 basehttp 1152 18528 "GET / HTTP/1.1" 200 11859
+WARNING 2022-09-07 22:27:27,838 log 1152 18528 Not Found: /favicon.ico
+WARNING 2022-09-07 22:27:27,838 basehttp 1152 18528 "GET /favicon.ico HTTP/1.1" 404 2652
+INFO 2022-09-07 22:27:52,606 autoreload 1152 5884 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 22:27:54,687 autoreload 19648 4844 Watching for file changes with StatReloader
+WARNING 2022-09-07 22:27:58,762 log 19648 19576 Not Found: /
+WARNING 2022-09-07 22:27:58,763 basehttp 19648 19576 "GET / HTTP/1.1" 404 2440
+INFO 2022-09-07 22:28:02,640 autoreload 19648 4844 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\urls.py changed, reloading.
+INFO 2022-09-07 22:28:07,859 autoreload 18528 8356 Watching for file changes with StatReloader
+INFO 2022-09-07 22:30:34,823 autoreload 18528 8356 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:30:37,108 autoreload 18348 19624 Watching for file changes with StatReloader
+INFO 2022-09-07 22:31:15,976 autoreload 18348 19624 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:31:18,166 autoreload 19520 14556 Watching for file changes with StatReloader
+INFO 2022-09-07 22:31:24,771 autoreload 19520 14556 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:31:26,952 autoreload 10948 5476 Watching for file changes with StatReloader
+INFO 2022-09-07 22:31:40,017 autoreload 10948 5476 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:31:42,070 autoreload 1860 12624 Watching for file changes with StatReloader
+INFO 2022-09-07 22:32:18,749 autoreload 1860 12624 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:32:20,132 autoreload 19408 10464 Watching for file changes with StatReloader
+INFO 2022-09-07 22:33:43,170 basehttp 19408 2920 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 22:33:45,937 basehttp 19408 2920 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-07 22:33:45,958 basehttp 19408 2920 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2022-09-07 22:33:46,518 basehttp 19408 2920 "GET /imagecode/?uuid=ea2a82fc-7add-4275-af56-a05d0bdecd68 HTTP/1.1" 200 3091
+INFO 2022-09-07 22:39:33,578 autoreload 19408 10464 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:39:35,540 autoreload 13656 5432 Watching for file changes with StatReloader
+INFO 2022-09-07 22:39:47,665 autoreload 13656 5432 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:39:49,137 autoreload 12924 16360 Watching for file changes with StatReloader
+INFO 2022-09-07 22:39:59,428 autoreload 12924 16360 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:01,406 autoreload 2772 13256 Watching for file changes with StatReloader
+INFO 2022-09-07 22:40:03,771 autoreload 2772 13256 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:05,613 autoreload 19576 18992 Watching for file changes with StatReloader
+INFO 2022-09-07 22:40:07,808 autoreload 19576 18992 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:09,832 autoreload 15524 7596 Watching for file changes with StatReloader
+INFO 2022-09-07 22:40:23,142 autoreload 15524 7596 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:24,885 autoreload 5484 17940 Watching for file changes with StatReloader
+INFO 2022-09-07 22:40:27,251 autoreload 5484 17940 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:28,977 autoreload 19460 13828 Watching for file changes with StatReloader
+INFO 2022-09-07 22:40:40,830 autoreload 19460 13828 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 22:40:42,478 autoreload 14872 18064 Watching for file changes with StatReloader
+INFO 2022-09-07 22:42:09,768 views 14872 11588 b'6XYL'
+INFO 2022-09-07 22:42:09,768 views 14872 11588 527075
+INFO 2022-09-07 22:42:19,574 basehttp 14872 11588 "GET /smscode/?mobile=15180217469&image_code=6xyl&uuid=ea2a82fc-7add-4275-af56-a05d0bdecd68 HTTP/1.1" 200 63
+INFO 2022-09-07 22:42:24,030 basehttp 14872 11588 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-09-07 22:42:24,051 basehttp 14872 11588 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-07 23:24:25,828 autoreload 14872 18064 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:24:27,338 autoreload 1040 21712 Watching for file changes with StatReloader
+INFO 2022-09-07 23:24:36,295 autoreload 1040 21712 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:24:37,583 autoreload 1632 8148 Watching for file changes with StatReloader
+INFO 2022-09-07 23:24:48,887 autoreload 1632 8148 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:24:50,235 autoreload 20040 10968 Watching for file changes with StatReloader
+INFO 2022-09-07 23:24:57,334 autoreload 20040 10968 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:24:58,589 autoreload 21872 1188 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:04,551 autoreload 21872 1188 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:05,957 autoreload 22092 22196 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:11,994 autoreload 22092 22196 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:13,324 autoreload 22372 12368 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:18,169 autoreload 22372 12368 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:19,732 autoreload 17556 18112 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:23,248 autoreload 17556 18112 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:24,582 autoreload 22248 20912 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:31,857 autoreload 22248 20912 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:33,233 autoreload 21868 21252 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:40,565 autoreload 21868 21252 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:41,965 autoreload 13416 11148 Watching for file changes with StatReloader
+INFO 2022-09-07 23:25:45,272 autoreload 13416 11148 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:25:46,839 autoreload 13196 17388 Watching for file changes with StatReloader
+INFO 2022-09-07 23:26:06,195 autoreload 13196 17388 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-07 23:26:07,445 autoreload 21140 21904 Watching for file changes with StatReloader
+INFO 2022-09-07 23:29:24,196 autoreload 21140 21904 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:29:25,595 autoreload 15516 21468 Watching for file changes with StatReloader
+INFO 2022-09-07 23:29:33,092 autoreload 15516 21468 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:29:34,312 autoreload 17388 7656 Watching for file changes with StatReloader
+INFO 2022-09-07 23:29:48,496 autoreload 17388 7656 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:29:49,798 autoreload 19784 22164 Watching for file changes with StatReloader
+INFO 2022-09-07 23:29:55,895 autoreload 19784 22164 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:29:57,340 autoreload 21656 21156 Watching for file changes with StatReloader
+INFO 2022-09-07 23:30:04,396 autoreload 21656 21156 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:30:05,620 autoreload 16092 8028 Watching for file changes with StatReloader
+INFO 2022-09-07 23:30:21,179 autoreload 16092 8028 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:30:22,676 autoreload 14256 8616 Watching for file changes with StatReloader
+INFO 2022-09-07 23:30:31,189 autoreload 14256 8616 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:30:32,479 autoreload 16200 22344 Watching for file changes with StatReloader
+INFO 2022-09-07 23:30:49,552 autoreload 16200 22344 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:30:51,011 autoreload 21960 10252 Watching for file changes with StatReloader
+INFO 2022-09-07 23:30:56,737 autoreload 21960 10252 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:30:58,070 autoreload 13516 22164 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:06,801 autoreload 13516 22164 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:08,080 autoreload 21220 15296 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:16,551 autoreload 21220 15296 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:18,122 autoreload 19620 20076 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:21,471 autoreload 19620 20076 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:22,747 autoreload 896 22516 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:36,762 autoreload 896 22516 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:38,262 autoreload 9148 19844 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:44,212 autoreload 9148 19844 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:45,486 autoreload 21280 10684 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:49,993 autoreload 21280 10684 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:31:51,221 autoreload 21992 22172 Watching for file changes with StatReloader
+INFO 2022-09-07 23:31:59,734 autoreload 21992 22172 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:01,089 autoreload 11708 18064 Watching for file changes with StatReloader
+INFO 2022-09-07 23:32:07,328 autoreload 11708 18064 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:08,695 autoreload 17808 22524 Watching for file changes with StatReloader
+INFO 2022-09-07 23:32:11,986 autoreload 17808 22524 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:13,209 autoreload 12600 13360 Watching for file changes with StatReloader
+INFO 2022-09-07 23:32:26,290 autoreload 12600 13360 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:27,943 autoreload 20508 20312 Watching for file changes with StatReloader
+INFO 2022-09-07 23:32:29,997 autoreload 20508 20312 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:31,287 autoreload 16412 21024 Watching for file changes with StatReloader
+INFO 2022-09-07 23:32:39,946 autoreload 16412 21024 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:32:41,248 autoreload 12024 14184 Watching for file changes with StatReloader
+INFO 2022-09-07 23:33:23,707 autoreload 12024 14184 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:33:24,902 autoreload 908 532 Watching for file changes with StatReloader
+INFO 2022-09-07 23:33:44,781 autoreload 908 532 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:33:46,048 autoreload 10816 9896 Watching for file changes with StatReloader
+INFO 2022-09-07 23:34:05,240 autoreload 10816 9896 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:34:06,565 autoreload 17932 17976 Watching for file changes with StatReloader
+INFO 2022-09-07 23:34:42,973 autoreload 17932 17976 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:34:44,247 autoreload 21564 14296 Watching for file changes with StatReloader
+INFO 2022-09-07 23:35:28,228 autoreload 21564 14296 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:35:29,496 autoreload 22232 21940 Watching for file changes with StatReloader
+INFO 2022-09-07 23:35:34,006 autoreload 22232 21940 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:35:35,238 autoreload 20696 21900 Watching for file changes with StatReloader
+INFO 2022-09-07 23:35:44,985 autoreload 20696 21900 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:35:46,198 autoreload 20800 20056 Watching for file changes with StatReloader
+INFO 2022-09-07 23:36:02,999 autoreload 20800 20056 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:36:04,327 autoreload 21588 8672 Watching for file changes with StatReloader
+INFO 2022-09-07 23:36:07,889 autoreload 21588 8672 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:36:09,269 autoreload 22384 21020 Watching for file changes with StatReloader
+INFO 2022-09-07 23:36:19,522 autoreload 22384 21020 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:36:21,264 autoreload 20628 14704 Watching for file changes with StatReloader
+INFO 2022-09-07 23:36:49,750 autoreload 20628 14704 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:36:51,097 autoreload 21576 4356 Watching for file changes with StatReloader
+INFO 2022-09-07 23:36:55,604 autoreload 21576 4356 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:36:56,954 autoreload 20868 22160 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:01,728 autoreload 20868 22160 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:03,540 autoreload 2840 22520 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:08,134 autoreload 2840 22520 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:09,552 autoreload 11024 2424 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:18,101 autoreload 11024 2424 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:19,458 autoreload 8616 22444 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:22,678 autoreload 8616 22444 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:24,108 autoreload 8184 21920 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:29,961 autoreload 8184 21920 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:31,466 autoreload 9044 532 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:44,296 autoreload 9044 532 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:45,524 autoreload 11316 6852 Watching for file changes with StatReloader
+INFO 2022-09-07 23:37:58,450 autoreload 11316 6852 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:37:59,971 autoreload 21740 21648 Watching for file changes with StatReloader
+INFO 2022-09-07 23:38:07,366 autoreload 21740 21648 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:38:08,634 autoreload 2316 6200 Watching for file changes with StatReloader
+INFO 2022-09-07 23:38:14,639 autoreload 2316 6200 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:38:16,180 autoreload 14172 22424 Watching for file changes with StatReloader
+INFO 2022-09-07 23:38:19,693 autoreload 14172 22424 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:38:21,549 autoreload 19088 16580 Watching for file changes with StatReloader
+INFO 2022-09-07 23:38:34,385 autoreload 19088 16580 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:38:35,712 autoreload 21900 13516 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:02,870 autoreload 21900 13516 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:04,553 autoreload 21248 14564 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:07,681 autoreload 21248 14564 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:09,084 autoreload 19852 18448 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:12,504 autoreload 19852 18448 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:14,042 autoreload 10552 21160 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:18,845 autoreload 10552 21160 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:20,303 autoreload 20592 5564 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:24,840 autoreload 20592 5564 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:26,330 autoreload 20816 13428 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:32,479 autoreload 20816 13428 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:34,425 autoreload 18452 3364 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:48,470 autoreload 18452 3364 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:49,886 autoreload 13476 6200 Watching for file changes with StatReloader
+INFO 2022-09-07 23:40:55,801 autoreload 13476 6200 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:40:57,103 autoreload 996 12976 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:04,295 autoreload 996 12976 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:05,877 autoreload 21776 3468 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:11,944 autoreload 21776 3468 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:13,212 autoreload 22028 5488 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:17,825 autoreload 22028 5488 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:19,159 autoreload 14704 14640 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:31,683 autoreload 14704 14640 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:33,224 autoreload 6320 22228 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:47,183 autoreload 6320 22228 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:48,491 autoreload 9100 3364 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:51,883 autoreload 9100 3364 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:53,227 autoreload 8492 260 Watching for file changes with StatReloader
+INFO 2022-09-07 23:41:56,434 autoreload 8492 260 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:41:57,961 autoreload 21536 21784 Watching for file changes with StatReloader
+INFO 2022-09-07 23:42:13,428 autoreload 21536 21784 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:42:14,733 autoreload 21288 2676 Watching for file changes with StatReloader
+INFO 2022-09-07 23:43:13,976 autoreload 21288 2676 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:43:15,377 autoreload 7868 13588 Watching for file changes with StatReloader
+INFO 2022-09-07 23:43:25,238 autoreload 7868 13588 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:43:26,504 autoreload 2612 4132 Watching for file changes with StatReloader
+INFO 2022-09-07 23:46:06,022 autoreload 2612 4132 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:46:07,246 autoreload 10252 20996 Watching for file changes with StatReloader
+INFO 2022-09-07 23:46:55,805 autoreload 21772 8632 Watching for file changes with StatReloader
+INFO 2022-09-07 23:47:09,548 autoreload 21772 8632 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-07 23:47:10,861 autoreload 14704 17940 Watching for file changes with StatReloader
+INFO 2022-09-07 23:47:11,563 basehttp 14704 21720 "GET /login HTTP/1.1" 301 0
+INFO 2022-09-07 23:47:11,596 basehttp 14704 21720 "GET /login/ HTTP/1.1" 200 3071
+INFO 2022-09-07 23:47:11,690 basehttp 14704 21720 "GET /static/js/login.js HTTP/1.1" 200 677
+WARNING 2022-09-07 23:47:11,775 log 14704 21720 Not Found: /favicon.ico
+WARNING 2022-09-07 23:47:11,776 basehttp 14704 21720 "GET /favicon.ico HTTP/1.1" 404 2819
+INFO 2022-09-07 23:47:12,074 basehttp 14704 21720 "GET / HTTP/1.1" 200 11859
+WARNING 2022-09-07 23:47:17,455 log 14704 21720 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-07 23:47:17,456 basehttp 14704 21720 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:05:37,330 log 14704 5328 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:05:37,331 basehttp 14704 5328 "POST /login/ HTTP/1.1" 403 2513
+INFO 2022-09-08 00:06:21,135 autoreload 14704 17940 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-08 00:06:22,503 autoreload 22132 736 Watching for file changes with StatReloader
+WARNING 2022-09-08 00:06:23,229 log 22132 16932 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:06:23,231 basehttp 22132 16932 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:06:28,349 log 22132 16932 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:06:28,350 basehttp 22132 16932 "POST /login/ HTTP/1.1" 403 2513
+ERROR 2022-09-08 00:09:03,320 log 22132 16932 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 122, in get
+    return render(request, 'login.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users.register' not found. 'users.register' is not a valid view function or pattern name.
+ERROR 2022-09-08 00:09:03,330 basehttp 22132 16932 "GET /login/ HTTP/1.1" 500 138712
+INFO 2022-09-08 00:09:58,652 basehttp 22132 16932 "GET /login/ HTTP/1.1" 200 3068
+WARNING 2022-09-08 00:10:00,084 log 22132 16932 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:10:00,084 basehttp 22132 16932 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:10:33,898 log 22132 16932 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:10:33,899 basehttp 22132 16932 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:10:41,379 log 22132 16932 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:10:41,381 basehttp 22132 16932 "POST /login/ HTTP/1.1" 403 2513
+INFO 2022-09-08 00:11:05,915 autoreload 20500 19336 Watching for file changes with StatReloader
+INFO 2022-09-08 00:11:08,111 basehttp 20500 7796 "GET / HTTP/1.1" 200 11859
+WARNING 2022-09-08 00:11:11,704 log 20500 7796 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:11:11,706 basehttp 20500 7796 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:11:16,171 log 20500 7796 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:11:16,172 basehttp 20500 7796 "POST /login/ HTTP/1.1" 403 2513
+INFO 2022-09-08 00:13:10,061 autoreload 20500 19336 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-08 00:13:11,432 autoreload 18632 12260 Watching for file changes with StatReloader
+INFO 2022-09-08 00:13:43,790 autoreload 18632 12260 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-08 00:13:45,134 autoreload 9992 21940 Watching for file changes with StatReloader
+INFO 2022-09-08 00:13:57,947 autoreload 9992 21940 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-08 00:13:59,203 autoreload 3360 22432 Watching for file changes with StatReloader
+WARNING 2022-09-08 00:14:11,353 log 3360 8616 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:14:11,354 basehttp 3360 8616 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2022-09-08 00:16:14,456 log 3360 8616 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-09-08 00:16:14,458 basehttp 3360 8616 "POST /login/ HTTP/1.1" 403 2513
+INFO 2022-09-08 00:17:38,052 basehttp 3360 21732 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-08 00:17:38,093 basehttp 3360 18696 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-08 00:17:38,097 basehttp 3360 2980 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-08 00:17:38,098 basehttp 3360 19688 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-09-08 00:17:38,099 basehttp 3360 19844 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-08 00:17:38,101 basehttp 3360 21732 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-09-08 00:17:38,106 basehttp 3360 3944 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2022-09-08 00:17:40,979 log 3360 3944 Bad Request: /login/
+WARNING 2022-09-08 00:17:40,980 basehttp 3360 3944 "POST /login/ HTTP/1.1" 400 30
+INFO 2022-09-08 00:18:51,097 autoreload 3360 22432 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-08 00:18:52,582 autoreload 10848 2404 Watching for file changes with StatReloader
+INFO 2022-09-08 00:18:55,104 basehttp 10848 21444 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-08 00:18:55,120 basehttp 10848 21444 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-08 00:18:55,146 basehttp 10848 22472 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-09-08 00:18:55,147 basehttp 10848 21212 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-09-08 00:18:55,147 basehttp 10848 21444 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-09-08 00:18:55,157 basehttp 10848 21444 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-08 00:18:55,199 basehttp 10848 21444 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-08 00:18:55,204 basehttp 10848 21444 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-08 00:18:55,212 basehttp 10848 21444 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2022-09-08 00:18:59,847 log 10848 21444 Not Found: /index.html
+WARNING 2022-09-08 00:18:59,848 basehttp 10848 21444 "GET /index.html HTTP/1.1" 404 2816
+WARNING 2022-09-08 00:19:04,009 log 10848 21444 Not Found: /index.html
+WARNING 2022-09-08 00:19:04,009 basehttp 10848 21444 "GET /index.html HTTP/1.1" 404 2816
+WARNING 2022-09-08 00:19:07,026 log 10848 21444 Not Found: /index
+WARNING 2022-09-08 00:19:07,027 basehttp 10848 21444 "GET /index HTTP/1.1" 404 2801
+INFO 2022-09-08 00:19:13,822 basehttp 10848 21444 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-08 00:19:21,402 basehttp 10848 21444 "GET /login HTTP/1.1" 301 0
+INFO 2022-09-08 00:19:21,411 basehttp 10848 21444 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-08 00:19:23,986 basehttp 10848 21444 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-08 00:19:23,994 basehttp 10848 21444 "GET / HTTP/1.1" 200 11859
