@@ -2013,3 +2013,602 @@ INFO 2022-09-08 00:19:21,402 basehttp 10848 21444 "GET /login HTTP/1.1" 301 0
 INFO 2022-09-08 00:19:21,411 basehttp 10848 21444 "GET /login/ HTTP/1.1" 200 3210
 INFO 2022-09-08 00:19:23,986 basehttp 10848 21444 "POST /login/ HTTP/1.1" 302 0
 INFO 2022-09-08 00:19:23,994 basehttp 10848 21444 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-19 22:23:30,076 autoreload 20724 20340 Watching for file changes with StatReloader
+ERROR 2022-09-19 22:24:03,742 exception 20724 3612 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:03,788 log 20724 3612 Bad Request: /index
+WARNING 2022-09-19 22:24:03,790 basehttp 20724 3612 "GET /index HTTP/1.1" 400 70114
+ERROR 2022-09-19 22:24:04,057 exception 20724 20488 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:04,093 log 20724 20488 Bad Request: /favicon.ico
+WARNING 2022-09-19 22:24:04,095 basehttp 20724 20488 "GET /favicon.ico HTTP/1.1" 400 69991
+ERROR 2022-09-19 22:24:08,002 exception 20724 2132 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:08,052 log 20724 2132 Bad Request: /index.html
+WARNING 2022-09-19 22:24:08,055 basehttp 20724 2132 "GET /index.html HTTP/1.1" 400 70169
+ERROR 2022-09-19 22:24:08,314 exception 20724 4552 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:08,379 log 20724 4552 Bad Request: /favicon.ico
+WARNING 2022-09-19 22:24:08,382 basehttp 20724 4552 "GET /favicon.ico HTTP/1.1" 400 69996
+ERROR 2022-09-19 22:24:14,033 exception 20724 22284 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:14,089 log 20724 22284 Bad Request: /
+WARNING 2022-09-19 22:24:14,093 basehttp 20724 22284 "GET / HTTP/1.1" 400 70059
+ERROR 2022-09-19 22:24:14,223 exception 20724 21820 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-19 22:24:14,318 log 20724 21820 Bad Request: /favicon.ico
+WARNING 2022-09-19 22:24:14,321 basehttp 20724 21820 "GET /favicon.ico HTTP/1.1" 400 69986
+INFO 2022-09-19 22:24:22,644 basehttp 20724 18396 "GET / HTTP/1.1" 200 11859
+INFO 2022-09-19 22:24:22,685 basehttp 20724 5484 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-09-19 22:24:22,688 basehttp 20724 18396 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-09-19 22:24:22,694 basehttp 20724 20856 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-09-19 22:24:22,701 basehttp 20724 21956 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-09-19 22:24:22,709 basehttp 20724 20368 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-19 22:24:22,711 basehttp 20724 18396 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-19 22:24:22,719 basehttp 20724 5484 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-09-19 22:24:22,780 basehttp 20724 5484 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-19 22:24:22,795 basehttp 20724 5484 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-19 22:24:22,802 basehttp 20724 5484 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-19 22:24:22,810 basehttp 20724 5484 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-19 22:24:22,819 basehttp 20724 5484 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2022-09-19 22:24:32,857 log 20724 5484 Not Found: /favicon.ico
+WARNING 2022-09-19 22:24:32,859 basehttp 20724 5484 "GET /favicon.ico HTTP/1.1" 404 2819
+INFO 2022-09-19 22:30:01,698 autoreload 20724 20340 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:30:03,277 autoreload 6788 20996 Watching for file changes with StatReloader
+WARNING 2022-09-19 22:32:02,115 log 6788 3064 Not Found: /favicon.ico
+WARNING 2022-09-19 22:32:02,115 basehttp 6788 3064 "GET /favicon.ico HTTP/1.1" 404 2819
+INFO 2022-09-19 22:33:53,064 basehttp 6788 3064 "GET /register/ HTTP/1.1" 200 5325
+INFO 2022-09-19 22:33:53,086 basehttp 6788 3064 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2022-09-19 22:33:54,149 basehttp 6788 3064 "GET /imagecode/?uuid=4ac135d7-8200-406b-a070-db828980f261 HTTP/1.1" 200 3286
+WARNING 2022-09-19 22:33:56,822 log 6788 3064 Not Found: /register/login.html
+WARNING 2022-09-19 22:33:56,822 basehttp 6788 3064 "GET /register/login.html HTTP/1.1" 404 2843
+INFO 2022-09-19 22:34:54,042 basehttp 6788 3064 "GET /login HTTP/1.1" 301 0
+INFO 2022-09-19 22:34:54,050 basehttp 6788 3064 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-19 22:34:54,085 basehttp 6788 3064 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-09-19 22:34:58,622 basehttp 6788 3064 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:34:58,633 basehttp 6788 3064 "GET / HTTP/1.1" 200 11859
+WARNING 2022-09-19 22:38:15,362 basehttp 6788 3064 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:38:15,908 basehttp 6788 4256 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 22:41:19,365 basehttp 6788 4256 "GET /login/ HTTP/1.1" 200 3210
+WARNING 2022-09-19 22:41:19,467 basehttp 6788 4256 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:41:19,545 basehttp 6788 16572 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 22:41:22,597 basehttp 6788 16572 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:41:22,609 basehttp 6788 16572 "GET / HTTP/1.1" 200 11890
+INFO 2022-09-19 22:41:22,741 basehttp 6788 16572 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:41:22,790 basehttp 6788 16572 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:44:10,000 autoreload 6788 20996 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:11,470 autoreload 18700 7920 Watching for file changes with StatReloader
+INFO 2022-09-19 22:44:20,586 autoreload 18700 7920 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:22,234 autoreload 19968 21660 Watching for file changes with StatReloader
+INFO 2022-09-19 22:44:25,407 autoreload 19968 21660 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:27,038 autoreload 11892 23112 Watching for file changes with StatReloader
+INFO 2022-09-19 22:44:33,169 autoreload 11892 23112 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:34,436 autoreload 21328 13452 Watching for file changes with StatReloader
+INFO 2022-09-19 22:44:50,554 autoreload 21328 13452 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:52,313 autoreload 16732 22660 Watching for file changes with StatReloader
+INFO 2022-09-19 22:44:57,458 autoreload 16732 22660 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:44:59,391 autoreload 16972 21708 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:07,162 autoreload 16972 21708 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:08,812 autoreload 22560 5056 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:12,022 autoreload 22560 5056 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:13,534 autoreload 23120 21836 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:25,712 autoreload 23120 21836 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:27,195 autoreload 10980 14648 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:31,754 autoreload 10980 14648 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:33,523 autoreload 12812 21620 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:45,098 autoreload 12812 21620 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:47,087 autoreload 9600 10548 Watching for file changes with StatReloader
+INFO 2022-09-19 22:45:57,201 autoreload 9600 10548 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:45:58,577 autoreload 4428 4256 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:04,977 autoreload 4428 4256 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:06,380 autoreload 15204 21696 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:12,669 autoreload 15204 21696 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:14,929 autoreload 22520 18216 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:19,912 autoreload 22520 18216 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:21,975 autoreload 21692 22548 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:26,606 autoreload 21692 22548 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:28,644 autoreload 21952 11708 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:31,170 autoreload 21952 11708 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:32,754 autoreload 9336 22756 Watching for file changes with StatReloader
+INFO 2022-09-19 22:46:40,538 autoreload 9336 22756 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:46:41,858 autoreload 21784 21608 Watching for file changes with StatReloader
+ERROR 2022-09-19 22:47:21,085 log 21784 23516 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2022-09-19 22:47:21,093 basehttp 21784 23516 "GET / HTTP/1.1" 500 143514
+INFO 2022-09-19 22:47:26,463 basehttp 21784 23516 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-19 22:47:26,668 basehttp 21784 23516 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:47:26,703 basehttp 21784 23516 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:47:30,580 basehttp 21784 11104 "POST /login/ HTTP/1.1" 302 0
+ERROR 2022-09-19 22:47:30,985 log 21784 11104 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2022-09-19 22:47:30,991 basehttp 21784 11104 "GET / HTTP/1.1" 500 143514
+INFO 2022-09-19 22:55:14,000 autoreload 21784 21608 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 22:55:15,906 autoreload 12364 8460 Watching for file changes with StatReloader
+INFO 2022-09-19 22:55:35,990 autoreload 12364 8460 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-19 22:55:38,000 autoreload 10548 1064 Watching for file changes with StatReloader
+INFO 2022-09-19 22:55:47,439 basehttp 10548 7916 "GET / HTTP/1.1" 200 11897
+INFO 2022-09-19 22:55:47,569 basehttp 10548 7916 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:55:47,596 basehttp 10548 7916 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:55:51,526 basehttp 10548 23460 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:55:51,534 basehttp 10548 23460 "GET / HTTP/1.1" 200 11897
+INFO 2022-09-19 22:55:51,682 basehttp 10548 23460 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:55:51,698 basehttp 10548 23460 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:55:54,036 basehttp 10548 20336 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:55:54,049 basehttp 10548 20336 "GET / HTTP/1.1" 200 11897
+INFO 2022-09-19 22:55:54,188 basehttp 10548 20336 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:55:54,194 basehttp 10548 23516 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-09-19 22:55:57,207 log 10548 20336 Not Found: /center.html
+WARNING 2022-09-19 22:55:57,208 basehttp 10548 20336 "GET /center.html HTTP/1.1" 404 2988
+WARNING 2022-09-19 22:55:59,134 basehttp 10548 20336 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:55:59,300 basehttp 10548 21608 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 22:56:01,888 basehttp 10548 21608 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:56:01,899 basehttp 10548 21608 "GET / HTTP/1.1" 200 11897
+INFO 2022-09-19 22:56:02,036 basehttp 10548 21608 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:56:02,053 basehttp 10548 21608 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 22:56:15,265 basehttp 10548 17508 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 22:56:15,277 basehttp 10548 17508 "GET / HTTP/1.1" 200 11897
+INFO 2022-09-19 22:56:15,445 basehttp 10548 17508 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 22:56:15,464 basehttp 10548 17508 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-09-19 23:08:38,349 log 10548 21276 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+ERROR 2022-09-19 23:08:38,359 basehttp 10548 21276 "GET / HTTP/1.1" 500 136785
+INFO 2022-09-19 23:08:48,653 basehttp 10548 21276 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-19 23:08:48,793 basehttp 10548 21276 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:08:48,821 basehttp 10548 21276 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:08:52,249 basehttp 10548 21620 "POST /login/ HTTP/1.1" 302 0
+ERROR 2022-09-19 23:08:52,571 log 10548 21620 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+ERROR 2022-09-19 23:08:52,577 basehttp 10548 21620 "GET / HTTP/1.1" 500 137149
+INFO 2022-09-19 23:10:25,276 basehttp 10548 21620 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:10:28,139 basehttp 10548 21620 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:10:28,148 basehttp 10548 21620 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:10:35,234 basehttp 10548 21620 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:10:35,249 basehttp 10548 21620 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:10:45,121 basehttp 10548 21620 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:10:45,132 basehttp 10548 21620 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:11:43,573 basehttp 10548 21620 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:11:43,586 basehttp 10548 21620 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:11:47,121 basehttp 10548 21620 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:11:47,148 basehttp 10548 24120 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:11:50,621 basehttp 10548 24120 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:11:50,639 basehttp 10548 24120 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:11:50,812 basehttp 10548 24120 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:11:50,862 basehttp 10548 12776 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:13:34,816 basehttp 10548 12776 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:13:34,832 basehttp 10548 12776 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:13:34,961 basehttp 10548 12776 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:13:34,994 basehttp 10548 21540 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:13:36,748 basehttp 10548 21540 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:13:36,894 basehttp 10548 21540 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:13:36,931 basehttp 10548 3208 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:08,792 autoreload 10548 1064 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:14:10,804 autoreload 5404 21268 Watching for file changes with StatReloader
+INFO 2022-09-19 23:14:11,730 basehttp 5404 23088 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:14:11,862 basehttp 5404 23088 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:11,903 basehttp 5404 22280 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:14,959 basehttp 5404 22280 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:14:14,974 basehttp 5404 22280 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:14:15,119 basehttp 5404 22280 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:15,163 basehttp 5404 8672 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:14:21,619 log 5404 8672 Not Found: /center.html
+WARNING 2022-09-19 23:14:21,620 basehttp 5404 8672 "GET /center.html HTTP/1.1" 404 2988
+WARNING 2022-09-19 23:14:23,312 basehttp 5404 8672 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:23,339 basehttp 5404 7616 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:25,051 basehttp 5404 7616 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:14:25,072 basehttp 5404 7616 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:14:25,227 basehttp 5404 7616 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:25,284 basehttp 5404 11956 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:31,205 basehttp 5404 11956 "GET /login/ HTTP/1.1" 200 3210
+WARNING 2022-09-19 23:14:31,358 basehttp 5404 11956 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:31,404 basehttp 5404 22560 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:38,735 basehttp 5404 22560 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:14:38,750 basehttp 5404 22560 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:14:38,968 basehttp 5404 22560 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:39,016 basehttp 5404 21596 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:14:48,998 basehttp 5404 21596 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:14:49,018 basehttp 5404 21596 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:14:49,191 basehttp 5404 21596 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:14:49,235 basehttp 5404 20964 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:15:41,574 basehttp 5404 20964 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:15:41,721 basehttp 5404 20964 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:15:41,762 basehttp 5404 16704 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:15:42,740 basehttp 5404 16704 "GET / HTTP/1.1" 200 11884
+WARNING 2022-09-19 23:15:42,875 basehttp 5404 16704 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:15:42,913 basehttp 5404 8452 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:18:16,005 basehttp 5404 8452 "GET /login/ HTTP/1.1" 200 3210
+WARNING 2022-09-19 23:18:16,142 basehttp 5404 8452 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:18:16,215 basehttp 5404 22744 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:18:19,659 basehttp 5404 22744 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:18:19,671 basehttp 5404 22744 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:18:19,828 basehttp 5404 22744 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:18:19,879 basehttp 5404 22744 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:18:28,202 basehttp 5404 22280 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:18:28,211 basehttp 5404 22280 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:18:28,413 basehttp 5404 22280 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:18:28,439 basehttp 5404 22280 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:18:41,419 autoreload 24552 24508 Watching for file changes with StatReloader
+INFO 2022-09-19 23:18:48,510 basehttp 24552 23932 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-19 23:18:48,652 basehttp 24552 23932 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:18:48,661 basehttp 24552 16520 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:18:50,676 basehttp 24552 23932 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:18:50,692 basehttp 24552 23932 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:18:50,861 basehttp 24552 23932 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:18:50,867 basehttp 24552 23736 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:21:08,880 autoreload 24552 24508 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:21:14,618 autoreload 21968 22364 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:21:16,063 log 21968 19312 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 182, in get
+    print(response.cookie.getvalue('is_login'))
+AttributeError: 'HttpResponseRedirect' object has no attribute 'cookie'
+ERROR 2022-09-19 23:21:16,067 basehttp 21968 19312 "GET /logout/ HTTP/1.1" 500 83139
+INFO 2022-09-19 23:21:18,388 basehttp 21968 19312 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:21:18,564 basehttp 21968 19312 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:21:18,571 basehttp 21968 21900 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-09-19 23:21:20,684 log 21968 19312 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 182, in get
+    print(response.cookie.getvalue('is_login'))
+AttributeError: 'HttpResponseRedirect' object has no attribute 'cookie'
+ERROR 2022-09-19 23:21:20,690 basehttp 21968 19312 "GET /logout/ HTTP/1.1" 500 82938
+INFO 2022-09-19 23:21:53,248 autoreload 21968 22364 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:21:54,646 autoreload 24296 12816 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:21:58,451 log 24296 5676 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    print(response.cookie.getvalue('is_login'))
+AttributeError: 'HttpResponseRedirect' object has no attribute 'cookie'
+ERROR 2022-09-19 23:21:58,454 basehttp 24296 5676 "GET /logout/ HTTP/1.1" 500 83465
+INFO 2022-09-19 23:22:04,872 basehttp 24296 5676 "GET /login/ HTTP/1.1" 200 3210
+INFO 2022-09-19 23:22:05,010 basehttp 24296 5676 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:22:05,021 basehttp 24296 5676 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:22:08,099 basehttp 24296 21296 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:22:08,108 basehttp 24296 21296 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:22:08,268 basehttp 24296 21296 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:22:08,309 basehttp 24296 21296 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-09-19 23:22:09,935 log 24296 23336 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    print(response.cookie.getvalue('is_login'))
+AttributeError: 'HttpResponseRedirect' object has no attribute 'cookie'
+ERROR 2022-09-19 23:22:09,938 basehttp 24296 23336 "GET /logout/ HTTP/1.1" 500 83545
+INFO 2022-09-19 23:23:25,155 autoreload 24296 12816 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:23:27,037 autoreload 19312 23148 Watching for file changes with StatReloader
+INFO 2022-09-19 23:24:57,706 autoreload 19312 23148 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:24:59,538 autoreload 24088 23880 Watching for file changes with StatReloader
+INFO 2022-09-19 23:26:29,126 autoreload 24088 23880 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:26:30,917 autoreload 21684 21240 Watching for file changes with StatReloader
+INFO 2022-09-19 23:26:35,802 autoreload 22752 23540 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:26:38,536 log 22752 8128 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    print(response.COOKIES['is_login'])
+AttributeError: 'HttpResponseRedirect' object has no attribute 'COOKIES'
+ERROR 2022-09-19 23:26:38,542 basehttp 22752 8128 "GET /logout/ HTTP/1.1" 500 83306
+INFO 2022-09-19 23:27:21,012 autoreload 22752 23540 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:27:22,493 autoreload 25104 25108 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:27:26,829 log 25104 21544 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    # print(response.COOKIES['is_login'])
+AttributeError: 'HttpResponseRedirect' object has no attribute 'COOKIES'
+ERROR 2022-09-19 23:27:26,833 basehttp 25104 21544 "GET /logout/ HTTP/1.1" 500 83319
+ERROR 2022-09-19 23:27:29,883 log 25104 21544 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    # print(response.COOKIES['is_login'])
+AttributeError: 'HttpResponseRedirect' object has no attribute 'COOKIES'
+ERROR 2022-09-19 23:27:29,887 basehttp 25104 21544 "GET /logout/ HTTP/1.1" 500 83319
+INFO 2022-09-19 23:27:34,236 basehttp 25104 21544 "GET /login/ HTTP/1.1" 200 3210
+WARNING 2022-09-19 23:27:34,404 basehttp 25104 24600 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-09-19 23:27:34,417 basehttp 25104 21544 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2022-09-19 23:27:36,888 basehttp 25104 21544 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:27:36,901 basehttp 25104 21544 "GET / HTTP/1.1" 200 11884
+INFO 2022-09-19 23:27:37,056 basehttp 25104 21544 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2022-09-19 23:27:37,108 basehttp 25104 21544 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-09-19 23:27:38,750 log 25104 24924 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    # print(response.COOKIES['is_login'])
+AttributeError: 'HttpResponseRedirect' object has no attribute 'COOKIES'
+ERROR 2022-09-19 23:27:38,753 basehttp 25104 24924 "GET /logout/ HTTP/1.1" 500 83548
+ERROR 2022-09-19 23:28:05,058 log 25104 24924 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    # print(response.COOKIES['is_login'])
+AttributeError: 'HttpResponseRedirect' object has no attribute 'COOKIES'
+ERROR 2022-09-19 23:28:05,062 basehttp 25104 24924 "GET /logout/ HTTP/1.1" 500 83594
+WARNING 2022-09-19 23:28:05,305 log 25104 24924 Not Found: /favicon.ico
+WARNING 2022-09-19 23:28:05,306 basehttp 25104 24924 "GET /favicon.ico HTTP/1.1" 404 2988
+INFO 2022-09-19 23:28:30,929 autoreload 25104 25108 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:28:32,608 autoreload 24772 24760 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:28:36,326 log 24772 22032 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 183, in get
+    response.cookies.flush()
+AttributeError: 'SimpleCookie' object has no attribute 'flush'
+ERROR 2022-09-19 23:28:36,332 basehttp 24772 22032 "GET /logout/ HTTP/1.1" 500 82924
+ERROR 2022-09-19 23:28:37,127 log 24772 22032 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 183, in get
+    response.cookies.flush()
+AttributeError: 'SimpleCookie' object has no attribute 'flush'
+ERROR 2022-09-19 23:28:37,131 basehttp 24772 22032 "GET /logout/ HTTP/1.1" 500 82924
+INFO 2022-09-19 23:32:10,148 autoreload 24772 24760 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:32:11,811 autoreload 19704 22784 Watching for file changes with StatReloader
+INFO 2022-09-19 23:35:32,135 autoreload 19704 22784 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:35:33,676 autoreload 25484 25428 Watching for file changes with StatReloader
+INFO 2022-09-19 23:35:40,345 basehttp 25484 11156 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-19 23:35:40,371 basehttp 25484 11156 "GET / HTTP/1.1" 200 11884
+ERROR 2022-09-19 23:35:42,515 log 25484 11156 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 183, in get
+    print(request.COOKIES['is_login'])
+KeyError: 'is_login'
+ERROR 2022-09-19 23:35:42,519 basehttp 25484 11156 "GET /logout/ HTTP/1.1" 500 82342
+INFO 2022-09-19 23:36:18,674 autoreload 25484 25428 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:36:20,221 autoreload 20832 2624 Watching for file changes with StatReloader
+ERROR 2022-09-19 23:36:22,440 log 20832 25220 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 180, in get
+    print(request.COOKIES['is_login'])
+KeyError: 'is_login'
+ERROR 2022-09-19 23:36:22,443 basehttp 20832 25220 "GET /logout/ HTTP/1.1" 500 82863
+INFO 2022-09-19 23:37:03,698 autoreload 20832 2624 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-19 23:37:05,552 autoreload 23016 3900 Watching for file changes with StatReloader

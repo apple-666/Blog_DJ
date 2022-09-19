@@ -4,7 +4,7 @@ from django.contrib.auth import login
 from django.contrib.auth import authenticate
 from django.shortcuts import render
 from django.views import View
-from django.http import HttpResponseBadRequest,HttpResponse
+from django.http import HttpResponseBadRequest, HttpResponse
 from libs.captcha.captcha import captcha
 from django_redis import get_redis_connection
 from django.http import JsonResponse
@@ -121,7 +121,6 @@ class LoginView(View):
     def get(self, request):
         return render(request, 'login.html')
 
-
     def post(self, request):
         # 接受参数
         mobile = request.POST.get('mobile')
@@ -169,4 +168,19 @@ class LoginView(View):
             response.set_cookie('username', user.username, max_age=30 * 24 * 3600)
         # 返回响应
         return response
+
+
+from django.contrib.auth import logout
+
+
+class LogoutView(View):
+    def get(self, request):
+        logout(request)
+        response = redirect(reverse('home:index'))
+        print(request.COOKIES.get('is_login'))
+
+        response.delete_cookie('is_login')
+        # response.delete_cookie('username')
+        return response
+
 
