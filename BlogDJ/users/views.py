@@ -136,7 +136,7 @@ class LoginView(View):
         if not re.match(r'^1[3-9]\d{9}$', mobile):
             return HttpResponseBadRequest('请输入正确的手机号')
 
-        # 判断密码是否是8-20个数字
+        # 判断密码是否是1-20个数字
         if not re.match(r'^[0-9A-Za-z]{1,20}$', password):
             return HttpResponseBadRequest('密码最少1位，最长20位')
 
@@ -184,3 +184,55 @@ class LogoutView(View):
         return response
 
 
+class ForgetPasswordView(View):
+
+    def get(self, request):
+        response = render(request, 'forget_password.html')
+        return response
+
+    def post(self, request):
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        sms_code = request.POST.get('sms_code')
+
+        if not all([mobile, password, password2, sms_code]):
+            return HttpResponseBadRequest('缺少必要参数')
+
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest('手机号错误')
+
+        if not re.match(r'^[0-9a-zA-Z]{1,20}$', password):
+            return HttpResponseBadRequest('密码要1-20位的数字字母')
+
+        if password != password2:
+            return HttpResponseBadRequest('密码前后不一致')
+
+        redis_con = get_redis_connection('default')
+        redis_code = redis_con.get('sms:%s' %mobile)
+        if redis_code is None:
+            return HttpResponseBadRequest('验证码过期')
+        if sms_code != redis_code.decode():
+            return HttpResponseBadRequest('验证码错误')
+
+        try:
+            user = User.objects.get(mobile=mobile)
+        except User.DoesNotExist:
+            try:
+                User.objects.create(mobile=mobile,password=password)
+            except Exception:
+                return HttpResponseBadRequest('创建用户失败')
+        else:
+            user.set_password(password)
+            user.save()
+
+        response = redirect(reverse('users:login'))
+        return response
+
+
+class UserCenterView(View):
+    def get(self, request):
+        response = render(request, 'center.html')
+        return response
+
+    def post(self, request):
