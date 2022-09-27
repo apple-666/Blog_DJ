@@ -201,3 +201,10 @@ LOGGING = {
         },
     }
 }
+
+LOGIN_URL = '/login/'
+
+# media文件目录
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+# 访问medis文件的隐射
+MEDIA_URL = '/media/'

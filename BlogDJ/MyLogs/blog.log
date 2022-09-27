@@ -3037,3 +3037,601 @@ INFO 2022-09-20 23:50:21,398 autoreload 28872 3020 D:\apple\workspace\py\BlogDJ\
 INFO 2022-09-20 23:50:22,814 autoreload 21416 25800 Watching for file changes with StatReloader
 INFO 2022-09-20 23:55:26,033 autoreload 21416 25800 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
 INFO 2022-09-20 23:55:27,551 autoreload 8636 29904 Watching for file changes with StatReloader
+INFO 2022-09-22 21:05:44,928 autoreload 24076 37668 Watching for file changes with StatReloader
+INFO 2022-09-22 21:05:47,305 basehttp 24076 14664 "GET / HTTP/1.1" 200 11885
+INFO 2022-09-22 21:05:47,526 basehttp 24076 35700 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-22 21:05:47,538 basehttp 24076 14664 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-09-22 21:05:47,538 basehttp 24076 14132 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-22 21:05:47,561 basehttp 24076 25952 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-09-22 21:05:47,618 basehttp 24076 25952 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-22 21:05:47,620 basehttp 24076 14664 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-22 21:05:47,652 basehttp 24076 14664 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-22 21:05:47,652 basehttp 24076 14132 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-22 21:05:47,659 basehttp 24076 25952 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2022-09-22 21:05:49,228 basehttp 24076 25952 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:05:49,306 basehttp 24076 25952 "GET /static/js/login.js HTTP/1.1" 200 677
+WARNING 2022-09-22 21:05:49,468 log 24076 25952 Not Found: /favicon.ico
+WARNING 2022-09-22 21:05:49,470 basehttp 24076 25952 "GET /favicon.ico HTTP/1.1" 404 3354
+WARNING 2022-09-22 21:05:52,222 log 24076 25952 Bad Request: /login/
+WARNING 2022-09-22 21:05:52,223 basehttp 24076 25952 "POST /login/ HTTP/1.1" 400 24
+WARNING 2022-09-22 21:05:59,900 log 24076 25952 Bad Request: /login/
+WARNING 2022-09-22 21:05:59,902 basehttp 24076 25952 "POST /login/ HTTP/1.1" 400 24
+INFO 2022-09-22 21:06:02,694 basehttp 24076 25952 "GET /forget_password/ HTTP/1.1" 200 5324
+INFO 2022-09-22 21:06:02,732 basehttp 24076 25952 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2022-09-22 21:06:02,882 basehttp 24076 25952 "GET /imagecode/?uuid=447186cc-b302-45e9-8d4e-ab90b84b4a2b HTTP/1.1" 200 3067
+INFO 2022-09-22 21:06:09,894 views 24076 25952 b'4EVH'
+INFO 2022-09-22 21:06:09,894 views 24076 25952 388943
+INFO 2022-09-22 21:06:10,439 basehttp 24076 25952 "GET /smscode/?mobile=15180217469&image_code=4evh&uuid=447186cc-b302-45e9-8d4e-ab90b84b4a2b HTTP/1.1" 200 63
+INFO 2022-09-22 21:06:18,768 basehttp 24076 25952 "POST /forget_password/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:06:18,778 basehttp 24076 25952 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:06:21,665 basehttp 24076 25952 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:06:21,673 basehttp 24076 25952 "GET / HTTP/1.1" 200 11885
+WARNING 2022-09-22 21:06:25,460 log 24076 25952 Not Found: /center.html
+WARNING 2022-09-22 21:06:25,461 basehttp 24076 25952 "GET /center.html HTTP/1.1" 404 3354
+INFO 2022-09-22 21:06:52,055 autoreload 24076 37668 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-22 21:06:53,583 autoreload 31892 30176 Watching for file changes with StatReloader
+WARNING 2022-09-22 21:06:56,123 log 31892 36008 Not Found: /center.html
+WARNING 2022-09-22 21:06:56,124 basehttp 31892 36008 "GET /center.html HTTP/1.1" 404 3349
+INFO 2022-09-22 21:07:10,490 basehttp 31892 36008 "GET /center HTTP/1.1" 301 0
+ERROR 2022-09-22 21:07:10,948 log 31892 36008 Internal Server Error: /center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 237, in get
+    response = render(request, 'center.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users_center' not found. 'users_center' is not a valid view function or pattern name.
+ERROR 2022-09-22 21:07:10,957 basehttp 31892 36008 "GET /center/ HTTP/1.1" 500 142840
+INFO 2022-09-22 21:07:31,212 autoreload 31892 30176 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-22 21:07:32,818 autoreload 25764 38224 Watching for file changes with StatReloader
+WARNING 2022-09-22 21:07:35,500 log 25764 30924 Not Found: /center.html
+WARNING 2022-09-22 21:07:35,502 basehttp 25764 30924 "GET /center.html HTTP/1.1" 404 3354
+INFO 2022-09-22 21:07:55,124 basehttp 25764 30924 "GET /user_center HTTP/1.1" 301 0
+ERROR 2022-09-22 21:07:55,555 log 25764 30924 Internal Server Error: /user_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 237, in get
+    response = render(request, 'center.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users_center' not found. 'users_center' is not a valid view function or pattern name.
+ERROR 2022-09-22 21:07:55,563 basehttp 25764 30924 "GET /user_center/ HTTP/1.1" 500 142935
+INFO 2022-09-22 21:08:11,589 autoreload 25764 38224 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-22 21:08:12,929 autoreload 3536 37052 Watching for file changes with StatReloader
+INFO 2022-09-22 21:08:17,620 autoreload 3536 37052 D:\apple\workspace\py\BlogDJ\BlogDJ\users\urls.py changed, reloading.
+INFO 2022-09-22 21:08:19,686 autoreload 11132 15824 Watching for file changes with StatReloader
+WARNING 2022-09-22 21:08:20,607 log 11132 34112 Not Found: /user_center/
+WARNING 2022-09-22 21:08:20,607 basehttp 11132 34112 "GET /user_center/ HTTP/1.1" 404 3359
+WARNING 2022-09-22 21:08:22,704 log 11132 34112 Not Found: /center.html
+WARNING 2022-09-22 21:08:22,704 basehttp 11132 34112 "GET /center.html HTTP/1.1" 404 3356
+INFO 2022-09-22 21:08:32,767 basehttp 11132 34112 "GET /users_center HTTP/1.1" 301 0
+INFO 2022-09-22 21:08:33,118 basehttp 11132 34112 "GET /users_center/ HTTP/1.1" 200 4085
+WARNING 2022-09-22 21:08:33,161 log 11132 34112 Not Found: /users_center/img/mei.png
+INFO 2022-09-22 21:08:33,162 basehttp 11132 20316 "GET /static/js/center.js HTTP/1.1" 200 522
+WARNING 2022-09-22 21:08:33,162 basehttp 11132 34112 "GET /users_center/img/mei.png HTTP/1.1" 404 3395
+WARNING 2022-09-22 21:08:33,223 log 11132 34112 Not Found: /users_center/img/mei.png
+WARNING 2022-09-22 21:08:33,225 basehttp 11132 34112 "GET /users_center/img/mei.png HTTP/1.1" 404 3395
+INFO 2022-09-22 21:09:21,284 basehttp 11132 34112 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:09:25,765 basehttp 11132 34112 "GET /users_center/ HTTP/1.1" 200 4085
+WARNING 2022-09-22 21:09:25,811 log 11132 34112 Not Found: /users_center/img/mei.png
+WARNING 2022-09-22 21:09:25,812 basehttp 11132 34112 "GET /users_center/img/mei.png HTTP/1.1" 404 3395
+WARNING 2022-09-22 21:09:25,863 log 11132 34112 Not Found: /users_center/img/mei.png
+WARNING 2022-09-22 21:09:25,865 basehttp 11132 34112 "GET /users_center/img/mei.png HTTP/1.1" 404 3395
+INFO 2022-09-22 21:10:56,931 basehttp 11132 34112 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 21:10:56,968 basehttp 11132 34112 "GET /static/img/mei.png HTTP/1.1" 200 230847
+WARNING 2022-09-22 21:11:04,827 log 11132 34112 Forbidden (CSRF token missing or incorrect.): /users_center/
+WARNING 2022-09-22 21:11:04,828 basehttp 11132 34112 "POST /users_center/ HTTP/1.1" 403 2513
+INFO 2022-09-22 21:12:36,566 basehttp 11132 34112 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:12:36,577 basehttp 11132 34112 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:12:41,534 basehttp 11132 34112 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:12:41,542 basehttp 11132 34112 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:16:30,818 autoreload 11132 15824 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 21:16:32,715 autoreload 35188 31140 Watching for file changes with StatReloader
+INFO 2022-09-22 21:16:36,297 basehttp 35188 8812 "GET /login/ HTTP/1.1" 200 3205
+WARNING 2022-09-22 21:16:36,437 log 35188 8812 Not Found: /favicon.ico
+WARNING 2022-09-22 21:16:36,438 basehttp 35188 8812 "GET /favicon.ico HTTP/1.1" 404 3356
+INFO 2022-09-22 21:16:42,920 basehttp 35188 8812 "GET /users_center/ HTTP/1.1" 302 0
+WARNING 2022-09-22 21:16:42,935 log 35188 8812 Not Found: /accounts/login/
+WARNING 2022-09-22 21:16:42,935 basehttp 35188 8812 "GET /accounts/login/?next=/users_center/ HTTP/1.1" 404 3388
+WARNING 2022-09-22 21:16:54,078 log 35188 8812 Not Found: /accounts/login/
+WARNING 2022-09-22 21:16:54,078 basehttp 35188 8812 "GET /accounts/login/?next=/login/ HTTP/1.1" 404 3381
+INFO 2022-09-22 21:17:05,085 autoreload 35188 31140 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 21:17:06,553 autoreload 32328 38020 Watching for file changes with StatReloader
+WARNING 2022-09-22 21:17:11,521 log 32328 36088 Not Found: /accounts/login/
+WARNING 2022-09-22 21:17:11,522 basehttp 32328 36088 "GET /accounts/login/?next=/login/ HTTP/1.1" 404 3381
+INFO 2022-09-22 21:17:17,628 basehttp 32328 36088 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:17:17,641 basehttp 32328 36088 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:17:33,833 autoreload 32328 38020 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 21:17:35,193 autoreload 9456 30868 Watching for file changes with StatReloader
+INFO 2022-09-22 21:17:36,134 basehttp 9456 34908 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:17:42,467 basehttp 9456 34908 "GET /users_center/ HTTP/1.1" 302 0
+WARNING 2022-09-22 21:17:42,479 log 9456 34908 Not Found: /accounts/login/
+WARNING 2022-09-22 21:17:42,480 basehttp 9456 34908 "GET /accounts/login/?next=/users_center/ HTTP/1.1" 404 3388
+INFO 2022-09-22 21:17:49,025 basehttp 9456 34908 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:17:56,512 autoreload 9456 30868 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 21:17:58,515 autoreload 34012 40104 Watching for file changes with StatReloader
+INFO 2022-09-22 21:19:43,304 autoreload 34012 40104 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:19:45,562 autoreload 23244 27460 Watching for file changes with StatReloader
+INFO 2022-09-22 21:19:53,659 autoreload 23244 27460 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:19:55,711 autoreload 39444 39448 Watching for file changes with StatReloader
+INFO 2022-09-22 21:20:16,970 autoreload 39444 39448 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:20:18,256 autoreload 18756 38900 Watching for file changes with StatReloader
+INFO 2022-09-22 21:20:31,690 basehttp 18756 27404 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:20:31,709 basehttp 18756 27404 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:20:33,791 basehttp 18756 27404 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:20:33,802 basehttp 18756 27404 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:20:53,116 basehttp 18756 27404 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:20:56,689 basehttp 18756 27404 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 21:20:59,272 basehttp 18756 27404 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:20:59,281 basehttp 18756 27404 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:21:01,666 basehttp 18756 27404 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:21:01,674 basehttp 18756 27404 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:21:03,722 basehttp 18756 27404 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:21:03,731 basehttp 18756 27404 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:22:07,931 autoreload 29320 7552 Watching for file changes with StatReloader
+INFO 2022-09-22 21:22:13,859 autoreload 31268 25340 Watching for file changes with StatReloader
+INFO 2022-09-22 21:22:17,257 basehttp 31268 26992 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:22:17,283 basehttp 31268 26992 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:22:21,881 basehttp 31268 26992 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:22:21,893 basehttp 31268 26992 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:23:56,520 autoreload 31268 25340 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:24:03,514 autoreload 22548 32452 Watching for file changes with StatReloader
+INFO 2022-09-22 21:24:13,148 basehttp 22548 38916 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:24:13,166 basehttp 22548 38916 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:24:15,791 basehttp 22548 38916 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:24:16,087 basehttp 22548 38916 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 21:24:26,250 basehttp 22548 38916 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:27:41,547 autoreload 22548 32452 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:27:43,068 autoreload 17400 5420 Watching for file changes with StatReloader
+INFO 2022-09-22 21:28:02,221 autoreload 17400 5420 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:28:03,622 autoreload 19608 39288 Watching for file changes with StatReloader
+INFO 2022-09-22 21:28:09,702 autoreload 19608 39288 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:28:11,562 autoreload 29060 33280 Watching for file changes with StatReloader
+INFO 2022-09-22 21:28:13,904 autoreload 29060 33280 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:28:16,399 autoreload 29348 17592 Watching for file changes with StatReloader
+INFO 2022-09-22 21:28:22,394 autoreload 29348 17592 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:28:24,810 autoreload 22820 37724 Watching for file changes with StatReloader
+INFO 2022-09-22 21:28:29,553 autoreload 22820 37724 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:28:31,319 autoreload 6344 27596 Watching for file changes with StatReloader
+INFO 2022-09-22 21:29:30,142 autoreload 6344 27596 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:29:31,805 autoreload 28772 26068 Watching for file changes with StatReloader
+INFO 2022-09-22 21:29:52,791 autoreload 28772 26068 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:29:54,218 autoreload 36368 21272 Watching for file changes with StatReloader
+INFO 2022-09-22 21:30:08,572 autoreload 36368 21272 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:30:10,800 autoreload 21772 40256 Watching for file changes with StatReloader
+INFO 2022-09-22 21:30:13,613 autoreload 21772 40256 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:30:15,649 autoreload 26036 6484 Watching for file changes with StatReloader
+INFO 2022-09-22 21:30:20,649 autoreload 26036 6484 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:30:23,089 autoreload 35996 4612 Watching for file changes with StatReloader
+INFO 2022-09-22 21:30:51,692 autoreload 35996 4612 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-22 21:30:53,203 autoreload 29340 25020 Watching for file changes with StatReloader
+INFO 2022-09-22 21:31:58,284 autoreload 29340 25020 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:32:00,386 autoreload 36108 38504 Watching for file changes with StatReloader
+INFO 2022-09-22 21:32:15,275 autoreload 36108 38504 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:32:16,634 autoreload 34000 35372 Watching for file changes with StatReloader
+INFO 2022-09-22 21:32:24,096 basehttp 34000 40864 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+ERROR 2022-09-22 21:32:24,426 log 34000 40864 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 248, in get
+    'avator': user.avator if user.avator else None,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'avator'
+ERROR 2022-09-22 21:32:24,433 basehttp 34000 40864 "GET /users_center/ HTTP/1.1" 500 91613
+INFO 2022-09-22 21:32:56,408 autoreload 34000 35372 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:32:58,466 autoreload 792 2280 Watching for file changes with StatReloader
+INFO 2022-09-22 21:33:11,147 basehttp 792 14280 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:33:18,169 basehttp 792 14280 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+ERROR 2022-09-22 21:33:18,495 log 792 14280 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 248, in get
+    'avator': user.avator.url if user.avator else None,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\utils\functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'avator'
+ERROR 2022-09-22 21:33:18,498 basehttp 792 14280 "GET /users_center/ HTTP/1.1" 500 91621
+INFO 2022-09-22 21:34:30,519 autoreload 792 2280 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 21:34:32,024 autoreload 21268 13148 Watching for file changes with StatReloader
+INFO 2022-09-22 21:34:33,382 basehttp 21268 28764 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 21:34:38,137 basehttp 21268 28764 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:34:38,151 basehttp 21268 28764 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:34:41,576 basehttp 21268 28764 "GET /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:34:41,587 basehttp 21268 28764 "GET /login/?next=/users_center/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:34:44,160 basehttp 21268 28764 "POST /login/?next=/users_center/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:34:44,448 basehttp 21268 28764 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 21:34:50,864 basehttp 21268 28764 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:34:50,873 basehttp 21268 28764 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:34:52,516 basehttp 21268 28764 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-09-22 21:34:54,543 basehttp 21268 28764 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-22 21:34:54,551 basehttp 21268 28764 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-22 21:34:57,163 basehttp 21268 28764 "GET /users_center/ HTTP/1.1" 200 4093
+INFO 2022-09-22 22:23:08,465 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4101
+INFO 2022-09-22 22:23:19,985 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4101
+INFO 2022-09-22 22:23:44,803 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4100
+INFO 2022-09-22 22:24:39,008 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4107
+INFO 2022-09-22 22:24:40,204 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4107
+INFO 2022-09-22 22:24:50,949 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4106
+INFO 2022-09-22 22:26:50,847 basehttp 21268 32132 "GET /users_center/ HTTP/1.1" 200 4111
+INFO 2022-09-22 22:28:18,254 autoreload 21268 13148 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:28:19,795 autoreload 29704 27232 Watching for file changes with StatReloader
+ERROR 2022-09-22 22:28:21,710 log 29704 30036 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 248, in get
+    'mobile': myisdanjgo,
+NameError: name 'myisdanjgo' is not defined
+ERROR 2022-09-22 22:28:21,714 basehttp 29704 30036 "GET /users_center/ HTTP/1.1" 500 87521
+INFO 2022-09-22 22:28:34,899 autoreload 29704 27232 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:28:36,387 autoreload 12608 26156 Watching for file changes with StatReloader
+INFO 2022-09-22 22:28:37,768 basehttp 12608 36604 "GET /users_center/ HTTP/1.1" 200 4110
+INFO 2022-09-22 22:29:04,696 autoreload 12608 26156 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:29:06,372 autoreload 38628 25564 Watching for file changes with StatReloader
+INFO 2022-09-22 22:29:16,208 basehttp 38628 27424 "GET /users_center/ HTTP/1.1" 200 4098
+WARNING 2022-09-22 22:31:46,065 log 38628 27424 Forbidden (CSRF token missing or incorrect.): /users_center/
+WARNING 2022-09-22 22:31:46,065 basehttp 38628 27424 "POST /users_center/ HTTP/1.1" 403 2513
+INFO 2022-09-22 22:34:01,493 autoreload 38628 25564 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:34:02,869 autoreload 40792 39176 Watching for file changes with StatReloader
+INFO 2022-09-22 22:35:27,954 autoreload 40792 39176 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:35:29,567 autoreload 39928 40176 Watching for file changes with StatReloader
+INFO 2022-09-22 22:35:31,921 autoreload 39928 40176 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:35:34,118 autoreload 15648 2076 Watching for file changes with StatReloader
+INFO 2022-09-22 22:35:37,694 autoreload 15648 2076 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:35:39,503 autoreload 5712 39872 Watching for file changes with StatReloader
+INFO 2022-09-22 22:35:45,789 autoreload 5712 39872 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:35:47,770 autoreload 24564 8120 Watching for file changes with StatReloader
+INFO 2022-09-22 22:35:59,700 autoreload 24564 8120 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:36:01,488 autoreload 24488 33520 Watching for file changes with StatReloader
+INFO 2022-09-22 22:36:06,152 autoreload 24488 33520 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:36:07,443 autoreload 14504 39272 Watching for file changes with StatReloader
+INFO 2022-09-22 22:37:50,235 autoreload 14504 39272 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:37:52,478 autoreload 20692 11164 Watching for file changes with StatReloader
+INFO 2022-09-22 22:38:46,637 autoreload 20692 11164 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:38:47,938 autoreload 24844 21220 Watching for file changes with StatReloader
+INFO 2022-09-22 22:38:51,901 autoreload 24844 21220 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:38:53,616 autoreload 11056 24248 Watching for file changes with StatReloader
+INFO 2022-09-22 22:39:12,883 autoreload 11056 24248 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:39:15,307 autoreload 32724 23440 Watching for file changes with StatReloader
+INFO 2022-09-22 22:39:55,302 autoreload 32724 23440 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:39:57,483 autoreload 15032 22788 Watching for file changes with StatReloader
+INFO 2022-09-22 22:40:26,204 autoreload 15032 22788 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:40:28,528 autoreload 17684 38784 Watching for file changes with StatReloader
+INFO 2022-09-22 22:40:32,143 autoreload 17684 38784 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:40:34,522 autoreload 19792 18124 Watching for file changes with StatReloader
+INFO 2022-09-22 22:40:44,180 autoreload 19792 18124 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:40:45,669 autoreload 30860 30664 Watching for file changes with StatReloader
+INFO 2022-09-22 22:40:48,982 autoreload 30860 30664 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:40:50,772 autoreload 40068 7288 Watching for file changes with StatReloader
+INFO 2022-09-22 22:40:56,194 autoreload 40068 7288 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:40:58,160 autoreload 9668 25168 Watching for file changes with StatReloader
+INFO 2022-09-22 22:41:17,728 autoreload 9668 25168 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:41:19,009 autoreload 29448 39564 Watching for file changes with StatReloader
+INFO 2022-09-22 22:41:23,783 autoreload 29448 39564 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:41:25,983 autoreload 33592 38044 Watching for file changes with StatReloader
+INFO 2022-09-22 22:41:28,098 autoreload 33592 38044 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:41:30,266 autoreload 23560 9068 Watching for file changes with StatReloader
+INFO 2022-09-22 22:42:01,870 autoreload 23560 9068 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:42:03,234 autoreload 33520 4644 Watching for file changes with StatReloader
+INFO 2022-09-22 22:42:26,876 autoreload 33520 4644 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:42:28,565 autoreload 38992 25608 Watching for file changes with StatReloader
+INFO 2022-09-22 22:42:34,733 autoreload 38992 25608 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-22 22:42:36,130 autoreload 4196 25172 Watching for file changes with StatReloader
+INFO 2022-09-22 22:43:48,902 autoreload 4196 25172 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 22:43:50,992 autoreload 16208 17712 Watching for file changes with StatReloader
+INFO 2022-09-22 22:43:53,012 autoreload 16208 17712 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-22 22:49:54,244 autoreload 15324 19556 Watching for file changes with StatReloader
+INFO 2022-09-22 22:50:01,862 basehttp 15324 24264 "GET /users_center/ HTTP/1.1" 200 4098
+WARNING 2022-09-22 22:50:05,379 log 15324 24264 Forbidden (CSRF token missing or incorrect.): /users_center/
+WARNING 2022-09-22 22:50:05,381 basehttp 15324 24264 "POST /users_center/ HTTP/1.1" 403 2513
+WARNING 2022-09-22 22:50:45,122 log 15324 24264 Forbidden (CSRF token missing or incorrect.): /users_center/
+WARNING 2022-09-22 22:50:45,123 basehttp 15324 24264 "POST /users_center/ HTTP/1.1" 403 2513
+INFO 2022-09-22 22:50:50,208 basehttp 15324 24264 "GET /users_center/ HTTP/1.1" 200 4265
+ERROR 2022-09-22 22:50:52,751 log 15324 24264 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 269, in post
+    response = redirect(reverse('user:users_center'))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2022-09-22 22:50:52,754 basehttp 15324 24264 "POST /users_center/ HTTP/1.1" 500 101618
+INFO 2022-09-25 18:30:31,858 autoreload 25972 15036 Watching for file changes with StatReloader
+ERROR 2022-09-25 18:31:13,760 exception 25972 23640 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-25 18:31:13,860 log 25972 23640 Bad Request: /index
+WARNING 2022-09-25 18:31:13,865 basehttp 25972 23640 "GET /index HTTP/1.1" 400 69591
+ERROR 2022-09-25 18:31:14,587 exception 25972 26692 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-25 18:31:14,694 log 25972 26692 Bad Request: /favicon.ico
+WARNING 2022-09-25 18:31:14,698 basehttp 25972 26692 "GET /favicon.ico HTTP/1.1" 400 69468
+ERROR 2022-09-25 18:31:18,495 exception 25972 26984 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-25 18:31:18,550 log 25972 26984 Bad Request: /index.html
+WARNING 2022-09-25 18:31:18,552 basehttp 25972 26984 "GET /index.html HTTP/1.1" 400 69646
+ERROR 2022-09-25 18:31:18,798 exception 25972 29720 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2022-09-25 18:31:18,867 log 25972 29720 Bad Request: /favicon.ico
+WARNING 2022-09-25 18:31:18,872 basehttp 25972 29720 "GET /favicon.ico HTTP/1.1" 400 69473
+INFO 2022-09-25 18:31:25,818 basehttp 25972 29492 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-25 18:31:25,905 basehttp 25972 25440 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-25 18:31:25,926 basehttp 25972 11572 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-25 18:31:25,933 basehttp 25972 29492 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-09-25 18:31:26,194 basehttp 25972 11572 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-25 18:31:26,197 basehttp 25972 29492 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-25 18:31:26,453 basehttp 25972 25440 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-25 18:31:26,474 basehttp 25972 11572 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-25 18:31:26,503 basehttp 25972 29492 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2022-09-25 18:31:28,676 log 25972 29492 Not Found: /favicon.ico
+WARNING 2022-09-25 18:31:28,677 basehttp 25972 29492 "GET /favicon.ico HTTP/1.1" 404 3526
+INFO 2022-09-25 18:31:57,591 basehttp 25972 29492 "GET /users_center/ HTTP/1.1" 200 4265
+ERROR 2022-09-25 18:32:00,503 log 25972 29492 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 269, in post
+    response = redirect(reverse('user:users_center'))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2022-09-25 18:32:00,508 basehttp 25972 29492 "POST /users_center/ HTTP/1.1" 500 101056
+ERROR 2022-09-25 18:35:55,151 log 25972 29492 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 269, in post
+    response = redirect(reverse('user:users_center'))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2022-09-25 18:35:55,161 basehttp 25972 29492 "POST /users_center/ HTTP/1.1" 500 101056
+ERROR 2022-09-25 18:36:04,592 log 25972 29492 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 269, in post
+    response = redirect(reverse('user:users_center'))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2022-09-25 18:36:04,600 basehttp 25972 29492 "POST /users_center/ HTTP/1.1" 500 101056
+ERROR 2022-09-25 18:36:14,851 log 25972 29492 Internal Server Error: /users_center/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 269, in post
+    response = redirect(reverse('user:users_center'))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'user' is not a registered namespace
+ERROR 2022-09-25 18:36:14,857 basehttp 25972 29492 "POST /users_center/ HTTP/1.1" 500 101074
+INFO 2022-09-25 18:36:59,630 autoreload 25972 15036 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-25 18:37:02,670 autoreload 26300 24168 Watching for file changes with StatReloader
+INFO 2022-09-25 18:37:12,744 autoreload 27616 21788 Watching for file changes with StatReloader
+INFO 2022-09-25 18:37:18,993 basehttp 27616 24580 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 18:37:19,489 basehttp 27616 24580 "GET /users_center/ HTTP/1.1" 200 4264
+INFO 2022-09-25 18:37:25,714 basehttp 27616 24580 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 18:37:26,178 basehttp 27616 24580 "GET /users_center/ HTTP/1.1" 200 4264
+INFO 2022-09-25 18:37:41,546 basehttp 27616 24580 "POST /users_center/ HTTP/1.1" 302 0
+ERROR 2022-09-25 18:37:41,549 basehttp 27616 24580 "POST /users_center/ HTTP/1.1" 500 59
+INFO 2022-09-25 18:37:50,781 basehttp 27616 28044 "POST /users_center/ HTTP/1.1" 302 0
+ERROR 2022-09-25 18:37:50,783 basehttp 27616 28044 "POST /users_center/ HTTP/1.1" 500 59
+INFO 2022-09-25 18:51:15,972 autoreload 27564 27860 Watching for file changes with StatReloader
+INFO 2022-09-25 18:51:19,674 basehttp 27564 25668 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-25 18:51:24,878 basehttp 27564 25668 "GET /users_center/ HTTP/1.1" 200 4327
+INFO 2022-09-25 18:53:45,590 autoreload 27564 27860 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-25 18:53:48,300 autoreload 24696 9924 Watching for file changes with StatReloader
+INFO 2022-09-25 18:54:01,428 autoreload 30052 25732 Watching for file changes with StatReloader
+INFO 2022-09-25 18:54:04,767 basehttp 30052 22044 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-25 18:54:09,941 basehttp 30052 22044 "GET /users_center/ HTTP/1.1" 200 4327
+INFO 2022-09-25 18:54:58,453 basehttp 30052 22044 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 18:55:35,050 autoreload 25660 24592 Watching for file changes with StatReloader
+INFO 2022-09-25 18:55:57,224 basehttp 25660 28968 "POST /users_center/ HTTP/1.1" 302 0
+ERROR 2022-09-25 18:55:57,230 basehttp 25660 28968 "POST /users_center/ HTTP/1.1" 500 59
+INFO 2022-09-25 18:56:09,710 basehttp 25660 8168 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-25 18:56:13,591 basehttp 25660 8168 "GET /users_center/ HTTP/1.1" 200 4327
+INFO 2022-09-25 18:56:25,848 basehttp 25660 8168 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 18:56:26,152 basehttp 25660 8168 "GET /users_center/ HTTP/1.1" 200 4332
+INFO 2022-09-25 18:56:31,758 basehttp 25660 8168 "GET /users_center/ HTTP/1.1" 200 4332
+INFO 2022-09-25 18:56:32,570 basehttp 25660 8168 "GET /users_center/ HTTP/1.1" 200 4332
+INFO 2022-09-25 18:57:44,615 autoreload 14504 24712 Watching for file changes with StatReloader
+INFO 2022-09-25 18:57:45,787 basehttp 14504 23664 "GET /users_center/ HTTP/1.1" 200 4365
+WARNING 2022-09-25 18:57:45,821 log 14504 23664 Not Found: /users_center/avatar/20220925/lindan_bC3PnEH.jpg
+WARNING 2022-09-25 18:57:45,822 basehttp 14504 23664 "GET /users_center/avatar/20220925/lindan_bC3PnEH.jpg HTTP/1.1" 404 3634
+INFO 2022-09-25 18:57:56,941 basehttp 14504 23664 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 18:57:57,236 basehttp 14504 23664 "GET /users_center/ HTTP/1.1" 200 4378
+WARNING 2022-09-25 18:57:57,271 log 14504 23664 Not Found: /users_center/avatar/20220925/ÓðÃ«Çò.png
+WARNING 2022-09-25 18:57:57,287 basehttp 14504 23664 "GET /users_center/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 404 3637
+INFO 2022-09-25 18:57:59,522 basehttp 14504 23664 "GET /users_center/ HTTP/1.1" 200 4378
+WARNING 2022-09-25 18:57:59,542 log 14504 23664 Not Found: /users_center/avatar/20220925/ÓðÃ«Çò.png
+WARNING 2022-09-25 18:57:59,543 basehttp 14504 23664 "GET /users_center/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 404 3637
+INFO 2022-09-25 19:06:44,806 autoreload 14504 24712 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-25 19:06:46,354 autoreload 7992 27724 Watching for file changes with StatReloader
+INFO 2022-09-25 19:07:38,144 autoreload 29100 28972 Watching for file changes with StatReloader
+INFO 2022-09-25 19:08:38,699 autoreload 29100 28972 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-25 19:08:40,413 autoreload 27696 29312 Watching for file changes with StatReloader
+INFO 2022-09-25 19:09:50,952 autoreload 27696 29312 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-25 19:09:52,606 autoreload 26140 21288 Watching for file changes with StatReloader
+INFO 2022-09-25 19:10:07,541 autoreload 6248 27256 Watching for file changes with StatReloader
+INFO 2022-09-25 19:10:16,980 basehttp 6248 13816 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-25 19:10:20,225 basehttp 6248 13816 "GET /users_center/ HTTP/1.1" 200 4405
+WARNING 2022-09-25 19:10:20,260 log 6248 13816 Not Found: /media/avatar/20220925/ÓðÃ«Çò.png
+WARNING 2022-09-25 19:10:20,261 basehttp 6248 13816 "GET /media/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 404 1868
+WARNING 2022-09-25 19:10:21,864 log 6248 13816 Not Found: /media/avatar/20220925/ÓðÃ«Çò.png
+WARNING 2022-09-25 19:10:21,865 basehttp 6248 13816 "GET /media/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 404 1868
+INFO 2022-09-25 19:10:28,692 basehttp 6248 13816 "POST /users_center/ HTTP/1.1" 302 0
+INFO 2022-09-25 19:10:28,960 basehttp 6248 13816 "GET /users_center/ HTTP/1.1" 200 4405
+INFO 2022-09-25 19:10:28,993 basehttp 6248 13816 "GET /media/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 200 248639

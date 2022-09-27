@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.shortcuts import redirect
-from django.urls import path,include
-
+from django.urls import path, include
 
 import logging
 from django.http import HttpResponse
+
 
 def mainView(request):
     return redirect('/static/index.html')
@@ -34,3 +34,8 @@ urlpatterns = [
     # path('users/', include("users.urls")),
     path('', include(('home.urls', 'home'), namespace='home'))
 ]
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

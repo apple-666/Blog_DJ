@@ -17,12 +17,13 @@ import re
 from users.models import User
 from django.db import DatabaseError
 import logging
-logger = logging.getLogger('django')
 
+logger = logging.getLogger('django')
 
 
 class RegisterView(View):
     """用户注册"""
+
     def get(self, request):
         """
         提供注册界面
@@ -69,7 +70,7 @@ class RegisterView(View):
         # namespace : name  来获取路由
         response = redirect(reverse('home:index'))
         response.set_cookie('is_login', True)
-        response.set_cookie('username', user.username, max_age=30*24*3600)
+        response.set_cookie('username', user.username, max_age=30 * 24 * 3600)
         return response
 
 
@@ -105,7 +106,7 @@ class SmsCodeView(View):
 
         # print("image_code_redis:" + str(image_code_redis))
         logger.info(image_code_redis)
-        image_code_redis = image_code_redis.decode() # 转str
+        image_code_redis = image_code_redis.decode()  # 转str
         if image_code_redis.lower() != image_code.lower():
             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图形验证码错误'})
         sms_code = "%06d" % randint(0, 999999)
@@ -151,7 +152,11 @@ class LoginView(View):
         login(request, user)
 
         # 响应登录结果
-        response = redirect(reverse('home:index'))
+        next = request.GET.get('next')
+        if next:
+            response = redirect(next)
+        else:
+            response = redirect(reverse('home:index'))
 
         # 设置状态保持的周期
         if remember != 'on':
@@ -209,7 +214,7 @@ class ForgetPasswordView(View):
             return HttpResponseBadRequest('密码前后不一致')
 
         redis_con = get_redis_connection('default')
-        redis_code = redis_con.get('sms:%s' %mobile)
+        redis_code = redis_con.get('sms:%s' % mobile)
         if redis_code is None:
             return HttpResponseBadRequest('验证码过期')
         if sms_code != redis_code.decode():
@@ -219,7 +224,7 @@ class ForgetPasswordView(View):
             user = User.objects.get(mobile=mobile)
         except User.DoesNotExist:
             try:
-                User.objects.create(mobile=mobile,password=password)
+                User.objects.create(mobile=mobile, password=password)
             except Exception:
                 return HttpResponseBadRequest('创建用户失败')
         else:
@@ -230,9 +235,37 @@ class ForgetPasswordView(View):
         return response
 
 
-class UserCenterView(View):
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+
+class UserCenterView(LoginRequiredMixin, View):
     def get(self, request):
-        response = render(request, 'center.html')
-        return response
+        user = request.user
+        # 组织模板渲染数据
+        context = {
+            'username': user.username,
+            'mobile': user.mobile,
+            'avatar': user.avatar.url if user.avatar else None,
+            'user_desc': user.user_desc
+        }
+        return render(request, 'center.html', context=context)
 
     def post(self, request):
+        user = request.user
+        avator = request.FILES.get('avatar')
+        username = request.POST.get('username', user.username)  # ’username‘为null 取user.username
+        user_desc = request.POST.get('desc', user.user_desc)
+
+        try:
+            user.username = username
+            user.user_desc = user_desc
+            if avator:
+                user.avatar = avator
+            user.save()
+        except Exception as e:
+            logger.error(e)
+            return HttpResponseBadRequest("无法保存")
+
+        response = redirect(reverse('users:users_center'))
+        response.set_cookie('username', user.username, max_age=7*24*3600)
+        return response
