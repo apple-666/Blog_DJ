@@ -3,8 +3,6 @@
 from django.urls import path
 from users.views import *
 
-
-
 urlpatterns = [
     # 参数1：路由
     # 参数2：视图函数
@@ -15,5 +13,8 @@ urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('forget_password/', ForgetPasswordView.as_view(), name='forget_password'),
-    path('users_center/', UserCenterView.as_view(), name='users_center')
+    path('users_center/', UserCenterView.as_view(), name='users_center'),
+    path('write_blog/', WriteBlogView.as_view(), name='write_blog')
 ]
+
+

@@ -3635,3 +3635,459 @@ WARNING 2022-09-25 19:10:21,865 basehttp 6248 13816 "GET /media/avatar/20220925/
 INFO 2022-09-25 19:10:28,692 basehttp 6248 13816 "POST /users_center/ HTTP/1.1" 302 0
 INFO 2022-09-25 19:10:28,960 basehttp 6248 13816 "GET /users_center/ HTTP/1.1" 200 4405
 INFO 2022-09-25 19:10:28,993 basehttp 6248 13816 "GET /media/avatar/20220925/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 200 248639
+INFO 2022-09-28 21:36:34,932 autoreload 7144 20612 Watching for file changes with StatReloader
+INFO 2022-09-28 21:36:37,420 basehttp 7144 6032 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-28 21:36:37,550 basehttp 7144 8256 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-09-28 21:36:37,553 basehttp 7144 24144 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2022-09-28 21:36:37,561 basehttp 7144 28188 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2022-09-28 21:36:37,572 basehttp 7144 11260 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-28 21:36:37,574 basehttp 7144 6032 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-09-28 21:36:37,583 basehttp 7144 8256 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2022-09-28 21:36:37,593 basehttp 7144 21312 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-09-28 21:36:37,666 basehttp 7144 21312 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-28 21:36:37,677 basehttp 7144 21312 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-28 21:36:37,688 basehttp 7144 21312 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2022-09-28 21:36:37,698 basehttp 7144 21312 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-09-28 21:36:37,711 basehttp 7144 21312 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2022-09-28 21:36:38,361 log 7144 21312 Not Found: /favicon.ico
+WARNING 2022-09-28 21:36:38,362 basehttp 7144 21312 "GET /favicon.ico HTTP/1.1" 404 3660
+INFO 2022-09-28 21:37:12,165 basehttp 7144 21312 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-09-28 21:37:12,174 basehttp 7144 21312 "GET / HTTP/1.1" 200 11886
+INFO 2022-09-28 21:37:41,243 basehttp 7144 21312 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-09-28 21:37:41,297 basehttp 7144 21312 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2022-09-28 21:37:44,749 basehttp 7144 21312 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-09-28 21:37:44,757 basehttp 7144 21312 "GET / HTTP/1.1" 200 11886
+WARNING 2022-09-28 21:37:46,470 log 7144 21312 Not Found: /write_blog.html
+WARNING 2022-09-28 21:37:46,471 basehttp 7144 21312 "GET /write_blog.html HTTP/1.1" 404 3672
+WARNING 2022-09-28 21:38:10,539 log 7144 21312 Not Found: /write_blog.html
+WARNING 2022-09-28 21:38:10,540 basehttp 7144 21312 "GET /write_blog.html HTTP/1.1" 404 3672
+WARNING 2022-09-28 21:38:13,152 log 7144 21312 Not Found: /write_blog.html
+WARNING 2022-09-28 21:38:13,152 basehttp 7144 21312 "GET /write_blog.html HTTP/1.1" 404 3672
+WARNING 2022-09-28 21:38:19,976 log 7144 21312 Not Found: /write_blog.html
+WARNING 2022-09-28 21:38:19,977 basehttp 7144 21312 "GET /write_blog.html HTTP/1.1" 404 3672
+INFO 2022-09-28 21:38:38,800 autoreload 32276 13716 Watching for file changes with StatReloader
+INFO 2022-09-28 21:38:39,666 basehttp 32276 28388 "GET / HTTP/1.1" 200 11883
+ERROR 2022-09-28 21:38:41,684 log 32276 28388 Internal Server Error: /write_blog/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 276, in get
+    return render(request, 'write_blog.html')
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\urls\resolvers.py", line 673, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor/ckeditor-init.js' not found. 'ckeditor/ckeditor-init.js' is not a valid view function or pattern name.
+ERROR 2022-09-28 21:38:41,689 basehttp 32276 28388 "GET /write_blog/ HTTP/1.1" 500 144743
+INFO 2022-09-28 21:39:50,258 autoreload 31568 29252 Watching for file changes with StatReloader
+INFO 2022-09-28 21:39:51,058 basehttp 31568 32064 "GET /write_blog/ HTTP/1.1" 200 5668
+INFO 2022-09-28 21:39:51,113 basehttp 31568 32064 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2022-09-28 21:39:51,122 basehttp 31568 32064 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2022-09-28 21:39:51,143 basehttp 31568 11752 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+WARNING 2022-09-28 21:39:51,212 log 31568 11752 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-28 21:39:51,212 basehttp 31568 11752 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-28 21:39:51,232 log 31568 11752 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-28 21:39:51,234 log 31568 32064 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-28 21:39:51,234 basehttp 31568 11752 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-28 21:39:51,234 basehttp 31568 32064 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-28 21:41:02,550 basehttp 31568 32064 "GET /write_blog/ HTTP/1.1" 200 5675
+WARNING 2022-09-28 21:41:02,702 log 31568 32064 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-28 21:41:02,702 basehttp 31568 32064 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-28 21:41:02,721 log 31568 32064 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-28 21:41:02,721 basehttp 31568 32064 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-28 21:41:02,733 log 31568 32064 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-28 21:41:02,733 basehttp 31568 32064 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-28 21:41:28,065 log 31568 32064 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-28 21:41:28,065 basehttp 31568 32064 "POST /write_blog/ HTTP/1.1" 403 2513
+INFO 2022-09-28 21:41:49,922 autoreload 31568 29252 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-28 21:41:52,034 autoreload 29624 24372 Watching for file changes with StatReloader
+INFO 2022-09-28 23:56:12,316 autoreload 29624 24372 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-28 23:56:14,207 autoreload 35452 36664 Watching for file changes with StatReloader
+INFO 2022-09-28 23:58:34,027 autoreload 35452 36664 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-28 23:58:36,432 autoreload 34952 34708 Watching for file changes with StatReloader
+INFO 2022-09-28 23:59:21,651 autoreload 34952 34708 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-28 23:59:23,822 autoreload 24536 19000 Watching for file changes with StatReloader
+INFO 2022-09-29 00:09:05,779 autoreload 24536 19000 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-29 00:09:07,186 autoreload 35876 34884 Watching for file changes with StatReloader
+INFO 2022-09-29 00:09:16,685 autoreload 35876 34884 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-29 00:09:19,311 autoreload 35528 36516 Watching for file changes with StatReloader
+INFO 2022-09-29 00:10:49,482 basehttp 35528 35816 "GET /admin HTTP/1.1" 301 0
+INFO 2022-09-29 00:10:49,994 autoreload 35528 36516 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-29 00:10:54,219 autoreload 15004 24764 Watching for file changes with StatReloader
+INFO 2022-09-29 00:10:56,347 basehttp 15004 17184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-09-29 00:10:56,803 basehttp 15004 17184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1975
+INFO 2022-09-29 00:10:56,898 basehttp 15004 23296 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2022-09-29 00:10:56,900 basehttp 15004 17184 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2022-09-29 00:10:56,902 basehttp 15004 30380 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2022-09-29 00:10:56,959 basehttp 15004 30380 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-09-29 00:10:57,075 basehttp 15004 30380 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-09-29 00:10:57,084 basehttp 15004 23296 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-09-29 00:10:57,084 basehttp 15004 17184 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+WARNING 2022-09-29 00:10:57,134 log 15004 17184 Not Found: /favicon.ico
+WARNING 2022-09-29 00:10:57,137 basehttp 15004 17184 "GET /favicon.ico HTTP/1.1" 404 3660
+INFO 2022-09-29 00:11:24,832 basehttp 15004 17184 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2140
+INFO 2022-09-29 00:11:32,121 basehttp 15004 17184 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2140
+INFO 2022-09-29 00:11:38,183 basehttp 15004 17184 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2140
+INFO 2022-09-29 00:11:46,789 basehttp 15004 17184 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2140
+INFO 2022-09-29 00:13:52,383 autoreload 15004 24764 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-29 00:13:53,912 autoreload 20076 36000 Watching for file changes with StatReloader
+INFO 2022-09-29 00:19:27,384 autoreload 20076 36000 D:\apple\workspace\py\BlogDJ\BlogDJ\BlogDJ\settings.py changed, reloading.
+INFO 2022-09-29 00:19:29,041 autoreload 35376 940 Watching for file changes with StatReloader
+INFO 2022-09-29 00:21:53,947 autoreload 35376 940 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-29 00:21:55,477 autoreload 37644 31140 Watching for file changes with StatReloader
+INFO 2022-09-29 00:21:59,281 autoreload 37644 31140 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-29 00:22:01,469 autoreload 36172 33468 Watching for file changes with StatReloader
+INFO 2022-09-29 00:22:27,013 autoreload 36172 33468 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-29 00:22:28,412 autoreload 940 36272 Watching for file changes with StatReloader
+INFO 2022-09-29 00:22:41,918 basehttp 940 34788 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-09-29 00:22:42,409 basehttp 940 34788 "GET /admin/ HTTP/1.1" 200 2588
+INFO 2022-09-29 00:22:42,448 basehttp 940 34788 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2022-09-29 00:22:42,494 basehttp 940 34788 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-09-29 00:22:42,494 basehttp 940 31212 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-09-29 00:22:49,423 basehttp 940 31212 "GET /admin/auth/group/add/ HTTP/1.1" 200 6885
+INFO 2022-09-29 00:22:49,466 basehttp 940 31212 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2022-09-29 00:22:49,498 basehttp 940 35236 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2022-09-29 00:22:49,501 basehttp 940 28908 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2022-09-29 00:22:49,502 basehttp 940 36288 "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2022-09-29 00:22:49,502 basehttp 940 4316 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+INFO 2022-09-29 00:22:49,521 basehttp 940 31212 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2022-09-29 00:22:49,523 basehttp 940 35236 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2022-09-29 00:22:49,528 basehttp 940 4316 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2022-09-29 00:22:49,528 basehttp 940 28908 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+INFO 2022-09-29 00:22:49,530 basehttp 940 36288 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2022-09-29 00:22:49,542 basehttp 940 28908 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2022-09-29 00:22:49,542 basehttp 940 35236 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2022-09-29 00:22:49,542 basehttp 940 4316 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2022-09-29 00:22:49,547 basehttp 940 31212 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2022-09-29 00:22:49,723 basehttp 940 34788 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:22:49,774 basehttp 940 34788 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2022-09-29 00:22:49,774 basehttp 940 4316 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2022-09-29 00:22:49,774 basehttp 940 31212 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-09-29 00:22:49,781 basehttp 940 28908 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2022-09-29 00:23:18,910 basehttp 940 28908 "GET /admin/auth/ HTTP/1.1" 200 2465
+INFO 2022-09-29 00:23:20,324 basehttp 940 28908 "GET /admin/ HTTP/1.1" 200 2588
+INFO 2022-09-29 00:25:07,800 autoreload 940 36272 D:\apple\workspace\py\BlogDJ\BlogDJ\home\admin.py changed, reloading.
+INFO 2022-09-29 00:25:09,795 autoreload 32608 14228 Watching for file changes with StatReloader
+INFO 2022-09-29 00:25:26,654 basehttp 32608 35252 "GET /admin/ HTTP/1.1" 200 3297
+INFO 2022-09-29 00:25:30,480 basehttp 32608 35252 "GET /admin/home/articlecategory/ HTTP/1.1" 200 3221
+INFO 2022-09-29 00:25:30,514 basehttp 32608 35252 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2022-09-29 00:25:30,849 basehttp 32608 35252 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:25:30,874 basehttp 32608 35252 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-09-29 00:26:18,694 autoreload 32608 14228 D:\apple\workspace\py\BlogDJ\BlogDJ\users\models.py changed, reloading.
+INFO 2022-09-29 00:26:21,252 autoreload 11428 26292 Watching for file changes with StatReloader
+INFO 2022-09-29 00:26:26,224 basehttp 11428 32040 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5039
+INFO 2022-09-29 00:26:26,317 basehttp 11428 32040 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2022-09-29 00:26:26,320 basehttp 11428 6328 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 2022-09-29 00:26:26,799 basehttp 11428 30816 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:26:26,845 basehttp 11428 6328 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2022-09-29 00:26:26,845 basehttp 11428 30816 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-09-29 00:26:58,534 basehttp 11428 30816 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2022-09-29 00:26:59,052 basehttp 11428 30816 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4586
+INFO 2022-09-29 00:26:59,433 basehttp 11428 30816 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:26:59,454 basehttp 11428 30816 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-09-29 00:27:02,692 basehttp 11428 30816 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5039
+INFO 2022-09-29 00:27:02,982 basehttp 11428 30816 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:27:37,400 basehttp 11428 30816 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2022-09-29 00:27:37,777 basehttp 11428 30816 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5274
+INFO 2022-09-29 00:27:38,069 basehttp 11428 30816 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:27:40,112 basehttp 11428 30816 "GET /admin/home/ HTTP/1.1" 200 2459
+INFO 2022-09-29 00:27:42,211 basehttp 11428 30816 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4633
+INFO 2022-09-29 00:27:42,483 basehttp 11428 30816 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2022-09-29 00:28:29,073 autoreload 11428 26292 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-09-29 00:28:30,688 autoreload 2908 34772 Watching for file changes with StatReloader
+INFO 2022-09-29 00:32:19,857 autoreload 2908 34772 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-29 00:32:21,645 autoreload 38128 38072 Watching for file changes with StatReloader
+INFO 2022-09-29 00:35:49,501 autoreload 38128 38072 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-29 00:35:51,442 autoreload 22744 37940 Watching for file changes with StatReloader
+INFO 2022-09-29 00:35:58,851 basehttp 22744 38092 "GET / HTTP/1.1" 200 11883
+INFO 2022-09-29 00:36:02,106 basehttp 22744 38092 "GET /write_blog/ HTTP/1.1" 200 5342
+WARNING 2022-09-29 00:36:02,233 log 22744 38092 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-29 00:36:02,234 basehttp 22744 38092 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-29 00:36:02,245 log 22744 38092 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-29 00:36:02,245 basehttp 22744 38092 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-29 00:36:02,267 log 22744 38092 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-29 00:36:02,268 basehttp 22744 38092 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-29 00:36:16,261 autoreload 39080 39084 Watching for file changes with StatReloader
+INFO 2022-09-29 00:36:24,999 basehttp 39080 39208 "GET /write_blog/ HTTP/1.1" 200 5342
+WARNING 2022-09-29 00:36:25,105 log 39080 39208 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-29 00:36:25,106 basehttp 39080 39208 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-29 00:36:25,119 log 39080 39208 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-29 00:36:25,122 basehttp 39080 39208 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-29 00:36:25,126 log 39080 39212 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-29 00:36:25,126 basehttp 39080 39212 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-29 00:36:50,090 autoreload 39080 39084 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-29 00:36:51,960 autoreload 38996 38992 Watching for file changes with StatReloader
+INFO 2022-09-29 00:37:03,985 autoreload 38996 38992 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-29 00:37:06,284 autoreload 38652 38844 Watching for file changes with StatReloader
+INFO 2022-09-29 00:37:10,740 basehttp 38652 38780 "GET /write_blog/ HTTP/1.1" 200 5516
+WARNING 2022-09-29 00:37:10,858 log 38652 38780 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-29 00:37:10,858 basehttp 38652 38780 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-29 00:37:10,875 log 38652 38780 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-29 00:37:10,876 basehttp 38652 38780 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-29 00:37:10,878 log 38652 39272 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-29 00:37:10,878 basehttp 38652 39272 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-29 21:23:49,552 autoreload 56684 59668 Watching for file changes with StatReloader
+INFO 2022-09-29 21:26:04,218 autoreload 56684 59668 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-09-29 21:26:07,353 autoreload 60604 57716 Watching for file changes with StatReloader
+INFO 2022-09-29 21:38:14,999 autoreload 60604 57716 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-09-29 21:38:17,835 autoreload 60036 60332 Watching for file changes with StatReloader
+INFO 2022-09-29 21:44:09,992 autoreload 60036 60332 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-09-29 21:44:14,173 autoreload 57388 63360 Watching for file changes with StatReloader
+WARNING 2022-09-30 00:02:27,651 log 57388 65704 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:02:27,651 basehttp 57388 65704 "POST /write_blog/ HTTP/1.1" 403 2508
+WARNING 2022-09-30 00:02:31,699 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:02:31,699 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:02:31,718 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:02:31,718 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:02:31,766 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:02:31,766 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:03:21,884 basehttp 57388 65704 "GET /write_blog/ HTTP/1.1" 200 5550
+WARNING 2022-09-30 00:03:22,030 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:03:22,031 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:03:22,043 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:03:22,044 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:03:22,110 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:03:22,110 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-30 00:03:23,126 log 57388 65704 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:03:23,127 basehttp 57388 65704 "POST /write_blog/ HTTP/1.1" 403 2508
+WARNING 2022-09-30 00:03:25,762 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:03:25,763 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:03:25,780 log 57388 65704 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:03:25,784 log 57388 66040 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:03:25,785 basehttp 57388 65704 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:03:25,785 basehttp 57388 66040 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:03:28,520 basehttp 57388 66040 "GET /write_blog/ HTTP/1.1" 200 5550
+INFO 2022-09-30 00:03:28,589 basehttp 57388 65704 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2022-09-30 00:03:28,592 basehttp 57388 61956 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2022-09-30 00:03:28,598 basehttp 57388 62868 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2022-09-30 00:03:28,603 basehttp 57388 65704 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-09-30 00:03:28,606 basehttp 57388 66040 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2022-09-30 00:03:28,608 basehttp 57388 61956 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-09-30 00:03:28,612 basehttp 57388 62868 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2022-09-30 00:03:28,622 basehttp 57388 34384 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-09-30 00:03:28,645 basehttp 57388 68132 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+WARNING 2022-09-30 00:03:28,901 log 57388 68132 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:03:28,903 log 57388 34384 Not Found: /favicon.ico
+WARNING 2022-09-30 00:03:28,905 basehttp 57388 68132 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:03:28,905 basehttp 57388 34384 "GET /favicon.ico HTTP/1.1" 404 3660
+WARNING 2022-09-30 00:03:28,930 log 57388 34384 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:03:28,938 log 57388 68132 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:03:28,938 basehttp 57388 34384 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:03:28,940 basehttp 57388 68132 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-30 00:03:29,731 log 57388 68132 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:03:29,731 basehttp 57388 68132 "POST /write_blog/ HTTP/1.1" 403 2508
+INFO 2022-09-30 00:03:38,054 autoreload 12188 53192 Watching for file changes with StatReloader
+WARNING 2022-09-30 00:03:39,121 log 12188 60688 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:03:39,122 log 12188 54448 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:03:39,124 basehttp 12188 60688 "POST /write_blog/ HTTP/1.1" 403 2508
+WARNING 2022-09-30 00:03:39,128 log 12188 59792 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:03:39,128 basehttp 12188 54448 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:03:39,130 basehttp 12188 59792 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:03:39,140 basehttp 12188 59792 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 500 59
+ERROR 2022-09-30 00:03:39,140 basehttp 12188 54448 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 500 59
+WARNING 2022-09-30 00:03:47,711 log 12188 60688 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:03:47,713 basehttp 12188 60688 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:03:47,773 log 12188 60688 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:03:47,774 basehttp 12188 60688 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:03:47,776 log 12188 35556 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:03:47,777 basehttp 12188 35556 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-30 00:04:03,385 log 12188 35556 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:04:03,385 basehttp 12188 35556 "POST /write_blog/ HTTP/1.1" 403 2508
+WARNING 2022-09-30 00:04:18,168 log 12188 35556 Forbidden (CSRF token missing or incorrect.): /write_blog/
+WARNING 2022-09-30 00:04:18,168 basehttp 12188 35556 "POST /write_blog/ HTTP/1.1" 403 2508
+WARNING 2022-09-30 00:04:19,798 log 12188 35556 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:04:19,799 basehttp 12188 35556 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:04:19,813 log 12188 35556 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:04:19,815 log 12188 60688 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:04:19,816 basehttp 12188 35556 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:04:19,816 basehttp 12188 60688 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:04:23,675 basehttp 12188 60688 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:04:23,785 log 12188 60688 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:04:23,787 basehttp 12188 60688 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:04:23,806 log 12188 60688 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:04:23,807 log 12188 35556 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:04:23,808 basehttp 12188 60688 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:04:23,810 basehttp 12188 35556 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-30 00:04:31,438 base 12188 35556 Method Not Allowed (POST): /write_blog/
+WARNING 2022-09-30 00:04:31,440 log 12188 35556 Method Not Allowed: /write_blog/
+WARNING 2022-09-30 00:04:31,441 basehttp 12188 35556 "POST /write_blog/ HTTP/1.1" 405 0
+INFO 2022-09-30 00:05:17,592 autoreload 12188 53192 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-30 00:05:20,441 autoreload 67044 60552 Watching for file changes with StatReloader
+INFO 2022-09-30 00:05:23,291 basehttp 67044 61172 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:05:23,502 log 67044 61172 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:05:23,502 basehttp 67044 61172 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:05:23,516 log 67044 61172 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:05:23,518 basehttp 67044 61172 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:05:23,521 log 67044 32072 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:05:23,521 basehttp 67044 32072 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:08:28,353 autoreload 67044 60552 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-30 00:08:30,356 autoreload 65216 67252 Watching for file changes with StatReloader
+INFO 2022-09-30 00:18:25,575 autoreload 65216 67252 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-30 00:18:28,194 autoreload 56236 68104 Watching for file changes with StatReloader
+INFO 2022-09-30 00:18:34,123 autoreload 66504 64780 Watching for file changes with StatReloader
+INFO 2022-09-30 00:18:35,520 basehttp 66504 61928 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:18:35,932 log 66504 61928 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:18:35,934 basehttp 66504 61928 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:18:35,948 log 66504 61928 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:18:35,951 basehttp 66504 61928 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:18:35,952 log 66504 58628 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:18:35,954 basehttp 66504 58628 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:19:00,292 autoreload 66504 64780 D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py changed, reloading.
+INFO 2022-09-30 00:19:02,822 autoreload 64384 38272 Watching for file changes with StatReloader
+ERROR 2022-09-30 00:19:21,580 log 64384 64436 Internal Server Error: /write_blog/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 293, in post
+    if not all(title, category_id, tag):
+TypeError: all() takes exactly one argument (3 given)
+ERROR 2022-09-30 00:19:21,586 basehttp 64384 64436 "POST /write_blog/ HTTP/1.1" 500 90422
+INFO 2022-09-30 00:20:24,823 autoreload 65300 59540 Watching for file changes with StatReloader
+INFO 2022-09-30 00:20:29,251 basehttp 65300 64236 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:20:29,499 log 65300 64236 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:20:29,505 basehttp 65300 64236 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:20:29,539 log 65300 64236 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:20:29,542 basehttp 65300 64236 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:20:29,600 log 65300 64236 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:20:29,604 basehttp 65300 64236 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:22:17,271 log 65300 64236 Internal Server Error: /write_blog/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\users\views.py", line 293, in post
+    if not all(title, category_id, tag):
+TypeError: all() takes exactly one argument (3 given)
+ERROR 2022-09-30 00:22:40,756 basehttp 65300 64236 "POST /write_blog/ HTTP/1.1" 500 107350
+INFO 2022-09-30 00:24:15,131 autoreload 64416 65832 Watching for file changes with StatReloader
+INFO 2022-09-30 00:24:19,728 basehttp 64416 64320 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:24:19,913 log 64416 64320 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:24:19,914 basehttp 64416 64320 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:24:19,928 log 64416 64320 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:24:19,929 basehttp 64416 64320 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:24:19,938 log 64416 66248 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:24:19,940 basehttp 64416 66248 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:24:32,037 views 64416 66248 ArticleCategory() got an unexpected keyword argument 'author'
+WARNING 2022-09-30 00:24:32,040 log 64416 66248 Bad Request: /write_blog/
+WARNING 2022-09-30 00:24:32,041 basehttp 64416 66248 "POST /write_blog/ HTTP/1.1" 400 18
+INFO 2022-09-30 00:24:45,278 autoreload 67268 64548 Watching for file changes with StatReloader
+INFO 2022-09-30 00:24:51,022 basehttp 67268 36300 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:24:51,296 log 67268 36300 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:24:51,297 basehttp 67268 36300 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:24:51,326 log 67268 36300 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:24:51,331 log 67268 2424 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:24:51,332 basehttp 67268 36300 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:24:51,334 basehttp 67268 2424 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:25:53,947 autoreload 64548 60884 Watching for file changes with StatReloader
+ERROR 2022-09-30 00:25:55,498 views 64548 10616 name 'Article' is not defined
+WARNING 2022-09-30 00:25:55,506 log 64548 10616 Bad Request: /write_blog/
+WARNING 2022-09-30 00:25:55,506 basehttp 64548 10616 "POST /write_blog/ HTTP/1.1" 400 18
+ERROR 2022-09-30 00:25:58,936 views 64548 10616 name 'Article' is not defined
+WARNING 2022-09-30 00:25:58,938 log 64548 10616 Bad Request: /write_blog/
+WARNING 2022-09-30 00:25:58,938 basehttp 64548 10616 "POST /write_blog/ HTTP/1.1" 400 18
+WARNING 2022-09-30 00:26:00,078 log 64548 10616 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:26:00,080 basehttp 64548 10616 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:26:00,110 log 64548 10616 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:26:00,114 log 64548 1144 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:26:00,114 basehttp 64548 10616 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:26:00,114 basehttp 64548 1144 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:26:02,947 views 64548 1144 name 'Article' is not defined
+WARNING 2022-09-30 00:26:02,952 log 64548 1144 Bad Request: /write_blog/
+WARNING 2022-09-30 00:26:02,952 basehttp 64548 1144 "POST /write_blog/ HTTP/1.1" 400 18
+INFO 2022-09-30 00:26:24,682 autoreload 69312 52608 Watching for file changes with StatReloader
+ERROR 2022-09-30 00:26:27,169 views 69312 69368 (1048, "Column 'context' cannot be null")
+WARNING 2022-09-30 00:26:27,177 log 69312 69368 Bad Request: /write_blog/
+WARNING 2022-09-30 00:26:27,177 basehttp 69312 69368 "POST /write_blog/ HTTP/1.1" 400 18
+WARNING 2022-09-30 00:26:32,812 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:26:32,812 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:26:32,831 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:26:32,833 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:26:32,897 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:26:32,897 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:26:35,497 basehttp 69312 69368 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:26:35,638 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:26:35,638 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:26:35,655 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:26:35,656 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:26:35,731 log 69312 69368 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:26:35,732 basehttp 69312 69368 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:26:46,531 views 69312 69368 (1048, "Column 'context' cannot be null")
+WARNING 2022-09-30 00:26:46,534 log 69312 69368 Bad Request: /write_blog/
+WARNING 2022-09-30 00:26:46,535 basehttp 69312 69368 "POST /write_blog/ HTTP/1.1" 400 18
+INFO 2022-09-30 00:28:05,336 autoreload 69312 52608 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-09-30 00:28:07,407 autoreload 66248 56384 Watching for file changes with StatReloader
+INFO 2022-09-30 00:28:12,634 autoreload 68808 68624 Watching for file changes with StatReloader
+WARNING 2022-09-30 00:28:13,561 log 68808 20384 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:28:13,562 basehttp 68808 20384 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+ERROR 2022-09-30 00:28:20,386 views 68808 20384 (1054, "Unknown column 'content' in 'field list'")
+WARNING 2022-09-30 00:28:20,394 log 68808 20384 Bad Request: /write_blog/
+WARNING 2022-09-30 00:28:20,395 basehttp 68808 20384 "POST /write_blog/ HTTP/1.1" 400 18
+INFO 2022-09-30 00:29:18,008 autoreload 19676 58456 Watching for file changes with StatReloader
+WARNING 2022-09-30 00:29:19,244 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:29:19,245 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:29:19,265 log 19676 68732 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:29:19,266 basehttp 19676 68732 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+WARNING 2022-09-30 00:29:19,271 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:29:19,273 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+INFO 2022-09-30 00:29:23,371 basehttp 19676 67440 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:29:23,482 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:29:23,484 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:29:23,497 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:29:23,497 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:29:23,521 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:29:23,521 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:29:37,619 basehttp 19676 67440 "POST /write_blog/ HTTP/1.1" 302 0
+INFO 2022-09-30 00:29:37,636 basehttp 19676 67440 "GET / HTTP/1.1" 200 11883
+INFO 2022-09-30 00:29:37,722 basehttp 19676 67440 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2022-09-30 00:29:52,184 basehttp 19676 67440 "GET /write_blog/ HTTP/1.1" 200 5654
+WARNING 2022-09-30 00:29:52,575 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/config.js
+WARNING 2022-09-30 00:29:52,577 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3748
+WARNING 2022-09-30 00:29:52,646 log 19676 67440 Not Found: /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2022-09-30 00:29:52,657 log 19676 68732 Not Found: /write_blog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2022-09-30 00:29:52,658 basehttp 19676 67440 "GET /write_blog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3802
+WARNING 2022-09-30 00:29:52,658 basehttp 19676 68732 "GET /write_blog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3760
+INFO 2022-09-30 00:29:59,909 basehttp 19676 68732 "POST /write_blog/ HTTP/1.1" 302 0
+INFO 2022-09-30 00:29:59,921 basehttp 19676 68732 "GET / HTTP/1.1" 200 11883

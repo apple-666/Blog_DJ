@@ -94,6 +94,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\templates\write_blog.html">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\users\migrations\0001_initial.py">
           <value>
             <Attribute>

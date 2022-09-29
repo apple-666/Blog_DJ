@@ -5,6 +5,8 @@ from django.contrib.auth import authenticate
 from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponseBadRequest, HttpResponse
+
+from home.models import ArticleCategory, Article
 from libs.captcha.captcha import captcha
 from django_redis import get_redis_connection
 from django.http import JsonResponse
@@ -265,7 +267,48 @@ class UserCenterView(LoginRequiredMixin, View):
         except Exception as e:
             logger.error(e)
             return HttpResponseBadRequest("无法保存")
-
         response = redirect(reverse('users:users_center'))
-        response.set_cookie('username', user.username, max_age=7*24*3600)
+        response.set_cookie('username', user.username, max_age=7 * 24 * 3600)
         return response
+
+
+class WriteBlogView(LoginRequiredMixin, View):
+
+    def get(self, request):
+        categories = ArticleCategory.objects.all()
+        context = {
+            'categories': categories
+        }
+        return render(request, 'write_blog.html', context=context)
+
+    def post(self, request):
+        avatar = request.FILES.get('avatar')
+        title = request.POST.get('title')
+        category_id = request.POST.get('category')
+        tag = request.POST.get('tags')
+        sumary = request.POST.get('sumary')
+        content = request.POST.get('content')
+        user = request.user
+
+        if not all([title, category_id, tag]):
+            return HttpResponseBadRequest('参数不全')
+
+        try:
+            now_category = ArticleCategory.objects.get(id=category_id)
+        except ArticleCategory.doesnotExist:
+            return HttpResponseBadRequest('没有此分类')
+
+        try:
+            article = Article.objects.create(
+                author=user,
+                avatar=avatar,
+                category=now_category,
+                tags=tag,
+                title=title,
+                sumary=sumary,
+                content=content
+            )
+        except Exception as e:
+            logger.error(e)
+            return HttpResponseBadRequest('文章发布失败')
+        return redirect(reverse('home:index'))
