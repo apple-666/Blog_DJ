@@ -290,7 +290,7 @@ class WriteBlogView(LoginRequiredMixin, View):
         content = request.POST.get('content')
         user = request.user
 
-        if not all([title, category_id, tag]):
+        if not all([title, category_id, tag, avatar]):
             return HttpResponseBadRequest('参数不全')
 
         try:
