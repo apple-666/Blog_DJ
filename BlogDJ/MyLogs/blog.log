@@ -5485,3 +5485,855 @@ INFO 2022-10-01 18:11:40,741 basehttp 29300 28864 "GET /media/article/20221001/r
 INFO 2022-10-01 18:11:40,744 basehttp 29300 31612 "GET /media/article/20221001/lindan.jpg HTTP/1.1" 200 67527
 INFO 2022-10-01 18:31:03,415 autoreload 29300 28940 D:\apple\workspace\py\BlogDJ\BlogDJ\home\urls.py changed, reloading.
 INFO 2022-10-01 18:31:04,908 autoreload 30456 1224 Watching for file changes with StatReloader
+ERROR 2022-10-01 19:50:34,727 log 30456 35660 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 722, in create_connection
+    raise err
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 23, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\sql\compiler.py", line 1098, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 256, in cursor
+    return self._cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 233, in _cursor
+    self.ensure_connection()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+ERROR 2022-10-01 19:50:34,762 basehttp 30456 35660 "GET /?cat_id=2 HTTP/1.1" 500 212653
+ERROR 2022-10-01 19:50:48,602 log 30456 35660 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 722, in create_connection
+    raise err
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 23, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\sql\compiler.py", line 1098, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 256, in cursor
+    return self._cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 233, in _cursor
+    self.ensure_connection()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+ERROR 2022-10-01 19:50:48,615 basehttp 30456 35660 "GET /?cat_id=2 HTTP/1.1" 500 212438
+ERROR 2022-10-01 19:50:59,085 log 30456 35660 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 722, in create_connection
+    raise err
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 23, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\sql\compiler.py", line 1098, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 256, in cursor
+    return self._cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 233, in _cursor
+    self.ensure_connection()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+ERROR 2022-10-01 19:50:59,099 basehttp 30456 35660 "GET /?cat_id=1 HTTP/1.1" 500 212438
+ERROR 2022-10-01 19:51:00,864 log 30456 35660 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 722, in create_connection
+    raise err
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 23, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\models\sql\compiler.py", line 1098, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 256, in cursor
+    return self._cursor()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 233, in _cursor
+    self.ensure_connection()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 217, in ensure_connection
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\base\base.py", line 195, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\db\backends\mysql\base.py", line 227, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\pymysql\connections.py", line 664, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '180.76.113.21' ([WinError 10065] 套接字操作尝试一个无法连接的主机。)")
+ERROR 2022-10-01 19:51:00,875 basehttp 30456 35660 "GET /?cat_id=3 HTTP/1.1" 500 212564
+INFO 2022-10-01 19:51:11,239 autoreload 33752 32984 Watching for file changes with StatReloader
+INFO 2022-10-01 22:58:17,037 autoreload 32448 29200 Watching for file changes with StatReloader
+INFO 2022-10-01 23:07:13,294 autoreload 32448 29200 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-01 23:07:17,806 autoreload 31456 37452 Watching for file changes with StatReloader
+INFO 2022-10-01 23:15:50,331 basehttp 31456 27916 "GET / HTTP/1.1" 200 19429
+INFO 2022-10-01 23:15:50,696 basehttp 31456 40032 "GET /media/article/20221001/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 304 0
+INFO 2022-10-01 23:15:50,696 basehttp 31456 27916 "GET /media/article/20220930/%E7%BE%BD%E6%AF%9B%E7%90%83_2snD5wB.png HTTP/1.1" 304 0
+WARNING 2022-10-01 23:16:17,301 log 31456 27916 Not Found: /detail.html
+WARNING 2022-10-01 23:16:17,301 basehttp 31456 27916 "GET /detail.html HTTP/1.1" 404 3829
+INFO 2022-10-01 23:32:24,066 autoreload 31456 37452 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-01 23:32:26,099 autoreload 37008 33788 Watching for file changes with StatReloader
+INFO 2022-10-01 23:34:52,807 basehttp 37008 23772 "GET /?cat_id=2 HTTP/1.1" 200 19552
+INFO 2022-10-01 23:34:54,345 basehttp 37008 23772 "GET /?cat_id=3 HTTP/1.1" 200 7628
+INFO 2022-10-01 23:34:54,412 basehttp 37008 23772 "GET /media/article/20221001/robot.png HTTP/1.1" 304 0
+INFO 2022-10-01 23:34:54,414 basehttp 37008 39140 "GET /media/article/20221001/lindan.jpg HTTP/1.1" 304 0
+INFO 2022-10-01 23:34:56,374 basehttp 37008 39140 "GET /?cat_id=1 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:35:04,429 basehttp 37008 39140 "GET /detail/?id=1 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:36:23,403 basehttp 37008 39140 "GET /detail/?id=122 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:36:41,983 basehttp 37008 39140 "GET /detail/?id=1222222222222 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:40:48,713 autoreload 36136 31164 Watching for file changes with StatReloader
+INFO 2022-10-01 23:42:42,067 autoreload 7976 37004 Watching for file changes with StatReloader
+INFO 2022-10-01 23:42:45,479 basehttp 7976 39072 "GET /detail/?id=1222222222222 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:42:45,482 basehttp 7976 40120 "GET /detail/?id=1222222222222 HTTP/1.1" 200 19713
+ERROR 2022-10-01 23:42:45,501 basehttp 7976 39072 "GET /detail/?id=1222222222222 HTTP/1.1" 500 59
+INFO 2022-10-01 23:44:16,678 autoreload 2524 27940 Watching for file changes with StatReloader
+INFO 2022-10-01 23:45:12,010 basehttp 2524 38960 "GET /detail/?id=1222222222222 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:47:20,614 basehttp 2524 38960 "GET /detail/?id=231231231 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:47:30,084 basehttp 2524 38960 "GET /detail/?id=1 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:48:54,934 autoreload 2524 27940 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-01 23:48:57,566 autoreload 35204 34444 Watching for file changes with StatReloader
+INFO 2022-10-01 23:49:22,150 basehttp 35204 12828 "GET /detail?id=1 HTTP/1.1" 301 0
+INFO 2022-10-01 23:49:23,379 basehttp 35204 12828 "GET /detail/?id=1 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:49:30,037 basehttp 35204 12828 "GET /detail/?id=121212322 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:49:33,334 basehttp 35204 12828 "GET /detail?id=121212322 HTTP/1.1" 301 0
+INFO 2022-10-01 23:49:34,133 basehttp 35204 12828 "GET /detail/?id=121212322 HTTP/1.1" 200 19713
+INFO 2022-10-01 23:50:22,881 autoreload 35608 40620 Watching for file changes with StatReloader
+INFO 2022-10-01 23:50:26,044 basehttp 35608 34132 "GET /detail/?id=121212322 HTTP/1.1" 200 1128
+WARNING 2022-10-01 23:50:26,126 log 35608 34132 Not Found: /detail/bootstrap/css/bootstrap.min.css
+WARNING 2022-10-01 23:50:26,134 log 35608 25376 Not Found: /detail/img/404.png
+WARNING 2022-10-01 23:50:26,137 basehttp 35608 25376 "GET /detail/img/404.png HTTP/1.1" 404 3850
+WARNING 2022-10-01 23:50:26,137 basehttp 35608 34132 "GET /detail/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3910
+ERROR 2022-10-01 23:50:35,196 log 35608 25376 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 74, in get
+    return render(request, 'detail.html', context=context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 28, in do_static
+    return _do_static(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/css/bootstrap.min.css' from 'bootstrap/css/bootstrap.min.css'
+ERROR 2022-10-01 23:50:35,204 basehttp 35608 25376 "GET /detail/?id=2 HTTP/1.1" 500 174054
+INFO 2022-10-01 23:52:23,897 autoreload 40196 25428 Watching for file changes with StatReloader
+ERROR 2022-10-01 23:52:27,694 log 40196 40296 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 74, in get
+    return render(request, 'detail.html', context=context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 28, in do_static
+    return _do_static(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/css/bootstrap.min.css' from 'bootstrap/css/bootstrap.min.css'
+ERROR 2022-10-01 23:52:27,702 basehttp 40196 40296 "GET /detail/?id=1 HTTP/1.1" 500 174020
+ERROR 2022-10-01 23:52:29,821 log 40196 40296 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 74, in get
+    return render(request, 'detail.html', context=context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 28, in do_static
+    return _do_static(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/css/bootstrap.min.css' from 'bootstrap/css/bootstrap.min.css'
+ERROR 2022-10-01 23:52:29,830 basehttp 40196 40296 "GET /detail/?id=1 HTTP/1.1" 500 174020
+INFO 2022-10-01 23:52:33,124 basehttp 40196 40296 "GET /detail/?id=123123 HTTP/1.1" 200 1141
+INFO 2022-10-01 23:52:33,166 basehttp 40196 40296 "GET /static/img/404.png HTTP/1.1" 200 107422
+INFO 2022-10-02 00:03:47,389 autoreload 31764 34364 Watching for file changes with StatReloader
+INFO 2022-10-02 00:03:54,173 basehttp 31764 31460 "GET /detail/ HTTP/1.1" 200 1141
+INFO 2022-10-02 00:03:56,581 basehttp 31764 31460 "GET /detail HTTP/1.1" 301 0
+INFO 2022-10-02 00:03:56,852 basehttp 31764 31460 "GET /detail/ HTTP/1.1" 200 1141
+INFO 2022-10-02 00:04:02,534 basehttp 31764 31460 "GET / HTTP/1.1" 200 19713
+INFO 2022-10-02 00:04:02,740 basehttp 31764 31460 "GET /media/article/20221001/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 304 0
+ERROR 2022-10-02 00:04:50,397 log 31764 31460 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py", line 79, in get
+    return render(request, 'detail.html', context=context)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\contrib\staticfiles\templatetags\staticfiles.py", line 28, in do_static
+    return _do_static(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\templatetags\static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\apple\software\CONDA\envs\BlogDJ\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/css/bootstrap.min.css' from 'bootstrap/css/bootstrap.min.css'
+ERROR 2022-10-02 00:04:50,405 basehttp 31764 31460 "GET /detail/?id=1 HTTP/1.1" 500 175793
+INFO 2022-10-02 00:07:09,960 autoreload 37260 40832 Watching for file changes with StatReloader
+INFO 2022-10-02 00:07:13,314 basehttp 37260 39352 "GET /detail/?id=1 HTTP/1.1" 200 9504
+INFO 2022-10-02 00:07:13,366 basehttp 37260 33648 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+WARNING 2022-10-02 00:07:13,369 log 37260 39352 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:07:13,373 log 37260 38944 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+INFO 2022-10-02 00:07:13,374 basehttp 37260 28328 "GET /static/js/detail.js HTTP/1.1" 200 1294
+WARNING 2022-10-02 00:07:13,374 basehttp 37260 39352 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:07:13,377 log 37260 40836 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:07:13,378 basehttp 37260 38944 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:07:13,379 basehttp 37260 40836 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+INFO 2022-10-02 00:07:13,598 basehttp 37260 40836 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2022-10-02 00:07:13,623 basehttp 37260 38944 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2022-10-02 00:07:13,623 basehttp 37260 40836 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2022-10-02 00:07:13,637 basehttp 37260 40836 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2022-10-02 00:07:13,655 basehttp 37260 38944 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2022-10-02 00:07:13,656 basehttp 37260 40836 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2022-10-02 00:07:13,676 basehttp 37260 40836 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2022-10-02 00:07:13,682 basehttp 37260 38944 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2022-10-02 00:07:13,683 basehttp 37260 28328 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2022-10-02 00:07:13,683 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2022-10-02 00:07:13,696 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2022-10-02 00:07:13,716 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2022-10-02 00:07:13,745 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2022-10-02 00:07:13,772 basehttp 37260 28328 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2022-10-02 00:07:13,775 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2022-10-02 00:07:13,813 basehttp 37260 39352 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2022-10-02 00:07:13,813 basehttp 37260 28328 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2022-10-02 00:07:19,948 basehttp 37260 39352 "GET /detail/?id=1 HTTP/1.1" 200 9504
+WARNING 2022-10-02 00:07:19,986 log 37260 39352 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:07:19,991 log 37260 28328 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:07:19,992 basehttp 37260 39352 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:07:19,992 basehttp 37260 28328 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:07:19,999 log 37260 38944 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:07:20,000 basehttp 37260 38944 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:07:36,984 basehttp 37260 38944 "GET /detail/?id=2 HTTP/1.1" 200 9506
+WARNING 2022-10-02 00:07:37,052 log 37260 38944 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:07:37,053 basehttp 37260 38944 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:07:37,060 log 37260 39352 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:07:37,064 log 37260 28328 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:07:37,065 basehttp 37260 28328 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:07:37,065 basehttp 37260 39352 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:09:56,598 autoreload 2656 12564 Watching for file changes with StatReloader
+INFO 2022-10-02 00:10:06,346 basehttp 2656 39580 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-10-02 00:10:07,547 basehttp 2656 39580 "GET / HTTP/1.1" 200 19713
+INFO 2022-10-02 00:10:09,099 basehttp 2656 39580 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-10-02 00:10:19,462 basehttp 2656 39580 "POST /login/ HTTP/1.1" 302 0
+WARNING 2022-10-02 00:10:19,975 log 2656 7920 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-10-02 00:10:19,977 basehttp 2656 7920 "POST /login/ HTTP/1.1" 403 2508
+INFO 2022-10-02 00:10:20,207 basehttp 2656 39580 "GET / HTTP/1.1" 200 19713
+ERROR 2022-10-02 00:10:20,210 basehttp 2656 39580 "GET / HTTP/1.1" 500 59
+INFO 2022-10-02 00:10:23,018 basehttp 2656 7920 "GET /login/ HTTP/1.1" 200 3205
+INFO 2022-10-02 00:10:27,595 basehttp 2656 7920 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-02 00:10:28,341 basehttp 2656 7920 "GET / HTTP/1.1" 200 19713
+INFO 2022-10-02 00:10:32,927 basehttp 2656 7920 "GET /detail/?id=1 HTTP/1.1" 200 9502
+WARNING 2022-10-02 00:10:33,018 log 2656 38876 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:10:33,024 log 2656 7920 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:10:33,029 log 2656 37372 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:10:33,030 basehttp 2656 38876 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:10:33,032 basehttp 2656 7920 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:10:33,032 basehttp 2656 37372 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:10:39,285 basehttp 2656 37372 "GET /detail/?id=2 HTTP/1.1" 200 9504
+WARNING 2022-10-02 00:10:39,350 log 2656 37372 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:10:39,352 basehttp 2656 37372 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:10:39,358 log 2656 7920 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:10:39,362 log 2656 38876 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:10:39,364 basehttp 2656 38876 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:10:39,364 basehttp 2656 7920 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+INFO 2022-10-02 00:10:45,177 basehttp 2656 38876 "GET /write_blog/ HTTP/1.1" 200 5569
+INFO 2022-10-02 00:11:28,318 basehttp 2656 38876 "POST /write_blog/ HTTP/1.1" 302 0
+INFO 2022-10-02 00:11:29,023 basehttp 2656 38876 "GET / HTTP/1.1" 200 19693
+INFO 2022-10-02 00:11:29,154 basehttp 2656 38876 "GET /media/article/20221002/lindan.jpg HTTP/1.1" 200 67527
+INFO 2022-10-02 00:11:31,972 basehttp 2656 38876 "GET /detail/?id=125 HTTP/1.1" 200 9590
+WARNING 2022-10-02 00:11:32,009 log 2656 38876 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:11:32,014 log 2656 7920 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:11:32,016 basehttp 2656 38876 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:11:32,016 basehttp 2656 7920 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:11:32,024 log 2656 37372 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:11:32,025 basehttp 2656 37372 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:11:44,324 log 2656 37372 Forbidden (CSRF token missing or incorrect.): /detail/
+WARNING 2022-10-02 00:11:44,324 basehttp 2656 37372 "POST /detail/?id=125 HTTP/1.1" 403 2508
+WARNING 2022-10-02 00:12:58,071 log 2656 37372 Forbidden (CSRF token missing or incorrect.): /detail/
+WARNING 2022-10-02 00:12:58,073 basehttp 2656 37372 "POST /detail/?id=125 HTTP/1.1" 403 2508
+INFO 2022-10-02 00:13:54,977 autoreload 39660 38432 Watching for file changes with StatReloader
+INFO 2022-10-02 00:13:56,746 basehttp 39660 37788 "GET /detail/?id=125 HTTP/1.1" 200 9763
+WARNING 2022-10-02 00:13:57,385 log 39660 37788 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:13:57,392 log 39660 38948 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:13:57,400 log 39660 37512 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:13:57,400 basehttp 39660 37788 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:13:57,401 basehttp 39660 38948 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:13:57,407 basehttp 39660 37512 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:14:00,178 base 39660 37512 Method Not Allowed (POST): /detail/
+WARNING 2022-10-02 00:14:00,185 log 39660 37512 Method Not Allowed: /detail/
+WARNING 2022-10-02 00:14:00,186 basehttp 39660 37512 "POST /detail/?id=125 HTTP/1.1" 405 0
+INFO 2022-10-02 00:14:13,672 basehttp 39660 37512 "GET /detail/?id=125 HTTP/1.1" 200 9763
+WARNING 2022-10-02 00:14:13,762 log 39660 38948 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:14:13,768 log 39660 37512 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:14:13,774 log 39660 37788 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:14:13,775 basehttp 39660 38948 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:14:13,775 basehttp 39660 37512 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:14:13,777 basehttp 39660 37788 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:15:17,733 autoreload 36700 38972 Watching for file changes with StatReloader
+INFO 2022-10-02 00:15:21,563 basehttp 36700 39416 "GET /detail/?id=125 HTTP/1.1" 200 9806
+WARNING 2022-10-02 00:15:21,661 log 36700 39416 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:15:21,664 log 36700 31072 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:15:21,670 log 36700 32216 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:15:21,672 basehttp 36700 39416 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:15:21,672 basehttp 36700 32216 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:15:21,672 basehttp 36700 31072 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+INFO 2022-10-02 00:15:24,212 basehttp 36700 32216 "GET /?id=125 HTTP/1.1" 200 19693
+INFO 2022-10-02 00:15:24,269 basehttp 36700 32216 "GET /media/article/20221002/lindan.jpg HTTP/1.1" 304 0
+INFO 2022-10-02 00:15:59,134 autoreload 37912 29404 Watching for file changes with StatReloader
+INFO 2022-10-02 00:16:00,990 basehttp 37912 35132 "GET /detail/?id=125 HTTP/1.1" 200 9383
+WARNING 2022-10-02 00:16:01,075 log 37912 37576 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:16:01,085 log 37912 35132 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:16:01,086 basehttp 37912 37576 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:16:01,090 basehttp 37912 35132 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:16:01,101 log 37912 37156 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:16:01,102 basehttp 37912 37156 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:18:36,418 autoreload 37912 29404 D:\apple\workspace\py\BlogDJ\BlogDJ\home\models.py changed, reloading.
+INFO 2022-10-02 00:18:38,984 autoreload 40672 35972 Watching for file changes with StatReloader
+INFO 2022-10-02 00:32:51,920 autoreload 37076 41928 Watching for file changes with StatReloader
+INFO 2022-10-02 00:32:54,467 basehttp 37076 38788 "GET /detail/?id=125 HTTP/1.1" 200 7934
+WARNING 2022-10-02 00:32:54,590 log 37076 38788 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:32:54,596 log 37076 41084 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:32:54,597 basehttp 37076 38788 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:32:54,597 basehttp 37076 41084 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:32:54,603 log 37076 33580 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:32:54,606 basehttp 37076 33580 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:38:21,273 autoreload 41108 41228 Watching for file changes with StatReloader
+INFO 2022-10-02 00:38:32,554 basehttp 41108 40556 "GET /detail/?id=125 HTTP/1.1" 200 7934
+WARNING 2022-10-02 00:38:32,705 log 41108 40556 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:38:32,711 log 41108 41340 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:38:32,712 basehttp 41108 40556 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:38:32,713 basehttp 41108 41340 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:38:32,727 log 41108 35288 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:38:32,728 basehttp 41108 35288 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:38:32,936 autoreload 41108 41228 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 00:38:35,330 autoreload 40080 40844 Watching for file changes with StatReloader
+INFO 2022-10-02 00:39:57,647 basehttp 40080 34104 "GET /detail/?id=125 HTTP/1.1" 200 7934
+WARNING 2022-10-02 00:39:57,842 log 40080 34104 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:39:57,847 log 40080 40172 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:39:57,851 basehttp 40080 34104 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:39:57,861 log 40080 38736 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:39:57,862 basehttp 40080 40172 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:39:57,868 basehttp 40080 38736 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:40:11,886 basehttp 40080 38736 "POST /detail/?id=125 HTTP/1.1" 302 0
+INFO 2022-10-02 00:40:12,301 basehttp 40080 38736 "GET /detail/?id=125 HTTP/1.1" 200 7935
+WARNING 2022-10-02 00:40:12,363 log 40080 38736 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:40:12,368 log 40080 34104 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:40:12,368 basehttp 40080 38736 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:40:12,370 basehttp 40080 34104 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:40:12,377 log 40080 36964 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:40:12,378 basehttp 40080 36964 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:40:18,085 basehttp 40080 36964 "GET /detail/?id=125 HTTP/1.1" 200 7935
+WARNING 2022-10-02 00:40:18,127 log 40080 36964 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:40:18,132 log 40080 34104 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:40:18,132 basehttp 40080 36964 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:40:18,133 basehttp 40080 34104 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:40:18,140 log 40080 38736 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:40:18,141 basehttp 40080 38736 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:40:38,108 basehttp 40080 38736 "POST /detail/?id=125 HTTP/1.1" 302 0
+INFO 2022-10-02 00:40:38,543 basehttp 40080 38736 "GET /detail/?id=125 HTTP/1.1" 200 7935
+WARNING 2022-10-02 00:40:38,626 log 40080 38736 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:40:38,630 log 40080 36964 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:40:38,633 log 40080 34104 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:40:38,634 basehttp 40080 38736 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:40:38,634 basehttp 40080 36964 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:40:38,635 basehttp 40080 34104 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+INFO 2022-10-02 00:40:56,850 autoreload 40080 40844 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 00:40:59,494 autoreload 41712 25556 Watching for file changes with StatReloader
+INFO 2022-10-02 00:41:01,976 basehttp 41712 22616 "GET /detail/?id=125 HTTP/1.1" 200 7935
+WARNING 2022-10-02 00:41:02,102 log 41712 22616 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:41:02,106 basehttp 41712 22616 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:41:02,117 log 41712 27508 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:41:02,122 log 41712 39912 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:41:02,125 basehttp 41712 27508 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:41:02,129 basehttp 41712 39912 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:41:08,380 basehttp 41712 39912 "POST /detail/?id=125 HTTP/1.1" 302 0
+INFO 2022-10-02 00:41:08,968 basehttp 41712 39912 "GET /detail/?id=125 HTTP/1.1" 200 7935
+WARNING 2022-10-02 00:41:09,012 log 41712 39912 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:41:09,015 basehttp 41712 39912 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:41:09,018 log 41712 27508 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:41:09,020 basehttp 41712 27508 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:41:09,030 log 41712 22616 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:41:09,031 basehttp 41712 22616 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 00:42:21,660 autoreload 41712 25556 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 00:42:24,538 autoreload 32808 35460 Watching for file changes with StatReloader
+INFO 2022-10-02 00:50:50,946 autoreload 32808 35460 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 00:50:54,153 autoreload 40996 40524 Watching for file changes with StatReloader
+INFO 2022-10-02 00:54:32,230 autoreload 39340 42692 Watching for file changes with StatReloader
+INFO 2022-10-02 00:54:34,846 basehttp 39340 42748 "GET / HTTP/1.1" 200 19694
+INFO 2022-10-02 00:54:35,078 basehttp 39340 42756 "GET /media/article/20221001/%E7%BE%BD%E6%AF%9B%E7%90%83.png HTTP/1.1" 304 0
+INFO 2022-10-02 00:54:35,080 basehttp 39340 42748 "GET /media/article/20221002/lindan.jpg HTTP/1.1" 304 0
+INFO 2022-10-02 00:54:37,767 basehttp 39340 42756 "GET /detail/?id=125 HTTP/1.1" 200 9766
+WARNING 2022-10-02 00:54:37,840 log 39340 42756 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:54:37,843 log 39340 42748 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:54:37,848 log 39340 42476 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:54:37,849 basehttp 39340 42756 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:54:37,849 basehttp 39340 42748 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:54:37,851 basehttp 39340 42476 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:54:49,326 base 39340 42476 Method Not Allowed (POST): /detail/
+WARNING 2022-10-02 00:54:49,329 log 39340 42476 Method Not Allowed: /detail/
+WARNING 2022-10-02 00:54:49,330 basehttp 39340 42476 "POST /detail/?id=125 HTTP/1.1" 405 0
+INFO 2022-10-02 00:57:15,259 basehttp 39340 42476 "GET /detail/?id=1 HTTP/1.1" 200 7470
+WARNING 2022-10-02 00:57:15,317 log 39340 42476 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:57:15,320 log 39340 42756 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:57:15,324 log 39340 42748 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:57:15,326 basehttp 39340 42476 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:57:15,326 basehttp 39340 42756 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:57:15,327 basehttp 39340 42748 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:57:21,561 base 39340 42748 Method Not Allowed (POST): /detail/
+WARNING 2022-10-02 00:57:21,565 log 39340 42748 Method Not Allowed: /detail/
+WARNING 2022-10-02 00:57:21,566 basehttp 39340 42748 "POST /detail/?id=1 HTTP/1.1" 405 0
+INFO 2022-10-02 00:57:31,713 basehttp 39340 42748 "GET /detail/?id=1 HTTP/1.1" 200 7470
+WARNING 2022-10-02 00:57:31,791 log 39340 42748 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:57:31,794 log 39340 42756 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:57:31,794 basehttp 39340 42748 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 00:57:31,799 log 39340 42476 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:57:31,799 basehttp 39340 42756 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:57:31,800 basehttp 39340 42476 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:57:46,594 base 39340 42476 Method Not Allowed (POST): /detail/
+WARNING 2022-10-02 00:57:46,598 log 39340 42476 Method Not Allowed: /detail/
+WARNING 2022-10-02 00:57:46,598 basehttp 39340 42476 "POST /detail/?id=1 HTTP/1.1" 405 0
+INFO 2022-10-02 00:59:38,225 basehttp 39340 42476 "GET /detail/?id=125 HTTP/1.1" 200 9736
+WARNING 2022-10-02 00:59:38,313 log 39340 42756 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 00:59:38,316 log 39340 42748 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 00:59:38,320 log 39340 42476 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 00:59:38,321 basehttp 39340 42756 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 00:59:38,322 basehttp 39340 42748 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 00:59:38,324 basehttp 39340 42476 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+INFO 2022-10-02 01:00:07,583 basehttp 39340 42476 "GET /detail/?id=125 HTTP/1.1" 200 9739
+WARNING 2022-10-02 01:00:07,659 log 39340 42476 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:00:07,669 log 39340 42748 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:00:07,673 basehttp 39340 42476 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:00:07,678 basehttp 39340 42748 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:00:07,693 log 39340 42756 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:00:07,696 basehttp 39340 42756 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 01:00:13,324 base 39340 42756 Method Not Allowed (POST): /detail/
+WARNING 2022-10-02 01:00:13,327 log 39340 42756 Method Not Allowed: /detail/
+WARNING 2022-10-02 01:00:13,327 basehttp 39340 42756 "POST /detail/?id=125 HTTP/1.1" 405 0
+INFO 2022-10-02 01:01:00,597 autoreload 39340 42692 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 01:01:03,592 autoreload 40216 38932 Watching for file changes with StatReloader
+INFO 2022-10-02 01:01:09,051 basehttp 40216 29220 "POST /detail/?id=125 HTTP/1.1" 200 9739
+WARNING 2022-10-02 01:01:09,148 log 40216 33452 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:01:09,150 log 40216 29220 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:01:09,151 basehttp 40216 33452 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:01:09,152 basehttp 40216 29220 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:01:09,157 log 40216 38288 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:01:09,158 basehttp 40216 38288 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 01:01:13,912 basehttp 40216 38288 "POST /detail/?id=125 HTTP/1.1" 200 9739
+WARNING 2022-10-02 01:01:13,977 log 40216 38288 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:01:13,981 log 40216 29220 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:01:13,982 basehttp 40216 38288 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:01:13,982 basehttp 40216 29220 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:01:13,991 log 40216 33452 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:01:13,992 basehttp 40216 33452 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 01:01:22,740 basehttp 40216 33452 "POST /detail/?id=125 HTTP/1.1" 200 9739
+WARNING 2022-10-02 01:01:22,807 log 40216 33452 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:01:22,808 basehttp 40216 33452 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:01:22,811 log 40216 29220 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:01:22,813 basehttp 40216 29220 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:01:22,818 log 40216 38288 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:01:22,819 basehttp 40216 38288 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 01:01:29,510 basehttp 40216 38288 "POST /detail/?id=125 HTTP/1.1" 200 9739
+INFO 2022-10-02 01:01:29,560 basehttp 40216 29220 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2022-10-02 01:01:29,561 basehttp 40216 41016 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+WARNING 2022-10-02 01:01:29,564 log 40216 33452 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:01:29,573 basehttp 40216 33452 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+INFO 2022-10-02 01:01:29,586 basehttp 40216 38288 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+WARNING 2022-10-02 01:01:29,591 log 40216 29220 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:01:29,594 basehttp 40216 29220 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+WARNING 2022-10-02 01:01:29,602 log 40216 42840 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+INFO 2022-10-02 01:01:29,604 basehttp 40216 33452 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2022-10-02 01:01:29,606 basehttp 40216 41016 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+WARNING 2022-10-02 01:01:29,608 basehttp 40216 42840 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+INFO 2022-10-02 01:01:29,621 basehttp 40216 29220 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2022-10-02 01:01:29,623 basehttp 40216 41016 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2022-10-02 01:01:29,623 basehttp 40216 33452 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2022-10-02 01:01:29,626 basehttp 40216 42840 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2022-10-02 01:01:29,630 basehttp 40216 41884 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2022-10-02 01:01:29,654 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2022-10-02 01:01:29,847 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2022-10-02 01:01:29,868 basehttp 40216 41884 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2022-10-02 01:01:29,870 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2022-10-02 01:01:29,886 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2022-10-02 01:01:29,901 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2022-10-02 01:01:29,901 basehttp 40216 41884 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2022-10-02 01:01:29,923 basehttp 40216 41884 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2022-10-02 01:01:29,926 basehttp 40216 42840 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2022-10-02 01:01:29,926 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2022-10-02 01:01:29,926 basehttp 40216 41016 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2022-10-02 01:01:29,927 basehttp 40216 33452 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2022-10-02 01:01:29,944 basehttp 40216 33452 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2022-10-02 01:01:29,964 basehttp 40216 33452 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2022-10-02 01:01:30,001 basehttp 40216 41016 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2022-10-02 01:01:30,001 basehttp 40216 33452 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2022-10-02 01:01:30,016 basehttp 40216 41016 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2022-10-02 01:01:30,017 basehttp 40216 38288 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2022-10-02 01:01:30,017 basehttp 40216 33452 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2022-10-02 01:01:30,023 basehttp 40216 42840 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+WARNING 2022-10-02 01:01:30,255 log 40216 42840 Not Found: /favicon.ico
+WARNING 2022-10-02 01:01:30,256 basehttp 40216 42840 "GET /favicon.ico HTTP/1.1" 404 3829
+INFO 2022-10-02 01:03:22,006 autoreload 40216 38932 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 01:03:24,411 autoreload 42592 39336 Watching for file changes with StatReloader
+INFO 2022-10-02 01:03:31,156 autoreload 42592 39336 D:\apple\workspace\py\BlogDJ\BlogDJ\home\views.py changed, reloading.
+INFO 2022-10-02 01:03:34,326 autoreload 36464 41848 Watching for file changes with StatReloader
+INFO 2022-10-02 01:03:36,052 basehttp 36464 23636 "POST /detail/?id=125 HTTP/1.1" 302 0
+INFO 2022-10-02 01:03:37,060 basehttp 36464 23636 "GET /detail/?id=125 HTTP/1.1" 200 9735
+WARNING 2022-10-02 01:03:37,158 log 36464 23636 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:03:37,163 basehttp 36464 23636 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:03:37,171 log 36464 38408 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:03:37,176 log 36464 42520 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:03:37,180 basehttp 36464 38408 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:03:37,184 basehttp 36464 42520 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961
+INFO 2022-10-02 01:03:43,769 basehttp 36464 42520 "POST /detail/?id=125 HTTP/1.1" 302 0
+INFO 2022-10-02 01:03:44,567 basehttp 36464 42520 "GET /detail/?id=125 HTTP/1.1" 200 9738
+WARNING 2022-10-02 01:03:44,612 log 36464 42520 Not Found: /detail/{% static 'common/common.css' % }
+WARNING 2022-10-02 01:03:44,621 basehttp 36464 42520 "GET /detail/%7B%%20static%20'common/common.css'%20%%20%7D HTTP/1.1" 404 3956
+WARNING 2022-10-02 01:03:44,629 log 36464 38408 Not Found: /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2022-10-02 01:03:44,632 log 36464 23636 Not Found: /detail/{% static 'js/axios-0.18.0.min.js' %
+WARNING 2022-10-02 01:03:44,633 basehttp 36464 38408 "GET /detail/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4003
+WARNING 2022-10-02 01:03:44,633 basehttp 36464 23636 "GET /detail/%7B%%20static%20'js/axios-0.18.0.min.js'%20% HTTP/1.1" 404 3961

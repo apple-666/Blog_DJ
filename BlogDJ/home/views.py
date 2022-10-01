@@ -1,9 +1,10 @@
 from django.core.paginator import Paginator, EmptyPage
 from django.http import HttpResponseNotFound
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.views import View
 # Create your views here.
-from home.models import ArticleCategory, Article
+from home.models import ArticleCategory, Article, Comment
 import logging
 
 logger = logging.getLogger('django')
@@ -57,5 +58,79 @@ class IndexView(View):
 
 class DetailView(View):
 
-    def get(self, request):
-        return render(request, 'detail.html')
+
+    def get(self,request):
+        # detail/?id=xxx&page_num=xxx&page_size=xxx
+        #获取文档id
+        id=request.GET.get('id')
+        page_num=request.GET.get('page_num',1)
+        page_size=request.GET.get('page_size',5)
+        # 获取博客分类信息
+        categories = ArticleCategory.objects.all()
+
+        try:
+            article=Article.objects.get(id=id)
+        except Article.DoesNotExist:
+            return render(request,'404.html')
+        else:
+            article.total_views+=1
+            article.save()
+
+        # 获取热点数据
+        hot_articles = Article.objects.order_by('-total_views')[:9]
+
+        # 获取当前文章的评论数据
+        comments = Comment.objects.filter(
+            article=article
+        ).order_by('-created')
+        #获取评论总数
+        total_count = comments.count()
+
+        # 创建分页器：每页N条记录
+        paginator = Paginator(comments, page_size)
+        # 获取每页商品数据
+        try:
+            page_comments = paginator.page(page_num)
+        except EmptyPage:
+            # 如果page_num不正确，默认给用户404
+            return HttpResponseNotFound('empty page')
+        # 获取列表页总页数
+        total_page = paginator.num_pages
+
+        context = {
+            'categories':categories,
+            'category':article.category,
+            'article':article,
+            'hot_articles':hot_articles,
+            'total_count': total_count,
+            'comments': page_comments,
+            'page_size': page_size,
+            'total_page': total_page,
+            'page_num': page_num,
+        }
+
+        return render(request,'detail.html',context=context)
+
+    def post(self, request):
+        user = request.user
+        if user and user.is_authenticated:
+            id = request.POST.get('id')
+            content = request.POST.get('content')
+
+            try:
+                article = Article.objects.get(id=id)
+            except Article.DoesNotExist:
+                return HttpResponseNotFound('没有该文章')
+
+            Comment.objects.create(
+                content=content,
+                article=article,
+                user=user
+            )
+            # article.total_views += 1
+            # article.save()
+            path = reverse('home:detail') + '?id={}'.format(article.id)
+            return redirect(path)
+        else:
+            return redirect(reverse('users:login'))
+
